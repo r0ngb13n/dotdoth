@@ -37,6 +37,18 @@ class Post
         return $this->attributes;
     }
 
+    public function description()
+    {
+        return $this->description ?? $this->findDescription();
+    }
+
+    protected function findDescription()
+    {
+        preg_match("/<p>(.*)<\/p>/", $this->content, $matches);
+
+        return $matches[1];
+    }
+
     public function __get(string $attribute)
     {
         return $this->attributes[$attribute] ?? null;

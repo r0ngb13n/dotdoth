@@ -1,0 +1,30 @@
+{
+  "name": "dotdoth",
+  "version": "1.0.0",
+  "description": "FREE PORNO",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss ./resources/assets/app.css -o ./resources/css/app.css --watch",
+    "dev": "cross-env NODE_ENV=development postcss ./resources/assets/app.css -o ./resources/css/app.css",
+    "build": "cross-env NODE_ENV=production postcss ./resources/assets/app.css -o ./resources/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0ngb13n/dotdoth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0ngb13n/dotdoth/issues"
+  },
+  "homepage": "https://github.com/r0ngb13n/dotdoth#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0",
+    "postcss": "^8.2.7",
+    "postcss-cli": "^8.3.0",
+    "postcss-scss": "^3.0.4",
+    "tailwindcss": "^2.0.3"
+  }
+}
