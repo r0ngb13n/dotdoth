@@ -19,3 +19,6 @@ a:hover {
 .post-content a {
 	@apply text-indigo-500;
 }
+.post-content ul {
+	@apply list-disc pl-10;
+}
