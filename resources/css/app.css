@@ -31175,6 +31175,37 @@ video {
           animation: bounce 1s infinite;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+.post-content p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-content h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(245, 158, 11, var(--tw-text-opacity));
+}
+
+.post-content h2:before {
+  --tw-text-opacity: 1;
+  color: rgba(209,213,219,var(--tw-text-opacity));
+  content: "#";
+  margin-right: 1rem;
+}
+
+.post-content a {
+  --tw-text-opacity: 1;
+  color: rgba(99, 102, 241, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

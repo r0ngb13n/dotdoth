@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+a:hover {
+    text-decoration: underline;
+}
+.post-content p {
+	@apply my-5;
+}
+.post-content h2 {
+	@apply font-bold text-2xl my-10 text-yellow-500;
+}
+.post-content h2:before {
+	--tw-text-opacity: 1;
+	color: rgba(209,213,219,var(--tw-text-opacity));
+	content: "#";
+	margin-right: 1rem;
+}
+.post-content a {
+	@apply text-indigo-500;
+}

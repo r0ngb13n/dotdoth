@@ -16,9 +16,7 @@
             font-family: 'Montserrat', sans-serif;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
+
 
     </style>
 </head>

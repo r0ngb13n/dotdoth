@@ -39,14 +39,26 @@ class Post
 
     public function description()
     {
-        return $this->description ?? $this->findDescription();
+        return $this->description ?? $this->inferDescription();
     }
 
-    protected function findDescription()
+    protected function inferDescription()
     {
         preg_match("/<p>(.*)<\/p>/", $this->content, $matches);
 
         return $matches[1];
+    }
+
+    public function featureImage()
+    {
+        return $this->feature_image ?? $this->inferFeatureImage();
+    }
+
+    protected function inferFeatureImage()
+    {
+        preg_match('/<img.*?src="(.*?)"[^>]+>/', $this->content, $matches);
+
+        return count($matches) ? html_entity_decode($matches[1]) : null;
     }
 
     public function __get(string $attribute)
