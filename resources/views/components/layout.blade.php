@@ -34,31 +34,27 @@
             </div>
 
             <!-- footer -->
-            <footer class="flex-none flex justify-between items-center h-24 border-t mt-20 pt-3">
-                <div class="flex flex-col">
-                    <h4>Liên lạc</h4>
-                    <div class="flex space-x-3">
-                        <a href="#" title="facebook">
-                            <x-icons.facebook />
-                        </a>
+            <footer class="flex justify-between items-center h-24 border-t mt-20 pt-3">
+                <div class="flex w-1/2">
+                    <div class="flex flex-col">
+                        <h4>Liên lạc</h4>
+                        <div class="flex space-x-3">
+                            <a href="#" title="facebook">
+                                <x-icons.facebook />
+                            </a>
 
-                        <a href="#" title="youtube">
-                            <x-icons.youtube />
-                        </a>
+                            <a href="#" title="youtube">
+                                <x-icons.youtube />
+                            </a>
 
-                        <a href="#" title="instagram">
-                            <x-icons.instagram />
-                        </a>
+                            <a href="#" title="instagram">
+                                <x-icons.instagram />
+                            </a>
+                        </div>
                     </div>
-
                 </div>
-                <div>
-                    <h4>Đăng ký bài viết mới</h4>
-                    <div>
-                        <input class="border-b px-3 py-1 outline-none" type="text"
-                            placeholder="Vui lòng đền email của bạn">
-                        <button>OK</button>
-                    </div>
+                <div class="w-1/2 text-sm text-right">
+                    <p>Crafted by <a class="text-indigo-500" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
                 </div>
             </footer>
         </div>

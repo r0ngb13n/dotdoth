@@ -7,8 +7,8 @@
     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">
             <div class="block mt-2">
-                <h3>
-                    <a href="{{ $post->link() }}" class="text-3xl font-semibold text-gray-900">
+                <h3 class="text-3xl font-semibold text-gray-900 text-gray-800 hover:text-indigo-500 transition duration-200">
+                    <a href="{{ $post->link() }}">
                         {{ $post->title }}
                     </a>
                 </h3>
@@ -18,9 +18,7 @@
             </div>
         </div>
         <div class="mt-6 flex justify-between text-sm text-gray-500">
-            <a href="#" class="text-indigo-500">
-                {{ $post->category ?? 'Uncategorized' }}
-            </a>
+            <x-category-href :name="$post->category" />
             <span>
                 {{ $post->created_at }}
             </span>

@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-a:hover {
-    text-decoration: underline;
+
+hr {
+	@apply my-3;
 }
 .post-content p {
 	@apply my-5;
@@ -11,7 +12,7 @@ a:hover {
 	@apply font-bold;
 }
 .post-content h2 {
-	@apply font-bold text-2xl my-10 text-yellow-500;
+	@apply font-bold text-2xl my-10 text-gray-900;
 }
 .post-content h2:before {
 	--tw-text-opacity: 1;
