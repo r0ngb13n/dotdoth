@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div class="">
-		<div class="container max-w-screen-lg mx-auto pt-10 px-10">
+		<div class="container max-w-screen-xl mx-auto pt-10 px-10">
 			<x-navbar />
 			<div class="pt-16">
 				{{ $slot }}
