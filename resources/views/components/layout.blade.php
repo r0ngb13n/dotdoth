@@ -3,7 +3,7 @@
 
 <head>
     <title>{{ $title ?? 'Home page' }}</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
