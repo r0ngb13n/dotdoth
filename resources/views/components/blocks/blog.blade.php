@@ -1,8 +1,9 @@
 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
     <div class="flex-shrink-0">
-        <img class="h-72 w-full object-cover"
-            src="{{ $post->featureImage() }}"
-            alt="">
+        <x-img class="h-72 w-full object-cover"
+            :src="$post->featureImage()"
+            width="650"
+            alt="{{ $post->title }}" />
     </div>
     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">

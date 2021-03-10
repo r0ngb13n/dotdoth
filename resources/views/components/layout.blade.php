@@ -15,9 +15,6 @@
         body {
             font-family: 'Montserrat', sans-serif;
         }
-
-
-
     </style>
 </head>
 
@@ -34,22 +31,20 @@
             </div>
 
             <!-- footer -->
-            <footer class="flex justify-between items-center h-24 border-t mt-20 pt-3">
+            <footer class="flex justify-between items-center h-16 border-t mt-20">
                 <div class="flex w-1/2">
-                    <div class="flex flex-col">
-                        <h4>Liên lạc</h4>
-                        <div class="flex space-x-3">
+                    <div class="flex">
+                        <div class="flex space-x-3 items-end">
                             <a href="#" title="facebook">
                                 <x-icons.facebook />
                             </a>
-
                             <a href="#" title="youtube">
                                 <x-icons.youtube />
                             </a>
-
                             <a href="#" title="instagram">
                                 <x-icons.instagram />
                             </a>
+                            <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500">hai@dotdoth.com</a>
                         </div>
                     </div>
                 </div>
