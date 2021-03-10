@@ -1,7 +1,9 @@
 ---
-title: Cách đọc nhãn dán cà phê
+title: cach doc nhan dan ca phe
 layout: post
-category: Hướng dẫn
+category: Pha cà phê
+date: 2021-03-10
+description: Để thực sự tìm được một gói cà phê phù hợp với bản thân không phải lúc nào cũng đơn giản, vậy nên cần lưu ý những gì?
 ---
 
 Chúng ta thường nghĩ rằng việc mua cà phê nghe chừng đơn giản như mua một món hàng hóa: Xách đít ra ngoài, tìm gói cà phê bất kỳ về pha, ez!. Hoàn toàn dễ hiểu điều đó nếu như cà phê với bạn chỉ như một đồ tiêu thụ giúp bổ sung caffeine mỗi ngày. Còn nếu bạn là vế còn lại, những người clink vào tiêu đề và đọc bài viết này, những ngươi muốn tìm đến cà phê như bắt đầu một thú vui mới, hoặc đơn giản muốn thưởng thức trọn vị cà phê, chứ không chỉ uống cà phê vì nó là … cà phê, thì bài viết này dành cho bạn. Dù việc hiểu biết thêm các thông tin dưới đây không đảm bảo sẽ một cốc cà phê ngon, nhưng việc hiểu thêm về chúng sẽ giúp bạn tìm được loại cà phê phù hợp với cách uống của mình.
@@ -13,7 +15,7 @@ Thông thường trên các gói cà phê các thông tin liên quan đến hạ
 - **Tên (brand name)**: thường là các quán bán gói cà phê đó, hoặc có thể là các nhà rang, xưởng rang. Vì mỗi người rang, xưởng rang sẽ có cách rang, triết lý rang của riêng mình. Nên cùng loại nguyên liệu y hệt nhau, với cách rang khác nhau có thể ra các hương vị khác nhau.
 - **Dạng hạt hay bột (whole bean; ground coffee)**: các loại cà phê sẽ được giữ nguyên hạt hay xay theo cỡ xay nhất định nào đó tùy thuộc các cách pha của người dùng hay cỡ xay mà người bán khuyên dùng với cách pha chế nào đó. Khi cà phê được xay ra, chất lượng cũng như hương vị của cà phê lúc này sẽ giảm dần theo thời gian, độ mịn. . Để tìm hiểu thêm về khác biệt, ưu nhược điểm của 2 dạng cà phê này, bạn có thể đọc bài viết đầy đủ hơn ở link dưới.
 
-    [Nguyên hạt hay xay sẵn?](https://www.notion.so/Nguy-n-h-t-hay-xay-s-n-f49fd3c6766344188700f4a84a07739f) 
+    [Nguyên hạt hay xay sẵn?](Nguye%CC%82n%20ha%CC%A3t%20hay%20xay%20sa%CC%86%CC%83n%20f49fd3c6766344188700f4a84a07739f.md) 
 
 ![https://chowhound3.cbsistatic.com/resize/fd604f793653b3c33ff1369a3f7525112ec7ac81/2013/06/how-to-clean-coffee-grinder-chowhound.jpg?fit=bounds&width=1200](https://chowhound3.cbsistatic.com/resize/fd604f793653b3c33ff1369a3f7525112ec7ac81/2013/06/how-to-clean-coffee-grinder-chowhound.jpg?fit=bounds&width=1200)
 
@@ -36,7 +38,7 @@ Nguồn ảnh: chowhound.com
     - **Chế biến khô** (natural; dry; tự nhiên, ...): là phương pháp mà trái cà phê được lên men nguyên trong trái (với lớp nhầy và vỏ giữ nguyên) Hương vị của hạt cà phê sẽ ảnh hưởng rất lớn từ việc lên men trong trái này, thông thường hạt cà phê chế biến khô sẽ khó được đánh giá cao như hạt cà phê chế biến ướt.
     - **Chế biến mật ong** (bán ướt; semi-washed; semi-dried;  hybrid-process; honey; pulped natural): là cách sơ chế kết hợp ưu điểm của 2 loại sơ chế ướt và khô. Cà phê loại này đi chung với các từ chỉ màu sắc như đen, đỏ, vàng hay trắng (black honey, red honey, yellow honey hay white honey) - phụ thuộc vào lượng chất nhầy sau khi chế biến, màu càng tối thì vị ngọt càng lên cao. Có thể coi như black honey gần giống hương vị của sơ chế khô, white honey gần giống sơ chế ướt.
 
-    [Sơ chế cà phê?](https://www.notion.so/S-ch-c-ph-dc1aee45beda4eec952b979144d70ad9) 
+    [Sơ chế cà phê?](So%CC%9B%20che%CC%82%CC%81%20ca%CC%80%20phe%CC%82%20dc1aee45beda4eec952b979144d70ad9.md) 
 
 ![https://media.vov.vn/sites/default/files/styles/large_watermark/public/2020-11/12-11_ca_phe_chin.jpg](https://media.vov.vn/sites/default/files/styles/large_watermark/public/2020-11/12-11_ca_phe_chin.jpg)
 
