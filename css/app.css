@@ -31206,6 +31206,11 @@ a:hover {
   color: rgba(99, 102, 241, var(--tw-text-opacity));
 }
 
+.post-content ul {
+  list-style-type: disc;
+  padding-left: 2.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
