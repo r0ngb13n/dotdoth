@@ -31175,8 +31175,9 @@ video {
           animation: bounce 1s infinite;
 }
 
-a:hover {
-  text-decoration: underline;
+hr {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .post-content p {
@@ -31195,7 +31196,7 @@ a:hover {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   --tw-text-opacity: 1;
-  color: rgba(245, 158, 11, var(--tw-text-opacity));
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
 .post-content h2:before {
