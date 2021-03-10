@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sơ chế cà phê?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-xl mx-auto pt-10 px-10">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex items-end space-x-10">
+		
+		<a href="/" class="text-lg uppercase tracking-widest" title="home page">
+			<svg width="79" height="58" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+				<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+			</svg>
+		</a>
+					<a href="/" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Trang chủ</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">BÀI VIẾT</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">ĐÁNH GIÁ</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">DỊCH</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">CÔNG CỤ</a>
+			</div>
+
+	<hr class="border bg-gray-500 mt-5">
+
+	<!-- sub menu -->
+	<div class="flex space-x-10 mt-5">
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 1</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 2</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 3</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 4</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 5</a>
+			</div>
+
+</div> 
+
+            <!-- main content -->
+            <div class="pt-16">
+                <div>
+
+        <div class="relative max-w-screen-md mx-auto">
+            <h1 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl text-left">Sơ chế cà phê?</h1>
+
+            <div class="meta flex text-sm text-gray-500 mt-5 space-x-5">
+                <div>
+                    <span>Category:</span>
+                    <span>Farm to Cup</span>
+                </div>
+                <div>
+                    <span>Created at</span>
+                    <span>2021-03-10</span>
+                </div>
+                <div>
+                    <span>Last edited at</span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="mt-12 leading-7 post-content font-base">
+                <p>Cùng một vùng trồng, một giống cây,một thời vụ hay thậm chí từ cùng một cây, nhưng cách sơ chế khác nhau cũng có thể cho hạt cà phê của bạn những hương vị khác nhau. Vậy việc sơ chế cà phê có thể có ảnh hưởng như thế nào đến chất lượng của trái cà phê đó?</p>
+<hr />
+<p>Với làn sóng cà phê thứ 3 (Third wave coffee movement),  người dùng bắt đầu quan tâm hơn đến các nguồn gốc, xuất xứ, đặc tính của từng trái cà phê. Cà phê không đơn thuần chỉ là mặt hàng bán thông thường nữa. Người dùng dần nhận thức được tầm quan trọng của cả một quá trình cung ứng, từ giống cây, thổ nhưỡng, sơ chế, ... cho đến khi tới tay. </p>
+<p>Sơ chế cà phê có thể tóm tắt ngắn như sau: một giai đoạn mà các hạt cà phê được tách ra khỏi trái, làm khô và trở thành hạt cà phê xanh (nhân xanh). Ngoài việc rang, cách cà phê được sơ chế cũng có ảnh hưởng sâu sắc đến chất lượng, hương vị của cốc cà phê đến tay người dùng. Cà phê được sơ chế theo 3 cách chính dưới đây:</p>
+<h2>1. Sơ chế khô</h2>
+<p>Còn có tên khác là chế biến tự nhiên (natural, dry, unwash, ...) - đây là cách sơ chế cà phê cổ xưa nhất, từ khi con người biết sử dụng hạt cà phê cho mình. Ưu điểm của phương pháp sơ chế này đó là ít tốn kém, sử dụng ít máy móc đắt tiền. Thường được sử dụng tại các vùng trồng không có nguồn nước dồi dào.</p>
+<p>Đầu tiên, trái cà phê sau khi hái được vệ sinh, phân loại để loại bỏ các trái chưa đạt yêu cầu, cũng như loại bỏ các chất rắn, cành cây, .. . Sau đó cà phê sẽ được phơi nguyên trái, trên nền xi măng, gạch hay các giường nâng (raised bed), thiết kế kiểu đan hay lưới, để không khí có thể lưu thông đều hơn cả trên và dưới trái cà phê, giúp cho không khí lưu thông đều. Các trái cà phê được đảo đều để có thể khô đều, cũng như tránh nấm mốc, lên men hay hỏng. Nhiều nông trại cũng sử dụng các máy sấy công nghiệp để sấy khô sau khi đã được phơi khô dưới nắng trong vài ngày để đảm bảo sự đồng đều hơn, tránh ảnh hưởng bởi thời tiết thất thường.</p>
+<p><img src="https://perfectdailygrind.com/wp-content/uploads/2016/02/IMG_0282-1024x768.jpg" alt="https://perfectdailygrind.com/wp-content/uploads/2016/02/IMG_0282-1024x768.jpg" /></p>
+<p>Việc sơ chế khô/tự nhiên có thể mất nhiều thời gian (3~4 tuần) để có thể đạt đến độ ẩm thích hợp, cũng như lên men trong trái - phụ thuộc nhiều vào tình hình thời tiết vùng đó. Mất thời gian dài để phơi khô, đồng nghĩa với việc xảy ra các sự cố, sai sót là điều khó tránh khỏi, phương pháp này rất khó để cho ra kết quả đồng nhất giữa các hạt. Tuy vậy, nhiều người tin rằng với việc hái chín cẩn thận, kiểm soát chặt chẽ việc phơi khô - lên men, phương pháp sơ chế này có thể tạo ra những dải hương rộng, độc đáo của mình. </p>
+<p><a href="https://www.youtube.com/watch?v=0JxPy7ioUe4">https://www.youtube.com/watch?v=0JxPy7ioUe4</a></p>
+<h2>2. Sơ chế ướt</h2>
+<p>Còn có thể gọi là Wet process hoặc Wash process, chỉ cần nghe tên ta cũng có thể thấy khác biệt cũng như đặc điểm riêng của loại sơ chế này - nước. Phương pháp sơ chế này thường được sử dụng tại những địa phương không có nhiều điều kiện để có lượng nắng ít hay thất thường. </p>
+<p>Sau khi hái, cà phê cũng sẽ được phân loại, loại bỏ các tạp chất như cách sơ chế khô. Nhưng thay vì đem phơi, các trái cà phê đạt yêu cầu sẽ được cho vào máy để loại bỏ phần vỏ và thịt của quả.</p>
+<p><img src="https://www.baristainstitute.com/sites/default/files/styles/1x_width_100_wysiwyg/public/images/10%20-%20depulped%20coffee%20beans.JPG?itok=4lwPUA7F" alt="https://www.baristainstitute.com/sites/default/files/styles/1x_width_100_wysiwyg/public/images/10%20-%20depulped%20coffee%20beans.JPG?itok=4lwPUA7F" /></p>
+<p>Hạt cà phê đi ra từ máy tách vỏ. Nguồn ảnh: baristainstitute</p>
+<p>Sau đó hạt cà phê sẽ được lên men trong nước một lần nữa, để loại bỏ hoàn toàn chất nhầy quanh hạt cà phê. Quá trình lên men kéo dài trong thời gian ngắn, được giám sát cẩn thận để đảm bảo rằng hạt cà phê sẽ không bị lên men quá, gây nên các hương, vị không đáng có. </p>
+<p><img src="https://centurycoffee.vn/uploads/details/2020/12/images/lm3.jpg" alt="https://centurycoffee.vn/uploads/details/2020/12/images/lm3.jpg" /></p>
+<p>Quá trình lên men luôn được kiểm soát tốt để tránh việc lên men quá</p>
+<p>Sau khi quá trình lên men kết thúc, hạt cà phê sẽ được rửa sạch thêm một vài lần với nước sạch. Rồi mang đi phơi giống như cách sơ chế khô, dưới ánh mặt trời tự nhiên hoặc máy sấy khô.</p>
+<p>Khác biệt với sơ chế khô hay mật ong - chịu ảnh hưởng lớn từ việc lên men trong quả, chất nhầy. Hương vị các hạt cà phê sơ chế ướt sẽ phụ thuộc phần lớn vào việc hạt có được hấp thụ đủ dưỡng chất, đường tự nhiên trong quá trình sinh trưởng hay không. Điều này đồng nghĩa rằng chất lượng cà phê sơ chế ướt sẽ có kết quả ảnh hưởng từ cả một quá trình - từ giống cây, thổ nhưỡng, thời tiết, cách trồng, lên men đến phơi khô đều ảnh hưởng tới hạt cà phê.</p>
+<p>Vì thế, không khó hiểu rằng tại sao các cà phê Single Origin thường là các hạt cà phê được sơ chế theo chế biến ướt, bởi hương vị hạt cà phê sẽ phản ánh lên cả một quá trình Farm to Cup như nào.</p>
+<p><a href="https://www.youtube.com/watch?v=WaVrA926wNE">https://www.youtube.com/watch?v=WaVrA926wNE</a></p>
+<h2>3. Sơ chế mật ong</h2>
+<p>Mật ong?? Cà phê liên quan gì đến mật ong? Có phải cà phê được ngâm với mật ong, lên men trong mật ong?? Thực tế mật ong được nói đến ở đây chính là lớp nhầy trên hạt cà phê khi được sơ chế. Đây là phương pháp sơ chế cà phê kết hợp các ưu điểm của cả hai phương pháp sơ chê khô và ướt. Ngoài ra cách sơ chế này có thể có các tên khác như bán khô hay bán ướt (Honey, Pulped Natural &amp; Semi-Washed)</p>
+<p>Sau khi trái cà phê được thu hoạch, phân loại và loại bỏ các bụi bẩn như các phương pháp khác, sẽ được cho vào máy tách vỏ. Khác với cách sơ chế ướt, máy tách vỏ nhưng cùng lúc giữ lại một phần của thịt quả (chất nhầy). Sau đó sẽ được đem phơi khô để lên men khi chất nhầy vẫn còn trên hạt. Cà phê được sơ chế mật ong thường đi cùng với các màu sắc: đen (black), đỏ (red), vàng (yellow) hay trắng (white). Màu sắc này phụ thuộc vào lượng chất nhầy còn lại sau khi được tách vỏ. Đồng thời phản ảnh lượng đường tự nhiên, cũng như body của cà phê thành phẩm (độ ngọt tương ứng với độ đậm - nhiều ít của phần thịt)</p>
+<p><img src="http://www.addisoncoffee.com/product_images/uploaded_images/honeymiel.jpeg" alt="http://www.addisoncoffee.com/product_images/uploaded_images/honeymiel.jpeg" /></p>
+<p>Thay đổi về màu sắc của sơ chế mật ong. Nguồn ảnh: <a href="http://addisoncoffee.com/">addisoncoffee.com</a></p>
+<p>Phần thịt cà phê còn lại càng nhiều thì công việc liên quan đến càng nhiều, giảm thiểu việc lên men thừa cũng như nấm mốc xuất hiện. Việc giám sát chặt chẽ, hay cẩn thận trong việc phơi khô là yếu tố chính để đảm bảo chất lượng cho cách sơ chế này.  </p>
+<p><a href="https://www.youtube.com/watch?v=zCB1c-3vEQY">https://www.youtube.com/watch?v=zCB1c-3vEQY</a></p>
+<h2>4. Các phương pháp sơ chế đặc biệt</h2>
+<p>Hiện nay, một vài nông trại tiên tiến đã thử nghiệm và nghiên cứu, áp dụng các phương pháp sơ chế, lên men đặc biệt khác. Các phương pháp truyền thống sau nhiều năm đã cần phải được cải tiến, thay đổi để giảm thiểu các nhược điểm vốn có, cũng như việc tìm kiếm các hương vị độc đáo, riêng biệt khác của mình:</p>
+<ul>
+<li>Yếm khí/kị khí (Anaerobic Fermentation): là phương pháp lên men mới xuất hiện gầy đây. Sau khi loại bỏ vỏ như sơ chế ướt, hạt cà phê sẽ được lên men trong môi trường kín, hoàn toàn không có không khí. Trong môi trường không có không khí, một vài loài vi khuẩn sẽ không thể sinh sống được, tạo ra sự khác biệt trong hương vị so với sơ chế ướt truyền thống.</li>
+<li>Ủ/ngâm carbonic (Carbonic Maceration): đây là phương pháp lên men được áp dụng tương tự như cách <a href="https://en.wikipedia.org/wiki/Carbonic_maceration">lên men rượu</a>. Điểm tương đồng với phương pháp yếm khí đó là cà phê sẽ được lên men trong môi trường không còn không khí. Nhưng khác biệt là hạt cà phê được giữ nguyên trong trái, giống như việc nước vẫn được giữ nguyên trong trái nho như phương pháp cùng tên  trong chế biến rượu.</li>
+<li>...</li>
+</ul>
+<h2>5. Phương pháp nào là tốt nhất?</h2>
+<p>Đây chắc chắn (50%) là câu hỏi bạn sẽ tự đặt ra sau khi đọc đống trên đúng không? Mỗi phương pháp đều có đặc trưng riêng, vậy phương pháp nào sẽ cho ra kết quả tốt nhất, phù hợp nhất với bạn?</p>
+<p>Để trả lời cho câu hỏi trên, câu trả lời của mình sẽ là &quot;Không có cái nào thực sự tốt hơn cả&quot;, hay ngắn gọn hơn là &quot;TÙY&quot;. Vì thực sự có quá nhiều yếu tố có thể ảnh hưởng đến cốc cà phê, sơ chế dù quan trọng nhưng nó vẫn chỉ là một mắt xích trong nhiều mắt xích khác. Thế nên xu hướng gần đây  đó là thay đổi, cải tiến, sáng tạo các phương pháp sơ chế đặc biệt khác - gần như trở thành &quot;trend&quot;, để có thể tìm ra các hương vị mới lạ, độc đáo hơn nữa.</p>
+<p><a href="https://www.notion.so/C-c-y-u-t-nh-h-ng-n-h-ng-v-c-ph-2afa75deca004d80a75db106fa6881c8">Các yếu tố ảnh hưởng đến hương vị cà phê</a> </p>
+<p>Giống như khẩu vị mỗi người, cái này ngon với bạn, không có nghĩa nó sẽ phù hợp với tất cả mọi người. Thế nên sẽ &quot;rất&quot; sai lầm nếu như bắt một người mới đến với cà phê rằng họ phải biết &quot;thưởng thức&quot; cái vị chua (acidity), hay cà phê phải đậm đà mới là ngon. Như vậy có phải là hơi áp đặt đúng không?</p>
+<p><img src="https://redballoon.com.au/dw/image/v2/BCRD_PRD/on/demandware.static/-/Sites-rb-au-catalog/default/images/products/VNZC001-M/zfbkrprjz1howul23rkx.jpg?sw=784&amp;sh=431&amp;q=70" alt="https://redballoon.com.au/dw/image/v2/BCRD_PRD/on/demandware.static/-/Sites-rb-au-catalog/default/images/products/VNZC001-M/zfbkrprjz1howul23rkx.jpg?sw=784&amp;sh=431&amp;q=70" /></p>
+<hr />
+<p>Vậy với bạn, người uống thì phương pháp nào sẽ phù hợp? Để trả lời tiếp câu hỏi này thì tốt nhất là bạn nên xách mông + tiền ra và thử trước 3 loại sơ chế cơ bản nhất, để có thể tự tìm cách uống phù hợp với mình nhất đi nhé 😉</p>
+<hr />
+<h3>Nguồn tham khảo:</h3>
+<ul>
+<li><a href="https://www.baristainstitute.com/blog/jori-korhonen/january-2020/coffee-processing-methods-drying-washing-or-honey">https://www.baristainstitute.com/blog/jori-korhonen/january-2020/coffee-processing-methods-drying-washing-or-honey</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Third_wave_of_coffee">https://en.wikipedia.org/wiki/Third_wave_of_coffee</a></li>
+<li><a href="https://perfectdailygrind.com/2017/02/yellow-red-black-honey-processed-coffees-whats-the-difference/">https://perfectdailygrind.com/2017/02/yellow-red-black-honey-processed-coffees-whats-the-difference/</a></li>
+<li><a href="https://perfectdailygrind.com/2016/07/washed-natural-honey-coffee-processing-101/">https://perfectdailygrind.com/2016/07/washed-natural-honey-coffee-processing-101/</a></li>
+<li><a href="https://dailycoffeenews.com/2019/06/03/a-guide-to-carbonic-maceration-and-anaerobic-fermentation-in-coffee/">https://dailycoffeenews.com/2019/06/03/a-guide-to-carbonic-maceration-and-anaerobic-fermentation-in-coffee/</a></li>
+</ul>
+            </div>
+        </div>
+    </div>
+            </div>
+
+            <!-- footer -->
+            <footer class="flex-none flex justify-between items-center h-24 border-t mt-20 pt-3">
+                <div class="flex flex-col">
+                    <h4>Liên lạc</h4>
+                    <div class="flex space-x-3">
+                        <a href="#" title="facebook">
+                             <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+
+                        <a href="#" title="youtube">
+                             <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+
+                        <a href="#" title="instagram">
+                             <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+                    </div>
+
+                </div>
+                <div>
+                    <h4>Đăng ký bài viết mới</h4>
+                    <div>
+                        <input class="border-b px-3 py-1 outline-none" type="text"
+                            placeholder="Vui lòng đền email của bạn">
+                        <button>OK</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+ 

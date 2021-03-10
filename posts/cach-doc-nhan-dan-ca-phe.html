@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cách đọc nhãn dán cà phê</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-xl mx-auto pt-10 px-10">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex items-end space-x-10">
+		
+		<a href="/" class="text-lg uppercase tracking-widest" title="home page">
+			<svg width="79" height="58" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+				<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+			</svg>
+		</a>
+					<a href="/" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Trang chủ</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">BÀI VIẾT</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">ĐÁNH GIÁ</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">DỊCH</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">CÔNG CỤ</a>
+			</div>
+
+	<hr class="border bg-gray-500 mt-5">
+
+	<!-- sub menu -->
+	<div class="flex space-x-10 mt-5">
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 1</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 2</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 3</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 4</a>
+					<a href="#" class="text-lg uppercase tracking-widest text-cyan-500 hover:underline">Category 5</a>
+			</div>
+
+</div> 
+
+            <!-- main content -->
+            <div class="pt-16">
+                <div>
+
+        <div class="relative max-w-screen-md mx-auto">
+            <h1 class="text-3xl tracking-tight font-bold text-gray-900 sm:text-4xl text-left">Cách đọc nhãn dán cà phê</h1>
+
+            <div class="meta flex text-sm text-gray-500 mt-5 space-x-5">
+                <div>
+                    <span>Category:</span>
+                    <span>Hướng dẫn</span>
+                </div>
+                <div>
+                    <span>Created at</span>
+                    <span>2021-03-10</span>
+                </div>
+                <div>
+                    <span>Last edited at</span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="mt-12 leading-7 post-content font-base">
+                <p>Chúng ta thường nghĩ rằng việc mua cà phê nghe chừng đơn giản như mua một món hàng hóa: Xách đít ra ngoài, tìm gói cà phê bất kỳ về pha, ez!. Hoàn toàn dễ hiểu điều đó nếu như cà phê với bạn chỉ như một đồ tiêu thụ giúp bổ sung caffeine mỗi ngày. Còn nếu bạn là vế còn lại, những người clink vào tiêu đề và đọc bài viết này, những ngươi muốn tìm đến cà phê như bắt đầu một thú vui mới, hoặc đơn giản muốn thưởng thức trọn vị cà phê, chứ không chỉ uống cà phê vì nó là … cà phê, thì bài viết này dành cho bạn. Dù việc hiểu biết thêm các thông tin dưới đây không đảm bảo sẽ một cốc cà phê ngon, nhưng việc hiểu thêm về chúng sẽ giúp bạn tìm được loại cà phê phù hợp với cách uống của mình.</p>
+<hr />
+<p>Thông thường trên các gói cà phê các thông tin liên quan đến hạt cà phê trong gói cũng như người bán. Có thể chi tiết hay đại khái, tùy thuộc vào người bán hàng muốn có thông tin gì trên bao bì. Thông thường sẽ có những mục sau (không sắp xếp theo thứ tự cụ thể nào) :</p>
+<ul>
+<li><strong>Tên (brand name)</strong>: thường là các quán bán gói cà phê đó, hoặc có thể là các nhà rang, xưởng rang. Vì mỗi người rang, xưởng rang sẽ có cách rang, triết lý rang của riêng mình. Nên cùng loại nguyên liệu y hệt nhau, với cách rang khác nhau có thể ra các hương vị khác nhau.</li>
+<li>
+<p><strong>Dạng hạt hay bột (whole bean; ground coffee)</strong>: các loại cà phê sẽ được giữ nguyên hạt hay xay theo cỡ xay nhất định nào đó tùy thuộc các cách pha của người dùng hay cỡ xay mà người bán khuyên dùng với cách pha chế nào đó. Khi cà phê được xay ra, chất lượng cũng như hương vị của cà phê lúc này sẽ giảm dần theo thời gian, độ mịn. . Để tìm hiểu thêm về khác biệt, ưu nhược điểm của 2 dạng cà phê này, bạn có thể đọc bài viết đầy đủ hơn ở link dưới.</p>
+<p><a href="https://www.notion.so/Nguy-n-h-t-hay-xay-s-n-f49fd3c6766344188700f4a84a07739f">Nguyên hạt hay xay sẵn?</a> </p>
+</li>
+</ul>
+<p><img src="https://chowhound3.cbsistatic.com/resize/fd604f793653b3c33ff1369a3f7525112ec7ac81/2013/06/how-to-clean-coffee-grinder-chowhound.jpg?fit=bounds&amp;width=1200" alt="https://chowhound3.cbsistatic.com/resize/fd604f793653b3c33ff1369a3f7525112ec7ac81/2013/06/how-to-clean-coffee-grinder-chowhound.jpg?fit=bounds&amp;width=1200" /></p>
+<p>Nguồn ảnh: chowhound.com</p>
+<hr />
+<ul>
+<li>
+<p><strong>Vùng trồng (origin):</strong> vùng trồng, quốc gia hay trang trại trồng loại cây cà phê. Hương vị của trái cà phê ngoài ảnh hưởng bởi các giống cây, còn bị ảnh hưởng bởi nhiều yếu tố khác tùy thuộc vào vùng trồng (thổ nhưỡng, bón phân, tỉa cây, thu hoạch,...). Được chia ra 2 loại chính:</p>
+<ul>
+<li><strong>Single origin:</strong> là các hạt cà phê đến từ một vùng trồng, quốc gia hay trang trại duy nhất. Loại cà phê này sẽ mang các điểm độc đáo, đặc trưng riêng của giống cây, vùng trồng đó. Thông thường hạt cà phê single origin sẽ có giá cao hơn so với hạt blend, ngoài ra có thể ảnh hưởng theo thời vụ thu hoạch trong năm.</li>
+<li><strong>Blend (trộn, mix, ...):</strong> là các hạt cà phê đến từ hai hay nhiều loại hạt đến từ nhiều vùng trồng, hay có thể trộn giữa 2 giống arabica hay robusta. Các hạt cà phê khác nhau sẽ cho ra các hương vị khác nhau - nhiều khi các hương vị đó quá nổi trội, việc trộn giữa các loại hạt khác nhau có thể bù đắp những ưu nhược điểm riêng biệt của từng loại hạt.</li>
+</ul>
+<p><img src="https://coffeeteawholesaler.com/wp-content/uploads/2015/07/Blends-768x455.png" alt="https://coffeeteawholesaler.com/wp-content/uploads/2015/07/Blends-768x455.png" /></p>
+<p>Nguồn ảnh: <a href="https://coffeeteawholesaler.com/">https://coffeeteawholesaler.com/</a></p>
+</li>
+<li>
+<p><strong>Giống cây (variety): M</strong>ỗi giống cây trồng sẽ có đặc tính sinh trưởng, hương vị riêng. Thông thường, việc chọn giống cây sẽ tùy thuộc vào vùng trồng ở trên. Bao bì có thể được ghi chung chung các loại chính như Arabica (Cà phê chè), Robusta (Cà phê vối) hay Liberia (Cà phê mít) . Nhưng đa phần sẽ là thông tin về các nhánh con của các giống cây trên, vd: catuai, catimor, sl28, sl34, … chi tiết hơn.</p>
+</li>
+<li>
+<p><strong>Độ cao (elevation; altitude):</strong> Là độ cao mà cây cà phê được trồng so với mặt nước biển. Đa phần thì các hạt cà phê được trồng ở các vùng núi cao (1000m - 2000m) sẽ cho ra các hạt cà phê chất lượng cao hơn, hương vị ngọt, phức tạp hơn so với các cà phê trồng ở độ cao thấp.</p>
+</li>
+<li>
+<p><strong>Sơ chế (processing):</strong> Thông thường sẽ có 3 loại sơ chế chính, với mỗi loại sơ chế sẽ cho rang hương vị khác biệt, được sử dụng tại các vùng trồng khác nhau tùy điều kiện, đó là:</p>
+<ul>
+<li><strong>Chế biến ướt</strong> (wash): là phương pháp mà chất nhầy quanh vỏ được loại bỏ bằng nước. Phương pháp này cho ra hạt cà phê nổi bật lên hương vị sẵn có của cây cà phê, cũng như đặc điểm của vùng trồng cây cà phê đó.</li>
+<li><strong>Chế biến khô</strong> (natural; dry; tự nhiên, ...): là phương pháp mà trái cà phê được lên men nguyên trong trái (với lớp nhầy và vỏ giữ nguyên) Hương vị của hạt cà phê sẽ ảnh hưởng rất lớn từ việc lên men trong trái này, thông thường hạt cà phê chế biến khô sẽ khó được đánh giá cao như hạt cà phê chế biến ướt.</li>
+<li><strong>Chế biến mật ong</strong> (bán ướt; semi-washed; semi-dried;  hybrid-process; honey; pulped natural): là cách sơ chế kết hợp ưu điểm của 2 loại sơ chế ướt và khô. Cà phê loại này đi chung với các từ chỉ màu sắc như đen, đỏ, vàng hay trắng (black honey, red honey, yellow honey hay white honey) - phụ thuộc vào lượng chất nhầy sau khi chế biến, màu càng tối thì vị ngọt càng lên cao. Có thể coi như black honey gần giống hương vị của sơ chế khô, white honey gần giống sơ chế ướt.</li>
+</ul>
+<p><a href="https://www.notion.so/S-ch-c-ph-dc1aee45beda4eec952b979144d70ad9">Sơ chế cà phê?</a> </p>
+</li>
+</ul>
+<p><img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2020-11/12-11_ca_phe_chin.jpg" alt="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2020-11/12-11_ca_phe_chin.jpg" /></p>
+<p>Nguồn ảnh: vov.vn</p>
+<ul>
+<li>
+<p><strong>Độ rang (gu rang; roast level hay roast degree):</strong> là các hạt cà phê biểu thị bằng màu từ nhạt đến đậm. Hương vị cà phê sẽ biến đổi, mùi vị của việc rang tăng dần, màu sắc đậm dần, tỷ lệ thuận với thời gian và nhiệt độ của mẻ rang. Mỗi nhà rang sẽ có quy định riêng về màu rang của riêng mình, thông thường sẽ chia ra 3 dãy màu chính:</p>
+<ul>
+<li><strong>Light roast</strong> (Cinnamon Roast, American Roast, New England Roast, Half City Roast, Moderate-Light Roast): cà phê chuyển từ xanh sang nâu nhạt, xuất hiện trước, sau hay đúng thời điểm xảy ra hiện tượng first crack. Ở mức rang này hạt cà phê chưa bị ảnh hưởng nhiều bởi môi trường rang, cùng đó hương vị nguyên bản của hạt cà phê sẽ được bộc lộ rõ nhất. Đây là mức rang lý tưởng để cảm nhận hương vị nguyên bản của hạt cà phê một cách đầy đủ nhất.</li>
+<li><strong>Medium roast</strong> (City roast, City+ Roast, Full City Roast): hạt cà phê bắt đầu chuyển sang màu nâu đậm hơn, phát triển tiếp sau khi quá trình first crack cho đến giai đoạn second crack. Các thành phần đường cũng như acid trong hạt cà phê bắt đầu thay đổi. Kết quả là một hạt cà phê mang body dày hơn, tuy nhiên hương vị, mùi vị của quá trình rang bắt đầu hiện diện.</li>
+<li><strong>Dark roast</strong> (Full City+ Roast, Italian Roast, Vienna Roast, French Roast): hạt cà phê bước đến giai đoạn second crack trở đi, lúc này hạt cà phê bắt đầu bóng do dầu tự nhiên từ hạt cà phê bắt đầu xuất hiện. Đường và acid vốn có của cà phê bắt đầu phân rã. Vị đắng bắt đầu xuất hiện, hương vị của quá trình rang rõ lên, dần lấn át hương vị nguyên bản của trái cà phê.</li>
+</ul>
+<p><img src="https://theroasterie.com/wp-content/uploads/download.jpg" alt="https://theroasterie.com/wp-content/uploads/download.jpg" /></p>
+<p>Nguồn ảnh: Sweet Maria</p>
+</li>
+<li>
+<p><strong>Mùi, vị (taste note; flavor note):</strong> là hương, vị cà phê có thể cảm nhận được, gợi nhớ đến một hương vị tương tự của nguồn thực phẩm hay trái cây khác. Các mùi vị này sẽ được đánh giá qua quá trình gọi là Cupping bởi người bán, người mua hay cả các nông dân trồng cây. Tuy việc thử nếm này mang tính cá nhân của người thử nếm là chủ yếu, nhưng việc hạt cà phê đã được thử bởi những người có kinh nghiệm cũng có thể cho chúng ta hình dung được cà phê đó sẽ như thế nào.</p>
+</li>
+<li>
+<p><strong>Decaffein (decaf; khử cafein):</strong> là hạt cà phê đã được loại bỏ đến 98% số lượng caffeine trong hạt.</p>
+</li>
+<li>
+<p><strong>Đánh giá, chứng nhận (Coffee Certifications):</strong> Một vài người bán, nhà rang sẽ có đánh giá, chứng nhận ở trên gói cà phê. Điều đó có nghĩa rằng cà phê mà được sản xuất đã đáp ứng được yêu cầu tiêu chuẩn của tổ chức nào đó. Danh sách một vài các tổ chức uy tín tại <a href="http://www.ico.org/links_sustaine.asp">đây</a>.</p>
+<p><img src="https://www.baristainstitute.com/sites/default/files/styles/1x_big_header_image/public/images/Cupping_1FI.jpg?itok=4G6puR4w" alt="https://www.baristainstitute.com/sites/default/files/styles/1x_big_header_image/public/images/Cupping_1FI.jpg?itok=4G6puR4w" /></p>
+<p>Nguồn ảnh: <a href="http://baristainstitute.com/">baristainstitute.com</a></p>
+</li>
+</ul>
+<hr />
+<p>Quá là nhiều thông tin đúng không? Nếu như vẫn khó hiểu hay nhiều thắc mắc, hãy thẳng thắn hỏi người bán hàng hay các barista tại quán cà phê đó. Mình nghĩ rằng sẽ không ai phiền lòng nếu như chia sẻ các thông tin về cà phê với bạn đâu. Đừng ngại!</p>
+<p>p/s: Bài viết có thể thiếu một vài thông tin khác mình không biết, hãy comment để mình bổ sung nhé!</p>
+<hr />
+<h3>Nguồn thảm khảo</h3>
+<ul>
+<li><strong><a href="https://www.craftcoffeeguru.com/coffee-bag-labels/">https://www.craftcoffeeguru.com/coffee-bag-labels/</a></strong></li>
+<li><strong><a href="https://perfectdailygrind.com/2018/03/how-to-understand-the-label-on-your-bag-of-roasted-coffee/">https://perfectdailygrind.com/2018/03/how-to-understand-the-label-on-your-bag-of-roasted-coffee/</a></strong></li>
+<li><strong><a href="https://en.wikipedia.org/wiki/List_of_coffee_varieties">https://en.wikipedia.org/wiki/List_of_coffee_varieties</a></strong></li>
+<li><a href="https://en.wikipedia.org/wiki/Coffee_roasting#Roasts">https://en.wikipedia.org/wiki/Coffee_roasting</a></li>
+</ul>
+<p>Ảnh cover: <a href="https://dribbble.com/ryanprudhomme">https://dribbble.com/ryanprudhomme</a></p>
+            </div>
+        </div>
+    </div>
+            </div>
+
+            <!-- footer -->
+            <footer class="flex-none flex justify-between items-center h-24 border-t mt-20 pt-3">
+                <div class="flex flex-col">
+                    <h4>Liên lạc</h4>
+                    <div class="flex space-x-3">
+                        <a href="#" title="facebook">
+                             <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+
+                        <a href="#" title="youtube">
+                             <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+
+                        <a href="#" title="instagram">
+                             <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                        </a>
+                    </div>
+
+                </div>
+                <div>
+                    <h4>Đăng ký bài viết mới</h4>
+                    <div>
+                        <input class="border-b px-3 py-1 outline-none" type="text"
+                            placeholder="Vui lòng đền email của bạn">
+                        <button>OK</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+ 
