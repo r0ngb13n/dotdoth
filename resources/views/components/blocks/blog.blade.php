@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="mt-6 flex justify-between text-sm text-gray-500">
-            <x-category-href :name="$post->category" />
+            <x-category-href :name="$post->category" class="text-indigo-500 hover:text-indigo-700" />
             <span>
                 {{ $post->created_at }}
             </span>

@@ -1,5 +1,4 @@
-<x-layout>
-
+<x-layout :categories="$posts->map(fn ($post) => $post->category)->unique()">
     <div class="relative">
         <div class="relative max-w-7xl mx-auto">
             <div class="text-center">

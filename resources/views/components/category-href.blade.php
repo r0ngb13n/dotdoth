@@ -31,4 +31,4 @@
 	$slug = str_slug($name);
 @endphp
 
-<a {{ $attributes->merge(['class' => "text-indigo-500 hover:text-indigo-700"]) }} href="/{{ $slug }}.html" title="{{ $name }}">{{ $name }}</a>
+<a {{ $attributes->merge(['class' => ""]) }} href="/{{ $slug }}.html" title="{{ $name }}">{{ $name }}</a>

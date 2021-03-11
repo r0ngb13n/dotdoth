@@ -6,7 +6,7 @@
             <div class="meta flex text-sm text-gray-500 mt-5 space-x-5">
                 <div>
                     <span>Category:</span>
-                    <span><x-category-href :name="$post->category" /></span>
+                    <span><x-category-href :name="$post->category" class="text-indigo-500 hover:text-indigo-700" /></span>
                 </div>
                 <div>
                     <span>Created at:</span>
