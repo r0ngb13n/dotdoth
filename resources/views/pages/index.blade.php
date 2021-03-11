@@ -9,7 +9,7 @@
                     Các bài viết đánh giá mang tính khách quan. </p>
             </div>
 
-            <div class="mt-12 max-w-2xl mx-auto grid gap-20 lg:grid-cols-1">
+            <div class="mt-12 max-w-2xl mx-auto grid gap-10 sm:gap-20 lg:grid-cols-1">
                 @foreach ($posts as $post)
                     <x-blocks.blog :post="$post" />
                 @endforeach
