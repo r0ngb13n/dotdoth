@@ -14,7 +14,7 @@
         <div class="absolute right-0 top-0 h-screen w-1/2 bg-white flex flex-col px-6 pt-24 z-10 space-y-5 content-right transition sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row sm:h-auto sm:bg-transparent sm:pt-5 sm:px-0 sm:flex-grow sm:justify-start sm:items-center sm:content-center sm:space-y-0" :class="{'hidden': open === false}">
             @foreach ($categoryNames as $categoryName)
                 <x-category-href :name="$categoryName"
-                    class="text-sm outline-black sm:text-lg uppercase sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" />
+                    class="text-sm sm:text-lg uppercase sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" />
             @endforeach
         </div>
 
