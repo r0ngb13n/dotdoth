@@ -1,5 +1,5 @@
 ---
-title: nguyen hat hay xay san?
+title: Nguyên hạt hay xay sẵn?
 layout: post
 category: Pha cà phê
 date: 2021-03-10

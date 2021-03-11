@@ -20,13 +20,13 @@
 
 <body>
     <div class="">
-        <div class="container max-w-screen-xl mx-auto pt-3 sm:pt-5 px-5 sm:px-10">
+        <div class="container max-w-screen-xl mx-auto pt-0 sm:pt-0 px-5 sm:px-32">
 
             <!-- navbar -->
             <x-navbar />
 
             <!-- main content -->
-            <div class="pt-5 sm:pt-16">
+            <div class="pt-5 sm:pt-12">
                 {{ $slot }}
             </div>
 
