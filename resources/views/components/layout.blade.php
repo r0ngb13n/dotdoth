@@ -20,7 +20,7 @@
 
 <body>
     <div class="">
-        <div class="container max-w-screen-xl mx-auto pt-0 sm:pt-0 px-5 sm:px-32">
+        <div class="container max-w-screen-xl mx-auto pt-0 sm:pt-0 px-5 md:px-16 sm:px-32">
 
             <!-- navbar -->
             <x-navbar />

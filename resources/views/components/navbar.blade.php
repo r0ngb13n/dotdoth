@@ -3,7 +3,7 @@
 @endphp
 <div>
 	<!-- main menu -->
-	<div class="flex flex-wrap items-center justify-between space-x-3 sm:space-x-10 relative" x-data="{open: false}">
+	<div class="flex flex-wrap items-center justify-between space-x-3 md:space-x-4 sm:space-x-10 relative" x-data="{open: false}">
 
         <div>
             <a href="/" class="text-lg" title="home page">
@@ -11,10 +11,10 @@
             </a>
         </div>
 
-        <div class="absolute right-0 top-0 h-screen w-1/2 bg-white flex flex-col px-6 pt-24 z-10 space-y-5 content-right transition sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row sm:h-auto sm:bg-transparent sm:pt-5 sm:px-0 sm:flex-grow sm:justify-start sm:items-center sm:content-center sm:space-y-0" :class="{'hidden': open === false}">
+        <div class="absolute right-0 top-0 h-screen w-1/2 bg-white flex flex-col pt-24 z-10 space-y-5 content-right transition md:mt-8 sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row sm:h-auto sm:bg-transparent sm:pt-8 sm:px-0 sm:flex-grow sm:justify-start sm:items-center sm:content-center sm:space-y-0" :class="{'hidden': open === false}">
             @foreach ($categoryNames as $categoryName)
                 <x-category-href :name="$categoryName"
-                    class="text-sm sm:text-lg uppercase sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" />
+                    class="text-lg sm:text-lg uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" />
             @endforeach
         </div>
 
