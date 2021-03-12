@@ -5,9 +5,9 @@
             width="650"
             alt="{{ $post->title }}" />
     </div>
-    <div class="flex-1 bg-white flex flex-col mt-4 justify-between">
+    <div class="flex-1 bg-white flex flex-col mt-2 justify-between">
         <div class="flex-1">
-            <div class="block mt-1.5">
+            <div class="block">
                 <h3 class="text-3xl font-medium text-gray-900 text-gray-800 hover:text-indigo-500 transition duration-200">
                     <a href="{{ $post->link() }}">
                         {{ $post->title }}
