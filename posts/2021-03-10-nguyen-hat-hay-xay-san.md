@@ -12,7 +12,7 @@ Khi xách mông ra ngoài quán, hay ngồi nhà đặt online, ta thường th�
 
 Bài viết này đề cập đến dạng cà phê nguyên hạt xay sẵn, **không nói đến cà phê hòa tan**. 
 
-# Chọn cà phê xay sẵn khi nào?
+## Chọn cà phê xay sẵn khi nào?
 
 Cà phê giống như một mặ thàng thiết yếu, nó có mặt ở khắp mọi nơi. Chúng ta có thể dễ dàng tìm mua một gói cà phê bất cứ đâu, nhưng phần lớn trong số cà phê được bày bán, dạng bột xay sẵn luôn chiếm phần lớn. Cà phê dạng này cũng đến bắt nguồn từ cây cà phê, sơ chế và rang giống như cà phê nguyên hạt. Khác biệt duy nhất là chúng được xay sẵn rồi đóng gói, bày bán trên thị trường.
 
