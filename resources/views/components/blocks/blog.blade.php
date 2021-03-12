@@ -1,6 +1,6 @@
 <div class="flex flex-col overflow-hidden">
     <div class="flex-shrink-0">
-        <x-img class="h-72 w-full object-cover"
+        <x-img class="h-80 w-full object-cover"
             :src="$post->featureImage()"
             width="650"
             alt="{{ $post->title }}" />
