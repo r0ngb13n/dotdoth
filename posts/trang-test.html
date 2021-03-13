@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-lg mx-auto pt-0 sm:pt-0 px-5 md:px-16 sm:px-32">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex flex-wrap items-center justify-between space-x-3 md:space-x-4 sm:space-x-10 relative" x-data="{open: false}">
+
+        <div>
+            <a href="/" class="text-lg" title="home page">
+                 <svg class="w-16 h-16 sm:w-16 sm:h-16" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+				<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+			</svg>
+ 
+            </a>
+        </div>
+
+        <div class="absolute right-0 top-0 h-screen w-1/2 bg-white flex flex-col pt-24 z-10 space-y-5 content-right transition md:mt-0 sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center sm:content-center sm:space-y-0" :class="{'hidden': open === false}">
+                             <a class="text-xl sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-viet.html" title="Bài viết">Bài viết</a>
+ 
+                             <a class="text-xl sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/danh-gia.html" title="Đánh giá">Đánh giá</a>
+ 
+                             <a class="text-xl sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-dich.html" title="Bài Dịch">Bài Dịch</a>
+ 
+                             <a class="text-xl sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/cong-cu.html" title="Công cụ">Công cụ</a>
+ 
+                    </div>
+
+        <div class="mobile-menu sm:hidden absolute right-0 top-0 mt-7 mr-5 z-20" @click="open = !open">
+            <svg x-show="!open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            <svg x-show="open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </div>
+	</div>
+
+	<hr class="border sm:mt-0">
+</div>
+ 
+
+            <!-- main content -->
+            <div class="pt-5 sm:pt-12">
+                <div class="post-content relative max-w-screen-md sm:max-w-screen-sm  mx-auto">
+            <h1 class="text-4xl tracking-wide font-regular text-black sm:text-4xl text-left">Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet.</h1>
+
+            <div class="meta flex text-sm text-gray-500 mt-3 sm:mt-2.5">
+                <div>
+                    <span> <a class="text-grey-500 uppercase" href="/pha-ca-phe.html" title="Pha cà phê">Pha cà phê</a>
+ ;&nbsp;</span>
+                </div>
+                <div>
+                    <span>Viết vào:&nbsp;<time datetime="2021-03-13">2021-03-13</time></span>
+                </div>
+            </div>
+
+            <div class="mt-6 leading-6 post-content sm:mt-12 font-light">
+                <p><img src="https://c.files.bbci.co.uk/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe the frog" /></p>
+<h1>Heading one</h1>
+<p>Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem. Ut laborum cillum laboris fugiat culpa sint irure do reprehenderit culpa occaecat. Exercitation esse mollit tempor magna aliqua in occaecat aliquip veniam reprehenderit nisi dolor in laboris dolore velit.</p>
+<h2>Heading two</h2>
+<p>Aute officia nulla deserunt do deserunt cillum velit magna. Officia veniam culpa anim minim dolore labore pariatur voluptate id ad est duis quis velit dolor pariatur enim. Incididunt enim excepteur do veniam consequat culpa do voluptate dolor fugiat ad adipisicing sit. Labore officia est adipisicing dolore proident eiusmod exercitation deserunt ullamco anim do occaecat velit. Elit dolor consectetur proident sunt aliquip est do tempor quis aliqua culpa aute. Duis in tempor exercitation pariatur et adipisicing mollit irure tempor ut enim esse commodo laboris proident. Do excepteur laborum anim esse aliquip eu sit id Lorem incididunt elit irure ea nulla dolor et. Nulla amet fugiat qui minim deserunt enim eu cupidatat aute officia do velit ea reprehenderit.</p>
+<h3>Heading three</h3>
+<p>Voluptate cupidatat cillum elit quis ipsum eu voluptate fugiat consectetur enim. Quis ut voluptate culpa ex anim aute consectetur dolore proident voluptate exercitation eiusmod. Esse in do anim magna minim culpa sint. Adipisicing ipsum consectetur proident ullamco magna sit amet aliqua aute fugiat laborum exercitation duis et.</p>
+<h4>Heading four</h4>
+<p>Commodo fugiat aliqua minim quis pariatur mollit id tempor. Non occaecat minim esse enim aliqua adipisicing nostrud duis consequat eu adipisicing qui. Minim aliquip sit excepteur ipsum consequat laborum pariatur excepteur. Veniam fugiat et amet ad elit anim laborum duis mollit occaecat et et ipsum et reprehenderit. Occaecat aliquip dolore adipisicing sint labore occaecat officia fugiat. Quis adipisicing exercitation exercitation eu amet est laboris sunt nostrud ipsum reprehenderit ullamco. Enim sint ut consectetur id anim aute voluptate exercitation mollit dolore magna magna est Lorem. Ut adipisicing adipisicing aliqua ullamco voluptate labore nisi tempor esse magna incididunt.</p>
+<h5>Heading five</h5>
+<p>Veniam enim esse amet veniam deserunt laboris amet enim consequat. Minim nostrud deserunt cillum consectetur commodo eu enim nostrud ullamco occaecat excepteur. Aliquip et ut est commodo enim dolor amet sint excepteur. Amet ad laboris laborum deserunt sint sunt aliqua commodo ex duis deserunt enim est ex labore ut. Duis incididunt velit adipisicing non incididunt adipisicing adipisicing. Ad irure duis nisi tempor eu dolor fugiat magna et consequat tempor eu ex dolore. Mollit esse nisi qui culpa ut nisi ex proident culpa cupidatat cillum culpa occaecat anim. Ut officia sit ea nisi ea excepteur nostrud ipsum et nulla.</p>
+<h6>Heading six</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Paragraphs"></a>Paragraphs</h1>
+<p>Incididunt ex adipisicing ea ullamco consectetur in voluptate proident fugiat tempor deserunt reprehenderit ullamco id dolore laborum. Do laboris laboris minim incididunt qui consectetur exercitation adipisicing dolore et magna consequat magna anim sunt. Officia fugiat Lorem sunt pariatur incididunt Lorem reprehenderit proident irure. Dolore ipsum aliqua mollit ad officia fugiat sit eu aliquip cupidatat ipsum duis laborum laborum fugiat esse. Voluptate anim ex dolore deserunt ea ex eiusmod irure. Occaecat excepteur aliqua exercitation aliquip dolor esse eu eu.</p>
+<p>Officia dolore laborum aute incididunt commodo nisi velit est est elit et dolore elit exercitation. Enim aliquip magna id ipsum aliquip consectetur ad nulla quis. Incididunt pariatur dolor consectetur cillum enim velit cupidatat laborum quis ex.</p>
+<p>Officia irure in non voluptate adipisicing sit amet tempor duis dolore deserunt enim ut. Reprehenderit incididunt in ad anim et deserunt deserunt Lorem laborum quis. Enim aute anim labore proident laboris voluptate elit excepteur in. Ex labore nulla velit officia ullamco Lorem Lorem id do. Dolore ullamco ipsum magna dolor pariatur voluptate ipsum id occaecat ipsum. Dolore tempor quis duis commodo quis quis enim.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Blockquotes"></a>Blockquotes</h1>
+<p>Ad nisi laborum aute cupidatat magna deserunt eu id laboris id. Aliquip nulla cupidatat sint ex Lorem mollit laborum dolor amet est ut esse aute. Nostrud ex consequat id incididunt proident ipsum minim duis aliqua ut ex et ad quis. Laborum sint esse cillum anim nulla cillum consectetur aliqua sit. Nisi excepteur cillum labore amet excepteur commodo enim occaecat consequat ipsum proident exercitation duis id in.</p>
+<blockquote>
+<p>Ipsum et cupidatat mollit exercitation enim duis sunt irure aliqua reprehenderit mollit. Pariatur Lorem pariatur laboris do culpa do elit irure. Eiusmod amet nulla voluptate velit culpa et aliqua ad reprehenderit sit ut.</p>
+</blockquote>
+<p>Labore ea magna Lorem consequat aliquip consectetur cillum duis dolore. Et veniam dolor qui incididunt minim amet laboris sit. Dolore ad esse commodo et dolore amet est velit ut nisi ea. Excepteur ea nulla commodo dolore anim dolore adipisicing eiusmod labore id enim esse quis mollit deserunt est. Minim ea culpa voluptate nostrud commodo proident in duis aliquip minim.</p>
+<blockquote>
+<p>Qui est sit et reprehenderit aute est esse enim aliqua id aliquip ea anim. Pariatur sint reprehenderit mollit velit voluptate enim consectetur sint enim. Quis exercitation proident elit non id qui culpa dolore esse aliquip consequat.</p>
+</blockquote>
+<p>Ipsum excepteur cupidatat sunt minim ad eiusmod tempor sit.</p>
+<blockquote>
+<p>Deserunt excepteur adipisicing culpa pariatur cillum laboris ullamco nisi fugiat cillum officia. In cupidatat nulla aliquip tempor ad Lorem Lorem quis voluptate officia consectetur pariatur ex in est duis. Mollit id esse est elit exercitation voluptate nostrud nisi laborum magna dolore dolore tempor in est consectetur.</p>
+</blockquote>
+<p>Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat veniam ullamco occaecat do ut. Tempor et esse reprehenderit veniam proident ipsum irure sit ullamco et labore ea excepteur nulla labore ut. Ex aute minim quis tempor in eu id id irure ea nostrud dolor esse.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Lists"></a>Lists</h1>
+<h3>Ordered List</h3>
+<ol>
+<li>Longan</li>
+<li>Lychee</li>
+<li>Excepteur ad cupidatat do elit laborum amet cillum reprehenderit consequat quis.
+Deserunt officia esse aliquip consectetur duis ut labore laborum commodo aliquip aliquip velit pariatur dolore.</li>
+<li>Marionberry</li>
+<li>Melon
+<ul>
+<li>Cantaloupe</li>
+<li>Honeydew</li>
+<li>Watermelon</li>
+</ul></li>
+<li>Miracle fruit</li>
+<li>Mulberry</li>
+</ol>
+<h3>Unordered List</h3>
+<ul>
+<li>Olive</li>
+<li>Orange
+<ul>
+<li>Blood orange</li>
+<li>Clementine</li>
+</ul></li>
+<li>Papaya</li>
+<li>Ut aute ipsum occaecat nisi culpa Lorem id occaecat cupidatat id id magna laboris ad duis. Fugiat cillum dolore veniam nostrud proident sint consectetur eiusmod irure adipisicing.</li>
+<li>Passionfruit</li>
+</ul>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Horizontal"></a>Horizontal rule</h1>
+<p>In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint aliquip mollit mollit. Ex occaecat non deserunt elit laborum sunt tempor sint consequat culpa culpa qui sit. Irure ad commodo eu voluptate mollit cillum cupidatat veniam proident amet minim reprehenderit.</p>
+<hr />
+<p>In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore anim elit veniam Lorem minim commodo eiusmod irure do minim nisi. Dolor amet cillum excepteur consequat sint non sint.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Table"></a>Table</h1>
+<p>Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla commodo sit dolor ad fugiat. Laboris amet ea occaecat duis eu enim exercitation deserunt ea laborum occaecat reprehenderit. Et incididunt dolor commodo consequat mollit nisi proident non pariatur in et incididunt id. Eu ut et Lorem ea ex magna minim ipsum ipsum do.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Table Heading 1</th>
+<th style="text-align: left;">Table Heading 2</th>
+<th style="text-align: center;">Center align</th>
+<th style="text-align: right;">Right align</th>
+<th style="text-align: left;">Table Heading 5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Item 1</td>
+<td style="text-align: left;">Item 2</td>
+<td style="text-align: center;">Item 3</td>
+<td style="text-align: right;">Item 4</td>
+<td style="text-align: left;">Item 5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Item 1</td>
+<td style="text-align: left;">Item 2</td>
+<td style="text-align: center;">Item 3</td>
+<td style="text-align: right;">Item 4</td>
+<td style="text-align: left;">Item 5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Item 1</td>
+<td style="text-align: left;">Item 2</td>
+<td style="text-align: center;">Item 3</td>
+<td style="text-align: right;">Item 4</td>
+<td style="text-align: left;">Item 5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Item 1</td>
+<td style="text-align: left;">Item 2</td>
+<td style="text-align: center;">Item 3</td>
+<td style="text-align: right;">Item 4</td>
+<td style="text-align: left;">Item 5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Item 1</td>
+<td style="text-align: left;">Item 2</td>
+<td style="text-align: center;">Item 3</td>
+<td style="text-align: right;">Item 4</td>
+<td style="text-align: left;">Item 5</td>
+</tr>
+</tbody>
+</table>
+<p>Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et duis pariatur reprehenderit eu ex consectetur. Sunt nisi qui eiusmod ut cillum laborum Lorem officia aliquip laboris ullamco nostrud laboris non irure laboris. Cillum dolore labore Lorem deserunt mollit voluptate esse incididunt ex dolor.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Code"></a>Code</h1>
+<h2>Inline code</h2>
+<p>Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est <code>code in text</code> velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna <code>&lt;strong&gt;in culpa qui officia&lt;/strong&gt;</code> dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.</p>
+<h2>Highlighted</h2>
+<p>Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex.</p>
+<pre><code class="language-go">package main
+
+import (
+    "fmt"
+    "net/http"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+}
+
+func main() {
+    http.HandleFunc("/", handler)
+    http.ListenAndServe(":8080", nil)
+}</code></pre>
+<p>Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad.</p>
+<p><a href="#top">[Top]</a></p>
+<h1><a name="Inline"></a>Inline elements</h1>
+<p>Sint ea anim ipsum ad commodo cupidatat do <strong>exercitation</strong> incididunt et minim ad labore sunt. Minim deserunt labore laboris velit nulla incididunt ipsum nulla. Ullamco ad laborum ea qui et anim in laboris exercitation tempor sit officia laborum reprehenderit culpa velit quis. <strong>Consequat commodo</strong> reprehenderit duis <a href="#!">irure</a> esse esse exercitation minim enim Lorem dolore duis irure. Nisi Lorem reprehenderit ea amet excepteur dolor excepteur magna labore proident voluptate ipsum. Reprehenderit ex esse deserunt aliqua ea officia mollit Lorem nulla magna enim. Et ad ipsum labore enim ipsum <strong>cupidatat consequat</strong>. Commodo non ea cupidatat magna deserunt dolore ipsum velit nulla elit veniam nulla eiusmod proident officia.</p>
+<p><img src="http://placekitten.com/1280/800" alt="Super wide" /></p>
+<p><em>Proident sit veniam in est proident officia adipisicing</em> ea tempor cillum non cillum velit deserunt. Voluptate laborum incididunt sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor cupidatat esse enim minim ex anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris <code>culpa ex duis sint</code> anim aute reprehenderit id eu ea. Aute <a href="#!">excepteur proident</a> Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.</p>
+<p><img src="http://placekitten.com/480/400" alt="Not so big" /></p>
+<p>Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip incididunt voluptate magna amet cupidatat cillum pariatur sint aliqua est <em>enim <strong>anim</strong> voluptate</em>. Magna aliquip proident incididunt id duis pariatur eiusmod incididunt commodo culpa dolore sit. Culpa do nostrud elit ad exercitation anim pariatur non minim nisi <strong>adipisicing sunt <em>officia</em></strong>. Do deserunt magna mollit Lorem commodo ipsum do cupidatat mollit enim ut elit veniam ea voluptate.</p>
+<p><a href="https://youtu.be/s6bCmZmy9aQ"><img src="https://img.youtube.com/vi/s6bCmZmy9aQ/0.jpg" alt="Manny Pacquiao" /></a></p>
+<p>Reprehenderit non eu quis in ad elit esse qui aute id <a href="#!">incididunt</a> dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.</p>
+            </div>
+        </div>
+            </div>
+
+            <!-- footer -->
+            <footer class="flex justify-between flex-col sm:flex-row items-center border-t mt-20 py-5">
+                <div class="flex">
+                    <div class="flex flex-shrink">
+                        <div class="flex space-x-3 items-end">
+                            <a href="#" title="facebook">
+                                 <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                            </a>
+                            <a href="#" title="youtube">
+                                 <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                            </a>
+                            <a href="#" title="instagram">
+                                 <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                            </a>
+                            <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500">hai@dotdoth.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-right flex-shrink flex-grow">
+                    <p>Crafted by <a class="text-indigo-500" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+ 
