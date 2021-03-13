@@ -10,7 +10,7 @@ Khi xách mông ra ngoài quán, hay ngồi nhà đặt online, ta thường th�
 
 ---
 
-Bài viết này đề cập đến dạng cà phê nguyên hạt xay sẵn, **không nói đến cà phê hòa tan**. 
+> Bài viết này đề cập đến dạng cà phê nguyên hạt xay sẵn, **không nói đến cà phê hòa tan**. 
 
 ## Chọn cà phê xay sẵn khi nào?
 
@@ -45,7 +45,6 @@ Vậy nhược điểm của cà phê xay sẵn được tóm gọn thành các 
 - Khó điều chỉnh theo khẩu vị, cách uống.
 
 ![Nguye%CC%82n%20ha%CC%A3t%20hay%20xay%20sa%CC%86%CC%83n%20f49fd3c6766344188700f4a84a07739f/R0000979-02.jpeg](Nguye%CC%82n%20ha%CC%A3t%20hay%20xay%20sa%CC%86%CC%83n%20f49fd3c6766344188700f4a84a07739f/R0000979-02.jpeg)
-
 Cối xay linglong ace r1
 
 # LUÔN chọn mua cà phê nguyên hạt nếu có thể
