@@ -31180,9 +31180,19 @@ hr {
   margin-bottom: 0.75rem;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/*post*/
+
 .post-content p {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.post-content h4 {
+  font-weight: 500;
 }
 
 .post-content h3 {
@@ -31200,10 +31210,10 @@ hr {
 }
 
 .post-content h2:before {
-  --tw-text-opacity: 1;
-  color: rgba(209,213,219,var(--tw-text-opacity));
-  content: "#";
-  margin-right: 1rem;
+  /* --tw-text-opacity: 1;
+	color: rgba(209,213,219,var(--tw-text-opacity));
+	content: "#";
+	margin-right: 1rem; */
 }
 
 .post-content a {
@@ -183950,3 +183960,4 @@ hr {
             animation: bounce 1s infinite;
   }
 }
+
