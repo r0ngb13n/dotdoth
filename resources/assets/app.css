@@ -10,26 +10,29 @@ a:hover {
 }
 
 /*post*/
-.post-content p {
-	@apply my-5;
+.post-content blockquote {
+	@apply pl-2 border-l-4 border-gray-700 font-medium;
+}
+.post-content p,ul {
+	@apply my-5 text-gray-900;
+}
+.post-content strong {
+	@apply font-medium ;
 }
 .post-content h4 {
-	@apply font-medium;
+	@apply font-medium text-lg;
 }
 .post-content h3 {
-	@apply font-bold;
+	@apply font-semibold text-xl;
 }
 .post-content h2 {
-	@apply font-bold text-2xl my-10 text-gray-900;
-}
-.post-content h2:before {
-	/* --tw-text-opacity: 1;
-	color: rgba(209,213,219,var(--tw-text-opacity));
-	content: "#";
-	margin-right: 1rem; */
+	@apply font-semibold text-2xl;
 }
 .post-content a {
-	@apply text-indigo-500;
+	@apply text-pink-700;
+}
+.post-content a:hover {
+	@apply text-pink-900;
 }
 
 .post-content ul {

@@ -8,12 +8,12 @@
     <div class="flex-1 bg-white flex flex-col mt-2 justify-between">
         <div class="flex-1">
             <div class="block">
-                <h3 class="text-3xl font-medium text-gray-900 text-gray-800 hover:text-indigo-500 transition duration-200">
+                <h3 class="text-3xl font-normal text-gray-900">
                     <a href="{{ $post->link() }}">
                         {{ $post->title }}
                     </a>
                 </h3>
-                <p class="mt-1.5 text-light text-gray-500">
+                <p class="mt-1.5 text-light text-gray-500" >
                     {{ substr($post->description(), 0, 322) }}
                 </p>
             </div>

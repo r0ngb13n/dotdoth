@@ -3,9 +3,9 @@
         <div class="relative max-w-7xl mx-auto">
             <div class="text-center">
                 <h2 class="text-3xl tracking-wider font-regular text-black sm:text-3xl">
-                    Đánh giá và so sánh
+                    HOME
                 </h2>
-                <p class="text-lg mt-2 max-w-xl mx-auto text-gray-500 tracking-widest font-light sm:mt-2 sm:text-lg">
+                <p class="text-base mt-2 max-w-xl mx-auto text-gray-500 tracking-widest font-light sm:mt-2 sm:text-lg">
                     Các bài viết đánh giá mang tính khách quan.     
                 </p>
             </div>

@@ -11,11 +11,11 @@
                 <a href="#" title="instagram">
                     <x-icons.instagram />
                 </a>
-                <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500">hai@dotdoth.com</a>
+                <a href="mailto:hai@dotdoth.com" class="text-sm text-pink-600">hai@dotdoth.com</a>
             </div>
         </div>
     </div>
     <div class="text-sm text-right flex-shrink flex-grow">
-        <p>Crafted by <a class="text-indigo-500" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
+        <p>Crafted by <a class="text-pink-600" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
     </div>
 </footer>
