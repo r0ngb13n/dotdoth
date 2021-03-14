@@ -11,9 +11,13 @@
             </a>
         </div>
 
-        <div class="fixed pr-5 right-0 top-0 w-1/2 h-screen bg-white sm:bg-transparent sm:shadow-none shadow-lg overflow-hidden bg-white flex flex-col pt-24 z-10
-        	content-right transition md:mt-0
-        	sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center sm:content-center sm:space-y-0"
+        <div class="fixed pr-5 right-0 top-0 w-1/2 h-screen bg-white shadow-lg overflow-hidden
+            bg-white flex flex-col pt-24 z-10 content-right transition hidden
+            sm:bg-transparent sm:shadow-none sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row
+            sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center
+            sm:content-center sm:space-y-0
+            md:mt-0
+            "
         	:class="{'hidden': open === false}">
             @foreach ($categoryNames as $categoryName)
                 <x-category-href :name="$categoryName"
