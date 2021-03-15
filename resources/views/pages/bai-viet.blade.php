@@ -10,7 +10,7 @@
                 </p>
             </div>
 
-            <div class="mt-10 max-w-xl mx-auto grid gap-8 sm:mt-10 sm:gap-12 sm:max-w-xl lg:grid-cols-1">
+            <div class="mt-10 max-w-xl mx-auto grid gap-6 sm:mt-10 sm:gap-12 sm:max-w-xl lg:grid-cols-1">
                 @foreach ($posts as $post)
                     <x-blocks.blog :post="$post" />
                 @endforeach

@@ -12,7 +12,7 @@
         </div>
         <div class="flex-1">
             <div class="block">
-                <h2 class="text-lg leading-5 font-medium text-gray-900 sm:text-2xl ">
+                <h2 class="text-xl leading-5 font-medium text-gray-900 sm:text-2xl ">
                     <a href="{{ $post->link() }}">
                         {{ $post->title }}
                     </a>
