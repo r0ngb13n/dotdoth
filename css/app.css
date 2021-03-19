@@ -31194,15 +31194,19 @@ a:hover {
   padding-left: 0.5rem;
 }
 
-.post-content p, ul {
+.post-content p {
   margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
 .post-content strong {
   font-weight: 500;
+}
+
+.post-content h4, h3, h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .post-content h4 {

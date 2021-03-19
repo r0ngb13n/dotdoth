@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cây cà phê và lựa chọn vùng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-lg mx-auto pt-0 sm:pt-0 px-5 md:px-16 sm:px-32">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex flex-wrap items-center justify-between space-x-3 md:space-x-4 sm:space-x-10 relative" x-data="{open: false}">
+
+        <div>
+            <a href="/" class="text-lg" title="home page">
+                 <svg class="w-16 h-16 sm:w-16 sm:h-16" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+	<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+</svg>
+ 
+            </a>
+        </div>
+
+        <div class="fixed pr-5 right-0 top-0 w-1/2 h-screen bg-white shadow-lg overflow-hidden
+            bg-white flex flex-col pt-24 z-10 content-right transition hidden
+            sm:bg-transparent sm:shadow-none sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row
+            sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center
+            sm:content-center sm:space-y-0
+            md:mt-0
+            "
+        	:class="{'hidden': open === false}">
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-viet.html" title="Bài viết">Bài viết</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/danh-gia.html" title="Đánh giá">Đánh giá</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-dich.html" title="Bài Dịch">Bài Dịch</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/cong-cu.html" title="Công cụ">Công cụ</a>
+ 
+                        <div @click="open = false" class="absolute top-0 right-0 mr-5 mt-7 sm:hidden">
+            	<svg x-show="open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        	</div>
+        </div>
+
+        <div class="mobile-menu sm:hidden absolute right-0 top-0 mt-7 mr-5" @click="open = true">
+        	<svg x-show="!open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </div>
+	</div>
+
+	<hr class="border sm:mt-0">
+</div>
+ 
+
+            <!-- main content -->
+            <div class="pt-5 sm:pt-12">
+                <div class="post-content relative max-w-screen-md sm:max-w-screen-sm mx-auto">
+        <h1 class="text-4xl tracking-wide font-regular text-gray-900 text-left">Cây cà phê và lựa chọn vùng</h1>
+
+        <div class="meta flex text-sm text-gray-500 mt-3 sm:mt-2.5">
+            <div>
+                <span> <a class="text-grey-500 uppercase" href="/khac.html" title="Khác">Khác</a>
+ ;&nbsp;</span>
+            </div>
+            <div>
+                <span>Viết vào:&nbsp;<time datetime="2021-03-19">2021-03-19</time></span>
+            </div>
+        </div>
+
+        <div class="mt-6 leading-8 post-content sm:mt-12 font-light">
+            <p>Cà phê là một trong những ngành công nghiệp chính của Lào, là mặt hàng xuất khẩu đứng thứ 5 của quốc gia này. Cây cà phê đầu tiên được mang tới bởi người Pháp trên cao nguyên Bolovens ở phía nam Lào. Ban đầu, cả ba loài chính là Robusta, Arabica và Liberica đều được trồng ở đây, thế nhưng do bệnh gỉ sắt lá của Arabica cũng nhưng giá mua thấp của Liberia, Robusta trở thành giống cà phê trọng điểm cho trồng trọt. Cùng khoảng thời gian này, một giống lai mới của Arabica được đem tới đây nhằm kích thích ngành cà phê Arabica. Giống Arabica Catimor này có khả năng kháng bệnh gỉ sắt lá.</p>
+<p>Cà phê trở thành hệ thống được canh tác chủ yếu trên cao nguyên Bolovens: bao phủ diện tích khoảng 500km vuông, trải dài từ độ cao 600m - 1300ml so với mực nước biển, ở khoảng 15° vĩ độ Bắc. Khu vực này sản xuất 95% tổng sản lượng của cà phê Lào. Những năm gần đây, cây cà phê Arabica được trồng ở một số tỉnh phía bắc của Lào, tuy vậy chỉ đạt sản lượng tương đối nhỏ, thế nên không được khuyến khích để sản xuất cũng như bày bán chính.</p>
+<p>Hiện nay, Lào đang bắt đầu bước chuyển mình lớn trong công nghiệp cà phê. Trong thị trường cà phê toàn cầu, Lào chiếm 0.25% sản lượng, điều nay cho chúng ta thấy sự dịch chuyển dần sang việc sản xuất giống cây Arabica với chất lượng cũng như giá thành cao hơn so với giống cây Robusta giá trị thấp vẫn đang là chủ chốt tại đây.</p>
+<p>Chính phủ Lào dự tính tăng sản lượng cây cà phê Arabica lên mức cân bằng Arabica - Robusta là 50:50. Theo như số liệu 2001 chỉ ra, diện tích trồng cà phê lên tới 34 000 hecta (với sản lượng 88% Robusta và 12% Arabica) và khoảng 23 000 hộ gia đình liên quan đến việc sản xuất cà phê này tại quốc gia này.</p>
+<p>Nền công nghiệp cà phê của Lào là sự kết hợp của các nông hộ nhỏ và các điền trang lớn hơn. Hệ thống quản lý trải dài từ hệ thống được đầu tư chuyên sâu cho tới cả các hộ trồng nhỏ. Các nông trại lớn có quy trình chế biến cũng như thương hiện của riêng mình, hợp tác cùng một công ty để sản xuất cà phê hòa tan riêng.</p>
+<p>Lào có tiềm năng trồng trọt lượng lớn cà phê Arabica chất lượng. Ở đây có khí hậu rất phù hợp, tài nguyên đất dồi dào cũng như người nông dân mong muốn có được vụ mùa năng suất. Đất đỏ từ núi lửa cũng như khí hậu của vùng cao nguyên Bovolens trở thành vùng địa hình lý tưởng để phát triển ngành cà phê chuyên dụng và giá trị. Mặc dù chính phủ Lào quan tâm đến sự phát triển của ngành công nghiệp cà phê, cũng như có thị trường cho cà phê Arabica chất lượng tốt ở đây, thế nhưng ngành công nghiệp mới nổi này lại thiếu hỗ trợ kinh tế cần thiết để nghiên cứu và phát triển.</p>
+<p>Ở đây, cũng có cơ hội để sản xuất cà phê sơ chế ướt / bán ướt với giá trị cao hơn do hạt cà phê Robusta ở đây được tìm kiếm vì có đặc trưng body tốt, clean cũng như đặc tính trung tính của riêng mình. Các đặc điểm kỳ lạ, ít thấy của giống cây Robusta được trồng tại đây có được do cây cà phê được trồng ở độ cao lớn hơn so với các vùng trồng Robusta khác (1300m so với mực nước biển). Cùng với công nghệ sơ chế mới, được mang tới bởi dự án FAO nhằm nâng cao chất lượng của cà phê Arabica lẫn Robusta với chi phí thấp hơn, sẽ mở ra các cơ hội mới cho cả hai giống cà phê này.</p>
+<h2>Các yếu tố ảnh hưởng năng suất và chất lượng</h2>
+<p>Các ba yếu tố ảnh hưởng lớn để năng suất và chất lượng cà phê:</p>
+<ul>
+<li>Di truyền (Kiểu gen và giống cây trồng).</li>
+<li>Môi trường.</li>
+<li>Cây cà phê và cách cách tác.</li>
+</ul>
+<h3>1.  Kiểu gen loài và giống cây trồng</h3>
+<h4>Loài</h4>
+<p>Có hai loài cây chính được thương mại là Arabica (Coffea arabica) và Robusta (C. canephora), và hai loại thương mại phụ là Coffea liberica và Coffea excelsa.</p>
+<p><strong>Arabica</strong> là loại cà phê có chất lượng cũng như giá trị cao hơn. Thường được trồng ở những vùng cao và mát hơn của vùng nhiệt đới hay cận nhiệt (khoảng 1000m so với mực nước biển). Arabica được sử trong thị trường cà phê rang xay cũng như được phối trộn cùng Robusta để tăng chất lượng của cà phê hòa tan. Brazil và Columbia là các nước sản xuất chính giống cà phê này.</p>
+<p><strong>Robusta</strong> là loại cà phê với chất lượng thấp hơn, giá chỉ khoảng 30 - 40% so với Arabica. Cà phê Robusta được sử dụng chủ yếu để sản xuất cà phê hòa tan, cũng như phối trộn cùng cà phê Arabica để gia tăng body cũng như crema. Robusta thường được trồng ở vùng khí hậu ấm hơn, cũng như thấp hơn so với Arabica, vì khả năng chống chịu thiên nhiên cũng như bệnh gỉ sắt ở lá. Lào là một ngoại lệ cho việc trồng Robusta ở độ cao lớn hơn (lên tới 1300m so với mực nước biển). Việt Nam, Brazil và Indonesia là các quốc gia sản xuất Robusta lớn nhất toàn cầu. So với Arabica, Robusta dễ trồng, năng suất hơn cũng như chống trọi với bệnh tật dễ hơn.</p>
+<p><strong>Liberica</strong> và <strong>Excelsa</strong> được trồng chủ yếu tại vùng khí hậu thấp và nóng. Chất lượng kém và sức mua thấp. Các loại cà phê này chỉ có tầm quan trọng tại một số quốc gia, thế nhưng lại không có ý nghĩa thương mại lớn trên thị trường cà phê quốc tế. Cả hai giống cây này đều có hiện diện tại các đồn điền lâu đời của Lào, thế nhưng lại không có tương lai mấy sáng sủa.</p>
+<p>Đối với Arabica, việc cải thiện kiểu gen được thực hiện bằng cách lựa chọn giống cây thích hợp. Sự đa dạng này thường có các đặc điểm sau:</p>
+<ul>
+<li>Cây trồng thấp, nhỏ gọn</li>
+<li>Năng suất cao</li>
+<li>Kháng bệnh gỉ sắt ở lá</li>
+<li>Chất lượng thử nếm tốt</li>
+</ul>
+<h3>2. Các giống cây trồng</h3>
+<p>Cà phê là cây trồng dài ngày, có tuổi thọ trên 10 năm. Thậm chí dưới điều kiện canh tác và trồng trọt tốt có thể kéo dài hơi thời gian đó. Vậy nên việc lựa chọn giống cây trồng rất quan trọng. Vì chất lượng hạt cà phê quan trọng cho việc sản xuất cà phê chất lượng cao, vậy nên chỉ chọn những giống cây trồng phù hợp với vùng trồng. Điều này có thể cho ra năng suất tốt nhất, cây trồng sẽ đạt chất lượng tốt nhất khi được trồng trên thổ nhưỡng và vùng khí hậu thích hợp của nó.</p>
+<p>Các giống Arabica được khuyến nghị trồng trên cao nguyên Bolovens là:</p>
+<p><strong>Catimor:</strong></p>
+<ul>
+<li>T 5175</li>
+<li>T 8667</li>
+<li>LC 1662</li>
+<li>P 86</li>
+<li>P 88</li>
+<li>P 90</li>
+</ul>
+<p><strong>Arabica</strong></p>
+<ul>
+<li>Java</li>
+<li>Typica</li>
+</ul>
+<p>Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Thí nghiệm Nghiên cứu Cà phê (CREC) và nông trại Dao heuang gần Paksong (nằm trên độ cao 1180 mét so với mực nước biển). CREC sẽ khuyến nghị trồng những giống cây phù hợp cho trồng trọt cho tương lai sau khi hoàn thành các thử nghiệm cũng như chất lượng thử nếm. Các nhận xét và đánh giá những giống cây đang được thử nghiệm tái CREC và Dao Heuang được liệt kê dưới đây</p>
+<p><strong>Typica</strong></p>
+<ul>
+<li>Xuất xứ: Có thể từ Yemen, là một trong những cây cà phê Arabica nguyên bản.</li>
+<li>Thói quen tăng trưởng: Thằng, phát triển mạnh mẽ.</li>
+<li>Năng suất: Thấp cho đến trung bình.</li>
+<li>Kháng bệnh gỉ lá: rất nhạy cảm.</li>
+<li>Chất lượng thử nếm: Xuất sắc.</li>
+<li>Nhận xét: Là loại cây truyền thống ở Lào.</li>
+</ul>
+<p><strong>Java</strong></p>
+<ul>
+<li>Xuất xứ: Indonesia.</li>
+<li>Thói quen tăng trưởng: Thẳng.</li>
+<li>Năng suất: Thấp.</li>
+<li>Kháng bệnh gỉ lá: Nhạy cảm.</li>
+<li>Chất lượng thử nếm: Xuất sắc.</li>
+</ul>
+<p><strong>S 795</strong></p>
+<ul>
+<li>Xuất xứ: được đem đến từ Myanmmar từ năm 2004. Lựa chọn của trạm Balehonnur Coffee ở Ấn Độ. Là cây lai giữa S 288 và Kent. S 288 là thế hệ đầu tiên của S 26 - cây lai tự nhiên giữa cà phê Arabica và Liberica.</li>
+<li>Thói quen tăng trưởng: Cây cao thẳng đứng, tán rộng.</li>
+<li>Năng suất: Thấp.</li>
+<li>Kháng bệnh gỉ lá: Nhạy cảm, thế nhưng có thể kháng tốt hơn nếu được lựa chọn cẩn thận.</li>
+<li>Chất lượng thử nếm: Xuất sắc.</li>
+<li>Nhận xét: Không thể hiện bất kỳ đặc tính nào của Liberic. Ở Indonesia, giống cây này được chọn lọc tới 8 thế hệ để nâng cao khả năng kháng bệnh cũng như nâng cao chất lượng thử nếm. Đây là một giống cây xuất sắc tại Đông Java</li>
+</ul>
+<p><strong>Cattura</strong></p>
+<ul>
+<li>Xuất xứ: đột biến từ giống bourbon từ Brazil.</li>
+<li>Thói quen tăng trưởng: Cây bán lùn, tán lá rậm rạp.</li>
+<li>Năng suất: Tốt.</li>
+<li>Kháng bệnh gỉ  lá: Rất nhạy cảm.</li>
+<li>Chất lượng thử nếm: Tạm.</li>
+<li>Nhận xét: Có cả 2 biến thế là đỏ và vàng. Dễ mắc bệnh nếu không được canh tác tốt.</li>
+</ul>
+<p><strong>Catuai</strong></p>
+<ul>
+<li>Xuất xứ: Lai tạo giữa Cattura và Mundo Novo (cây lai giữa Bourbon và Typica)</li>
+<li>Thói quen tăng trưởng: Cây bán lùn, tán lá rậm rạp.</li>
+<li>Năng suất: Rất cao.</li>
+<li>Kháng bệnh gỉ lá: Rất nhạy cảm.</li>
+<li>Chất lượng thử nếm: Tốt với cỡ hạt cà phê tốt.</li>
+<li>Nhận xét: Trưởng thành sau. Chịu đựng được ảnh hưởng của việc canh tác kém.</li>
+</ul>
+<p><strong>SL 34</strong></p>
+<ul>
+<li>Xuất xứ: Kenya. Lựa chọn bở French Mission.</li>
+<li>Thói quen tăng trưởng: Cao, thẳng. Tán rộng, mở.</li>
+<li>Năng suất: Trung bình tới tốt.</li>
+<li>Kháng bệnh gỉ lá: Rất nhạy cảm.</li>
+<li>Chất lượng thử nếm: Tốt.</li>
+<li>Nhận xét: Cỡ hạt lớn, chống chịu hạn hán.</li>
+</ul>
+<p><strong>SL 28</strong></p>
+<ul>
+<li>Xuất xứ: Một giống Bourbon được chọn tại Kenya.</li>
+<li>Thói quen tăng trưởng: Cao, thẳng và tán mở.</li>
+<li>Năng suất: Trung bình tới tốt.</li>
+<li>Kháng bệnh gỉ lá: Rất nhạy cảm.</li>
+<li>Chất lượng thử nếm: Tốt.</li>
+<li>Nhận xét: Cỡ hạt lớn, chống chịu hạn hán.</li>
+</ul>
+<p><strong>SL 6</strong></p>
+<ul>
+<li>Xuất xứ: Kenya.</li>
+<li>Thói quen tăng trưởng: Cao, thẳng và tán mở.</li>
+<li>Năng suất: Trung bình tới tốt.</li>
+<li>Kháng bệnh gỉ lá: Kháng bệnh gỉ set, Race II.</li>
+<li>Chất lượng thử nếm: Tốt.</li>
+<li>Nhận xét: Cỡ hạt lớn.</li>
+</ul>
+<p><strong>Catimor</strong></p>
+<ul>
+<li>Xuất xứ: Là giống lai giữa Caturra và Hybrido de Timor - là giống cây lai tự nhiên giữa Arabica và Robusta đến từ Đông Timor.</li>
+<li>Thói quen tăng trưởng: Bán lùn, gọn.</li>
+<li>Năng suất: Năng suất rất cao nếu như được canh tác tốt. Năng suất thấp dưới điều kiện canh tác nghèo nàn. Thậm chí có thể chết cây nếu như không có bóng che cũng như canh tác kém.</li>
+<li>Kháng bệnh gỉ lá: Kháng các loại bệnh gỉ lá với điều kiện lựa chọn cẩn thận.</li>
+<li>Chất lượng thử nếm: Bình thường.</li>
+<li>Nhận xét:
+<ul>
+<li>Kể từ thời điểm dịch bệnh gỉ sắt lá phát triển nhanh chóng những năm 70 tới 90 của thế kỷ trước., Catimor đón nhận sự quan tâm trên toàn thế giới vì khả năng chống chọi bệnh gỉ lá này.</li>
+<li>Một nhược điểm của cây là hạt cà phê nhỏ cũng như chất lượng thử nếm ban đầu kém hơn của Catimor. Và cây có xu hướng ra quả quá mực, do đó bị bệnh dieback trầm trọng làm chết cây.</li>
+<li>Những năm gần đây, một số quốc gia đã bắt đầu chương trình nhân giống từ Catimor và các cây Arabica thuần chủng để giúp nâng cao chất lượng thử nếm cũng như giữ lại khả năng kháng bệnh của cây.</li>
+<li>Không phải tất cả các giống Catimor đều có chung chất lượng thử nếm. Hiện nay các đánh giá đang được tiến hàng để xác định các giống phù hợp cho Lào. Các giống cây Catimors đang được đánh giá bao gồm :
+<ul>
+<li>Catimor - H528: Giống lai giữa Catimor HW 26 đời đầu (Caturra và HDT 832/1) và  Catuai Amarillo (màu vàng).</li>
+<li>Catirmor - H528/46: Giống cây được chọn đặc biệt từ chương trình của Thái Lan.</li>
+<li>Catimor - H420/9: Giống lai giữa Catimor HW 26 và Mundo Novo. Được chọn từ chương trình của Thái Lan.</li>
+<li>Catimor - P86: Bắt nguồn từ Columbia.</li>
+<li>Catimor - P88: Bắt nguồn từ Columbia.</li>
+<li>Catimor - P90: Bắt nguồn từ Columbia.</li>
+<li>Catimor - H30: Lai giữa Catimor HW26 và SL28.</li>
+<li>Catimor - C1669: Lai giữa Catimor và Villa Sarchi. Villa Sarchi là biến thể từ Costa Rica.</li>
+<li>Catimor - LC1662: HDT 832/1 và Caturra từ Brazil.</li>
+<li>Catimor - T8667: Từ Costa Rica.</li>
+<li>Catimor - T5175: Từ Costa Rica.</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3>3. Môi trường (lựa chọn vùng trồng)</h3>
+<p>Để trồng trọt cũng như sản xuất cà phê chất lượng tốt, cần phải quan tâm đến một số yếu tố môi trường quan trọng, bao gồm:</p>
+<ul>
+<li>Độ cao và nhiệt độ.</li>
+<li>Lượng mưa và nguồn nước.</li>
+<li>Thổ nhưỡng.</li>
+<li>Độ nghiêng, dốc.</li>
+</ul>
+<h4>Độ cao</h4>
+<p>Độ cao vùng trồng có ảnh hướng nhất định tới một vài yếu tố, cũng cần phải quan tâm  cùng với các yếu tố về nhiệt độ, lượng mưa, nguồn nước, thổ nhưỡng, độ dốc khi quyết định nơi trồng cây. Giống cây Arabica yêu cầu vùng trồng từ độ cao 1000m so với mực nước biển trở lên. Độ cao thấp khiến cho cây cà phê Arabica không đạt được chất lượng mong muốn tại thị trường. Tại Lào, các vùng trồng có độ cao từ 1000m trở lên thường cho ra chất lượng cà phê tốt hơn nhiều, và cao nguyên Bolovens có nhiều diện tích đất nằm trải dài ở độ cao từ 1000m đến 1300m.</p>
+<p>Cây cà phê khi trồng ở vùng cao hơn thường cho ra chất lượng cà phê tốt hơn, cũng như chất lượng thử nếm tốt. Do ảnh hưởng bởi thời tiết lạnh hơn so với vùng trồng thấp, trái cà phê mất thời gian để chín hơn. Điều này giúp trái cà phê có thể tổng hợp đầy đủ độ chua (acidity), hương thơm (aroma) cũng như hạt cà phê được phát triển đầy đủ.</p>
+<h4>Nhiệt độ</h4>
+<p>Cây cà phê Arabica ưa vùng khí hậu mát mẻ. Nhiệt độ lý tưởng là từ khoảng 20° tới 24°C. Nhiệt độ của các vùng trồng trên cao nguyên Bolovens trong năm như hình dưới đây</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92363188-b0a5-4a77-afb0-142c5c72e850/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92363188-b0a5-4a77-afb0-142c5c72e850/Untitled.png" /></p>
+<p>Trung bình:</p>
+<ul>
+<li>Paksong = 19.5° ( độ cao 1200)</li>
+<li>KM 42 = 20.5° (độ cao 1100)</li>
+<li>Ban Itou (Km 35 tới 38) = 22.2° (độ cao 880)</li>
+<li>Km 34 = 19.0° (độ cao 1150)</li>
+</ul>
+<p>Nhiệt độ cao hơn 30°c làm cho cây bị stress, dẫn đến ngừng quang hợp. Nhiệt độ thấp hơn 15°c hạn chế sự phát triển của cây, được coi là dưới mức tối ưu. Cà phê Arabica nhạy cảm với sương giá. Việc sử dụng cây che bóng giúp giảm tỷ lệ sương giá.</p>
+<h4>Lượng mưa và nguồn nước</h4>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e56db7b6-5735-403f-b8b6-4dafd38e7d6e/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e56db7b6-5735-403f-b8b6-4dafd38e7d6e/Untitled.png" /></p>
+<p>Lượng nước mưa lý tưởng cho cà phê Arabica là 1200mm tới 1500mm mỗi năm. Cả lượng mưa lẫn phân bổ lượng mưa trong suốt một năm đều quan trọng. Lượng mưa hàng năm của cao nguyên Bolovens như hình trên là:</p>
+<ul>
+<li>Paksong = 3474mm</li>
+<li>Km 42 = 3534mm</li>
+<li>Ban Itou = 3236mm</li>
+<li>Km 34 = 2500mm</li>
+</ul>
+<p>Lượng mưa cần phân bố đồng đều từ 7 đến 9 tháng mỗi năm, điều này có thể thấy ở các khu vực thuộc cao nguyên Bolovens. Ở độ cao thấp hơn, sự ảnh hưởng của mùa khô càng trở nên rõ rệt. Việc thiếu lượng mưa cũng như thời gian mưa không đồng đều có thể bù đắp bằng hệ thống tưới tiêu.</p>
+<p>Cây cà phê cũng cần giai đoạn khô hạn, stress, ít hay không mưa để có thể ra hoa đồng loạt. Nếu không có giai đoạn stress này, việc ra hoa có thể kéo dài trong nhiều tháng, khiến việc thu hoạch trở nên khó khăn hơn. Lào thường có giai đoạn kéo dài 3 đến 4 tháng khô hạn ở độ cao 1000m trở lên.</p>
+<h4>Thổ nhưỡng</h4>
+<p>Để sản xuất, lượng đất thoát nước tự do cần tối thiểu là một mét độ sâu. Nếu không cây cà phê sẽ bị úng nước.</p>
+<p>Cây cà phê có thể trồng được trên nhiều loại đất khác nhau, thế nhưng loại lý tưởng nhất là loại đất đỏ vùng núi lửa hay tầng đất thịt pha cát sâu. Đất có màu nâu - vàng, nhiều phù sa ít đươc lựa chọn hơn. Cần tránh các vùng có lớp đất sét nặng hoặc các loại đất thoát nước kém. Hầu hết các loại đất trên cao nguyên Bolovens là lớp đất đỏ núi lửa, phù hợp cho cà phê.</p>
+<p>Cây cà phê ưa sống tại vùng đất có độ pH từ 5 đến 6. Nhiều đất canh tác trên cao nguyên Bolovens có tính acid (pH nhỏ hơn 5), vì thế cần bón vôi hay dolomite để tăng pH, giảm độ acid của đất. Một vài kiểm tra cho thấy, cây được trồng ở đất có độ pH dưới 5 với lượng phosphorus thấp, gây thiếu hụt các chất dinh dưỡng khác. Độ pH thấp sẽ hạn chế năng suất cây trồng bằng cách thay đổi các chất dinh dưỡng trong đất quan trọng cho cây (xem hình dưới)</p>
+<p>Việc canh tác tốt, cũng như sử dụng dolomite và vôi đúng cách có thể giúp cải thiện độ pH và dinh dưỡng của đất.</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56c21f85-d09f-4331-b0b6-44ab40df1f80/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56c21f85-d09f-4331-b0b6-44ab40df1f80/Untitled.png" /></p>
+<h4>Độ nghiêng sườn và hướng</h4>
+<p>Hướng trồng phía đông hay nam, với độ dốc ít hơn 15% được ưu tiên hơn. Phần lớn các khu vực tại thung lũng Bolovens có độ dốc sườn thoải, có thể trồng mà không cần thêm biện pháp khắc phục nào. Các sườn dốc có nguy cơ xói mòn, cần phải được trồng theo cách như trồng ruộng bậc thang hoặc các gờ đất hay tốt nhất là các dải cỏ để khắc phục</p>
+<p>Độ dốc nhẹ sẽ giúp cải thiện việc thoát khí cũng như giảm tác hại do sương giá gây ra. Không nên trồng cà phê ở dưới chân dốc hay những chỗ mà sương giá có thể đọng lại, gây tác hại tới cây trồng. Thông thường, một phần ba dốc từ dưới chân sẽ không được trồng để tránh ảnh hưởng bởi khí lạnh cũng như đôi khi bị úng nước.</p>
+<p>Các khu vực tiếp xúc với gió mạnh cũng cần phải tránh, hoặc có thể trồng các loài cây có thể chắn gió như Silver Oak (Grevillea robusta) trước khi trồng cây cà phê.</p>
+<h4>Nguồn nước</h4>
+<p>Cà phê cần đủ nước trong suốt quá trình sinh trưởng của mình, tuy nhiên nó cũng cần phải có một khoảng thời gian khô hạn, sau đó là mưa hoặc tưới tiêu để thúc đẩy quá trình ra hoa đồng loạt cũng như đậu trái tốt.</p>
+<p>Nhiều cây trồng bị stress về độ ẩm trong cây vào thời điểm trong năm khi chúng cần đủ nước để phát triển. Sự phân bổ mưa tại địa phương cùng việc tưới tiêu bổ sung hợp lý, để cây có thể ra hoa và đậu trái tốt sẽ có lợi cho cây trồng. Nếu như lượng mưa cần thiết không đủ để đáp ứng, các cây non cần phải được tưới bổ sung (tưới thủ công ít nhất hai lần 1 tuần nếu như hệ thống tưới tiêu không có), sẽ đảm bảo cây trồng có đầy đủ nguồn nước cần thiết để phát triển. Việc trồng cà phê gần nguồn nước để dễ dàng cho việc tưới tiêu hay sơ chế cũng nên được quan tâm hơn.</p>
+<p>Lượng nước yêu cầu của cây cũng có thể giảm bớt bằng cách sử dụng các loại cây che bóng, cây phủ một cách hợp. Các cách này sẽ được thảo luận ở các phần sau.</p>
+<h2>Cây cà phê và cách canh tác</h2>
+<p>Việc hiểu rõ về cây cà phê, cấu trúc và cách chúng sinh trưởng rất cần thiết để có thể canh tác đúng loài cây này. Việc canh tác cũng giống như việc quyết định vùng trồng, chọn giống cây, cũng có ảnh hưởng lớn đến chất lượng cà phê cũng như năng suất. Phần còn lại của cuốn sổ tay này phần lớn sẽ nói đến việc canh tác, nuôi trồng cây cà phê từ khi trồng trọt cho đến khi thu hoạch.</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92a0e204-3f3a-4128-9e14-ddac4b3a4857/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92a0e204-3f3a-4128-9e14-ddac4b3a4857/Untitled.png" /></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44f7ced3-2ced-4c72-91d7-bb04560360cb/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44f7ced3-2ced-4c72-91d7-bb04560360cb/Untitled.png" /></p>
+<p>Hình trên: Các bộ phận của cây cà phê. Hình dưới: tập tính của cây.</p>
+<p>Hình dáng của các cây cà phê khác nhau, phụ thuộc vào loài và giống cây đó. Tất cả các cây cà phê đều bao gồm một chồi chính (thân) thẳng đứng với các cành bên sơ cấp, thứ cấp, và cấp ba. Cây gồm một rễ chính, rễ phụ và các rễ nhỏ. (xem hình trên). Cây cà phê sẽ có 2 loại cành khác nhau:</p>
+<ul>
+<li><strong>Thẳng đứng (Vertical)</strong> hoặc <strong>Phân nhánh (Orthotropic branches)</strong> gồm các node cành cách nhau với khoảng cách đều, có các lá đối xứng nhau. Những cành này được gọi là chồi ở giai đoạn phát triển của cây, sau đó có thể coi như là thân cây ở giai đoạn cuối. Mỗi cặp lá được đặt chéo so với cặp lá tiếp theo. Ở nách mỗi lá, có bốn đến sáu chồi ở ngay trên chúng, có một chồi lớn hơn được gọi là &quot;chồi ngoài nách&quot; vì vị trí tương đối xa của nó. Chồi này phát triển thành một nhánh bên hay cành ngang bên.</li>
+<li><strong>Các nhánh bên hoặc nhánh nghiêng (lateral or plagiotropic branches)</strong> mọc gần như vuông góc với thân chính. Không có chồi nào khác có thể phát triển trên các nhánh bên này. Có nghĩa là, khi một nhánh nghiêng bị cắt bỏ, sẽ không có cành khác nào mọc tại chỗ cắt đó. Các nhánh bên này thường được gọi là cành sơ cấp Mỗi chồi nối tiếp trên cành sơ cấp này có thể phát triển thành cụm hoa hay thành thành thứ cấp, có cấu trúc tương tự như các cành sơ cấp, với các chồi có thể phá triển thành hoa cũng như cành cấp ba. Nếu như cành thứ cấp bị cắt hoặc loại bỏ, một cành khác có thể thay thế, được phát triển từ chối nách cùng vị trí. Vì vậy việc cây có thể tái sinh nhánh phụ trên nhánh chính.</li>
+</ul>
+<p>Mỗi cành đều có một chồi cuối. Trong mỗi node có số lượng chồi cố định, có khả năng hình thành khoảng 40 trái, phụ thuộc chính vào giống cây cũng như điều kiện dinh dưỡng. Ở mỗi node lá có 5 chồi, mỗi chồi cho ra 4 hoa, có thể cho ra được 20 trái.  (hình dưới)</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ac892a1-4e15-455e-a329-1feaef4b6898/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ac892a1-4e15-455e-a329-1feaef4b6898/Untitled.png" /></p>
+<p>Hoa trắng xuất hiện thành chùm nhỏ ở mỗi node. Sau khi thụ phấn, trái sẽ phát triển thành hình cherry gồm 2 hạt nhân (hạt cà phê) dài khoảng 10-15mm. Một trái cà phê sẽ gồm phần vỏ quả, phần chất nhầy (mucilage), phần vỏ trấu (parchment), lớp vỏ lụa (silverskin) rồi hạt cà phê. (2 hình dưới)</p>
+<h4>Hệ thống rễ</h4>
+<p>Vai trò của bộ rễ cây là đảm bảo cây được bám chắc vào trong đất và cung cấp nước và khoáng chất cần thiết cho cây. Hệ thống rễ (hình dưới) bao gồm:</p>
+<ul>
+<li>Một rễ vòi ngắn (40 đến 60cm).</li>
+<li>Các rễ thẳng đứng, mọc đồng trục thường dài (đặc biệt ở lớp đất thịt nhẹ), rễ bên có nhiều lông hút của rễ, đặc biện là ở tầng ở trên - lớp mùn (30cm).</li>
+</ul>
+<p>Tầm quan trọng của kỹ thuật trồng trọt cần được nhấn mạnh (ươm trong vường ươm, làm cỏ, phủ đất, tưới tiêu và cách bố trí cây trồng) ảnh hưởng đến bộ rễ cây như nào. Ba năm đầu tiên rất quan trọng đối với sự phát triển hệ thống rễ cây khi cây có thể được cung cấp đầy đủ các chất như: nitrogen, phosphorous, calcium, magnesium và sulphur.</p>
+<h4>Hiện tượng học thực vật (chu kỳ trồng) - Phenology</h4>
+<p>Hiện tượng học của cây cà phê là giai đoạn phát triển thể chất cũng như sinh lý của cây trong suốt cả năm. Hiện tượng học thường được gọi là chu kỳ cây trồng hay chu kỳ hiện tượng học của cây.</p>
+<p>Cà phê cũng giống như các loại cây khác, phản ứng với các thay đổi của môi trường (nhiệt độ, lượng mưa, khô hạn hay thời gian trong ngày), cũng như ảnh hưởng bởi các mùa trong năm. Khi các mùa thay đổi, cây cà phê chuyển từ giai đoạn sinh dưỡng (phát triển rễ và chồi) sang sinh sản. Thời điểm này, cây phát triển, cho ra hoa, đậu trái, chín trái, sẵn sàng cho thu hoạc và tính sinh trưởng cho chu kỳ tiếp theo.</p>
+<p>Chu kỳ hiện tượng học chỉ ra thời điểm bón phân, tưới nước, giữ nước, cắt tỉa, phân tích lá cây và đất, kiểm tra sâu bệnh và áp dụng các biện pháp cho chúng. Việc áp dụng các phương pháp này đúng thời điểm rất quan trọng để tối ưu hóa việc sản xuất.</p>
+        </div>
+    </div>
+            </div>
+
+            <!-- footer -->
+             <footer class="flex justify-between flex-col sm:flex-row items-center border-t mt-20 py-5">
+    <div class="flex">
+        <div class="flex flex-shrink">
+            <div class="flex space-x-3 items-end">
+                <a href="#" title="facebook">
+                     <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="#" title="youtube">
+                     <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="#" title="instagram">
+                     <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="mailto:hai@dotdoth.com" class="text-sm text-pink-600">hai@dotdoth.com</a>
+            </div>
+        </div>
+    </div>
+    <div class="text-sm text-right flex-shrink flex-grow">
+        <p>Crafted by <a class="text-pink-600" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
+    </div>
+</footer> 
+            
+        </div>
+    </div>
+</body>
+
+</html>
+ 
