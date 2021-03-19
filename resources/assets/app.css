@@ -13,11 +13,14 @@ a:hover {
 .post-content blockquote {
 	@apply pl-2 border-l-4 border-gray-700 font-medium;
 }
-.post-content p,ul {
-	@apply my-5 text-gray-900;
+.post-content p {
+	@apply mt-5 text-gray-900;
 }
 .post-content strong {
 	@apply font-medium ;
+}
+.post-content h4,h3,h2 {
+	@apply my-5;
 }
 .post-content h4 {
 	@apply font-medium text-lg;
