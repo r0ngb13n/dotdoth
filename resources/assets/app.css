@@ -29,10 +29,10 @@ a:hover {
 	@apply my-5 font-semibold text-2xl;
 }
 .post-content a {
-	@apply text-pink-700;
+	@apply text-indigo-500;
 }
 .post-content a:hover {
-	@apply text-pink-900;
+	@apply text-indigo-700;
 }
 
 .post-content ul {

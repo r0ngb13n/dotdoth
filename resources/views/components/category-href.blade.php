@@ -1,5 +1,6 @@
 @props(['name' => 'Uncategorized'])
 
+
 @php
 	if (!function_exists('str_slug')) {
 		function str_slug($str) {

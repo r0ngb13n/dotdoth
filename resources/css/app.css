@@ -31230,12 +31230,12 @@ a:hover {
 
 .post-content a {
   --tw-text-opacity: 1;
-  color: rgba(190, 24, 93, var(--tw-text-opacity));
+  color: rgba(99, 102, 241, var(--tw-text-opacity));
 }
 
 .post-content a:hover {
   --tw-text-opacity: 1;
-  color: rgba(131, 24, 67, var(--tw-text-opacity));
+  color: rgba(67, 56, 202, var(--tw-text-opacity));
 }
 
 .post-content ul {
