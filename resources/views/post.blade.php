@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <div class="mt-6 leading-8 post-content sm:mt-12 font-light break-all">
+        <div class="mt-6 leading-8 post-content sm:mt-12 font-light">
             {!! $post->content !!}
         </div>
     </div>
