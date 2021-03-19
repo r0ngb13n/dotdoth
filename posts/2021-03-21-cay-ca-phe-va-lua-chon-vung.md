@@ -1,9 +1,10 @@
 ---
-title: Cây cà phê và lựa chọn vùng
-layout: post
-category: Khác
-date: 2021-03-19
-description: This Arabica coffee manual for Lao People's Democratic Republic (Lao PDR) is an activity under a FAO Technical Cooperation Program coffee project for Lao PDR.
+origin: Sổ tay cà phê Arabica của Lào
+title: Chương 1 : Cây cà phê và lựa chọn vùng
+layout: book
+category: Nông trại
+created_at: 2021-03-21
+description: This Arabica coffee manual for Lao People's Democratic Republic (Lao PDR) is an activity under a FAO Technical Cooperation Program coffee project for Lao PDR
 ---
 Cà phê là một trong những ngành công nghiệp chính của Lào, là mặt hàng xuất khẩu đứng thứ 5 của quốc gia này. Cây cà phê đầu tiên được mang tới bởi người Pháp trên cao nguyên Bolovens ở phía nam Lào. Ban đầu, cả ba loài chính là Robusta, Arabica và Liberica đều được trồng ở đây, thế nhưng do bệnh gỉ sắt lá của Arabica cũng nhưng giá mua thấp của Liberia, Robusta trở thành giống cà phê trọng điểm cho trồng trọt. Cùng khoảng thời gian này, một giống lai mới của Arabica được đem tới đây nhằm kích thích ngành cà phê Arabica. Giống Arabica Catimor này có khả năng kháng bệnh gỉ sắt lá.
 
@@ -182,7 +183,7 @@ Cây cà phê khi trồng ở vùng cao hơn thường cho ra chất lượng c�
 
 Cây cà phê Arabica ưa vùng khí hậu mát mẻ. Nhiệt độ lý tưởng là từ khoảng 20° tới 24°C. Nhiệt độ của các vùng trồng trên cao nguyên Bolovens trong năm như hình dưới đây
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92363188-b0a5-4a77-afb0-142c5c72e850/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92363188-b0a5-4a77-afb0-142c5c72e850/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0d.jpg](http://www.fao.org/3/ae939e/ae939e0d.jpg)
 
 Trung bình:
 
@@ -195,7 +196,7 @@ Nhiệt độ cao hơn 30°c làm cho cây bị stress, dẫn đến ngừng qua
 
 #### Lượng mưa và nguồn nước
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e56db7b6-5735-403f-b8b6-4dafd38e7d6e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e56db7b6-5735-403f-b8b6-4dafd38e7d6e/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0e.jpg](http://www.fao.org/3/ae939e/ae939e0e.jpg)
 
 Lượng nước mưa lý tưởng cho cà phê Arabica là 1200mm tới 1500mm mỗi năm. Cả lượng mưa lẫn phân bổ lượng mưa trong suốt một năm đều quan trọng. Lượng mưa hàng năm của cao nguyên Bolovens như hình trên là:
 
@@ -218,7 +219,7 @@ Cây cà phê ưa sống tại vùng đất có độ pH từ 5 đến 6. Nhiề
 
 Việc canh tác tốt, cũng như sử dụng dolomite và vôi đúng cách có thể giúp cải thiện độ pH và dinh dưỡng của đất.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56c21f85-d09f-4331-b0b6-44ab40df1f80/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56c21f85-d09f-4331-b0b6-44ab40df1f80/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0f.jpg](http://www.fao.org/3/ae939e/ae939e0f.jpg)
 
 #### Độ nghiêng sườn và hướng
 
@@ -240,9 +241,9 @@ Lượng nước yêu cầu của cây cũng có thể giảm bớt bằng cách
 
 Việc hiểu rõ về cây cà phê, cấu trúc và cách chúng sinh trưởng rất cần thiết để có thể canh tác đúng loài cây này. Việc canh tác cũng giống như việc quyết định vùng trồng, chọn giống cây, cũng có ảnh hưởng lớn đến chất lượng cà phê cũng như năng suất. Phần còn lại của cuốn sổ tay này phần lớn sẽ nói đến việc canh tác, nuôi trồng cây cà phê từ khi trồng trọt cho đến khi thu hoạch.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92a0e204-3f3a-4128-9e14-ddac4b3a4857/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92a0e204-3f3a-4128-9e14-ddac4b3a4857/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0g.jpg](http://www.fao.org/3/ae939e/ae939e0g.jpg)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44f7ced3-2ced-4c72-91d7-bb04560360cb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44f7ced3-2ced-4c72-91d7-bb04560360cb/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0h.jpg](http://www.fao.org/3/ae939e/ae939e0h.jpg)
 
 Hình trên: Các bộ phận của cây cà phê. Hình dưới: tập tính của cây.
 
@@ -253,9 +254,13 @@ Hình dáng của các cây cà phê khác nhau, phụ thuộc vào loài và gi
 
 Mỗi cành đều có một chồi cuối. Trong mỗi node có số lượng chồi cố định, có khả năng hình thành khoảng 40 trái, phụ thuộc chính vào giống cây cũng như điều kiện dinh dưỡng. Ở mỗi node lá có 5 chồi, mỗi chồi cho ra 4 hoa, có thể cho ra được 20 trái.  (hình dưới)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ac892a1-4e15-455e-a329-1feaef4b6898/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ac892a1-4e15-455e-a329-1feaef4b6898/Untitled.png)
+![http://www.fao.org/3/ae939e/ae939e0i.jpg](http://www.fao.org/3/ae939e/ae939e0i.jpg)
 
 Hoa trắng xuất hiện thành chùm nhỏ ở mỗi node. Sau khi thụ phấn, trái sẽ phát triển thành hình cherry gồm 2 hạt nhân (hạt cà phê) dài khoảng 10-15mm. Một trái cà phê sẽ gồm phần vỏ quả, phần chất nhầy (mucilage), phần vỏ trấu (parchment), lớp vỏ lụa (silverskin) rồi hạt cà phê. (2 hình dưới)
+
+![http://www.fao.org/3/ae939e/ae939e0k.jpg](http://www.fao.org/3/ae939e/ae939e0k.jpg)
+
+![http://www.fao.org/3/ae939e/ae939e0l.jpg](http://www.fao.org/3/ae939e/ae939e0l.jpg)
 
 #### Hệ thống rễ
 
@@ -264,12 +269,6 @@ Vai trò của bộ rễ cây là đảm bảo cây được bám chắc vào tr
 - Một rễ vòi ngắn (40 đến 60cm).
 - Các rễ thẳng đứng, mọc đồng trục thường dài (đặc biệt ở lớp đất thịt nhẹ), rễ bên có nhiều lông hút của rễ, đặc biện là ở tầng ở trên - lớp mùn (30cm).
 
+![http://www.fao.org/3/ae939e/ae939e0m.jpg](http://www.fao.org/3/ae939e/ae939e0m.jpg)
+
 Tầm quan trọng của kỹ thuật trồng trọt cần được nhấn mạnh (ươm trong vường ươm, làm cỏ, phủ đất, tưới tiêu và cách bố trí cây trồng) ảnh hưởng đến bộ rễ cây như nào. Ba năm đầu tiên rất quan trọng đối với sự phát triển hệ thống rễ cây khi cây có thể được cung cấp đầy đủ các chất như: nitrogen, phosphorous, calcium, magnesium và sulphur.
-
-#### Hiện tượng học thực vật (chu kỳ trồng) - Phenology
-
-Hiện tượng học của cây cà phê là giai đoạn phát triển thể chất cũng như sinh lý của cây trong suốt cả năm. Hiện tượng học thường được gọi là chu kỳ cây trồng hay chu kỳ hiện tượng học của cây.
-
-Cà phê cũng giống như các loại cây khác, phản ứng với các thay đổi của môi trường (nhiệt độ, lượng mưa, khô hạn hay thời gian trong ngày), cũng như ảnh hưởng bởi các mùa trong năm. Khi các mùa thay đổi, cây cà phê chuyển từ giai đoạn sinh dưỡng (phát triển rễ và chồi) sang sinh sản. Thời điểm này, cây phát triển, cho ra hoa, đậu trái, chín trái, sẵn sàng cho thu hoạc và tính sinh trưởng cho chu kỳ tiếp theo.
-
-Chu kỳ hiện tượng học chỉ ra thời điểm bón phân, tưới nước, giữ nước, cắt tỉa, phân tích lá cây và đất, kiểm tra sâu bệnh và áp dụng các biện pháp cho chúng. Việc áp dụng các phương pháp này đúng thời điểm rất quan trọng để tối ưu hóa việc sản xuất.

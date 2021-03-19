@@ -19,17 +19,14 @@ a:hover {
 .post-content strong {
 	@apply font-medium ;
 }
-.post-content h4,h3,h2 {
-	@apply my-5;
-}
 .post-content h4 {
-	@apply font-medium text-lg;
+	@apply my-5 font-medium text-lg;
 }
 .post-content h3 {
-	@apply font-semibold text-xl;
+	@apply my-5 font-semibold text-xl;
 }
 .post-content h2 {
-	@apply font-semibold text-2xl;
+	@apply my-5 font-semibold text-2xl;
 }
 .post-content a {
 	@apply text-pink-700;
