@@ -46,3 +46,10 @@ a:hover {
 .post-content table th, table td{
 	@apply border border-gray-900;
 }
+/* layout cho page reivew */
+/* .post-content.rvlayout :not(img){
+	@apply max-w-screen-sm mx-auto;
+}
+.post-content.rvlayout p img{
+	@apply mx-auto min-w-full outline-black;
+} */

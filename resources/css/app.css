@@ -31258,6 +31258,15 @@ a:hover {
   border-width: 1px;
 }
 
+/* layout cho page reivew */
+
+/* .post-content.rvlayout :not(img){
+	@apply max-w-screen-sm mx-auto;
+}
+.post-content.rvlayout p img{
+	@apply mx-auto min-w-full outline-black;
+} */
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
