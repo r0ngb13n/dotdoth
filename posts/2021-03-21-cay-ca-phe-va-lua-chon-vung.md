@@ -47,22 +47,15 @@ Có hai loài cây chính được thương mại là Arabica (Coffea arabica) v
 - Kháng bệnh gỉ sắt ở lá
 - Chất lượng thử nếm tốt
 
+![https://www.plantgrower.org/uploads/6/5/5/4/65545169/published/3a51c9424f7e60b1638e6e506a493c07.jpg?1515169012](https://www.plantgrower.org/uploads/6/5/5/4/65545169/published/3a51c9424f7e60b1638e6e506a493c07.jpg?1515169012)
+
 ### 2. Các giống cây trồng
 
 Cà phê là cây trồng dài ngày, có tuổi thọ trên 10 năm. Thậm chí dưới điều kiện canh tác và trồng trọt tốt có thể kéo dài hơi thời gian đó. Vậy nên việc lựa chọn giống cây trồng rất quan trọng. Vì chất lượng hạt cà phê quan trọng cho việc sản xuất cà phê chất lượng cao, vậy nên chỉ chọn những giống cây trồng phù hợp với vùng trồng. Điều này có thể cho ra năng suất tốt nhất, cây trồng sẽ đạt chất lượng tốt nhất khi được trồng trên thổ nhưỡng và vùng khí hậu thích hợp của nó.
 
 Các giống Arabica được khuyến nghị trồng trên cao nguyên Bolovens là:
 
-**Catimor:**
-
-- T 5175
-- T 8667
-- LC 1662
-- P 86
-- P 88
-- P 90
-
-**Arabica**
+#### **Arabica**
 
 - Java
 - Typica
@@ -71,8 +64,8 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 
 **Typica**
 
-- Xuất xứ: Có thể từ Yemen, là một trong những cây cà phê Arabica nguyên bản.
-- Thói quen tăng trưởng: Thằng, phát triển mạnh mẽ.
+- Xuất xứ: Có thể từ Yemen, là một trong giống cà phê Arabica nguyên bản.
+- Sinh trưởng: Thằng, phát triển mạnh mẽ.
 - Năng suất: Thấp cho đến trung bình.
 - Kháng bệnh gỉ lá: rất nhạy cảm.
 - Chất lượng thử nếm: Xuất sắc.
@@ -81,7 +74,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **Java**
 
 - Xuất xứ: Indonesia.
-- Thói quen tăng trưởng: Thẳng.
+- Sinh trưởng: Thẳng.
 - Năng suất: Thấp.
 - Kháng bệnh gỉ lá: Nhạy cảm.
 - Chất lượng thử nếm: Xuất sắc.
@@ -89,7 +82,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **S 795**
 
 - Xuất xứ: được đem đến từ Myanmmar từ năm 2004. Lựa chọn của trạm Balehonnur Coffee ở Ấn Độ. Là cây lai giữa S 288 và Kent. S 288 là thế hệ đầu tiên của S 26 - cây lai tự nhiên giữa cà phê Arabica và Liberica.
-- Thói quen tăng trưởng: Cây cao thẳng đứng, tán rộng.
+- Sinh trưởng: Cây cao thẳng đứng, tán rộng.
 - Năng suất: Thấp.
 - Kháng bệnh gỉ lá: Nhạy cảm, thế nhưng có thể kháng tốt hơn nếu được lựa chọn cẩn thận.
 - Chất lượng thử nếm: Xuất sắc.
@@ -98,7 +91,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **Cattura**
 
 - Xuất xứ: đột biến từ giống bourbon từ Brazil.
-- Thói quen tăng trưởng: Cây bán lùn, tán lá rậm rạp.
+- Sinh trưởng: Cây bán lùn, tán lá rậm rạp.
 - Năng suất: Tốt.
 - Kháng bệnh gỉ  lá: Rất nhạy cảm.
 - Chất lượng thử nếm: Tạm.
@@ -107,7 +100,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **Catuai**
 
 - Xuất xứ: Lai tạo giữa Cattura và Mundo Novo (cây lai giữa Bourbon và Typica)
-- Thói quen tăng trưởng: Cây bán lùn, tán lá rậm rạp.
+- Sinh trưởng: Cây bán lùn, tán lá rậm rạp.
 - Năng suất: Rất cao.
 - Kháng bệnh gỉ lá: Rất nhạy cảm.
 - Chất lượng thử nếm: Tốt với cỡ hạt cà phê tốt.
@@ -116,7 +109,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **SL 34**
 
 - Xuất xứ: Kenya. Lựa chọn bở French Mission.
-- Thói quen tăng trưởng: Cao, thẳng. Tán rộng, mở.
+- Sinh trưởngSinh trưởngSinh trưởngSinh trư: Cao, thẳng. Tán rộng, mở.
 - Năng suất: Trung bình tới tốt.
 - Kháng bệnh gỉ lá: Rất nhạy cảm.
 - Chất lượng thử nếm: Tốt.
@@ -125,7 +118,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **SL 28**
 
 - Xuất xứ: Một giống Bourbon được chọn tại Kenya.
-- Thói quen tăng trưởng: Cao, thẳng và tán mở.
+- Sinh trưởng: Cao, thẳng và tán mở.
 - Năng suất: Trung bình tới tốt.
 - Kháng bệnh gỉ lá: Rất nhạy cảm.
 - Chất lượng thử nếm: Tốt.
@@ -134,7 +127,7 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 **SL 6**
 
 - Xuất xứ: Kenya.
-- Thói quen tăng trưởng: Cao, thẳng và tán mở.
+- Sinh trưởng: Cao, thẳng và tán mở.
 - Năng suất: Trung bình tới tốt.
 - Kháng bệnh gỉ lá: Kháng bệnh gỉ set, Race II.
 - Chất lượng thử nếm: Tốt.
@@ -142,8 +135,8 @@ Ngoài ra, các giống khác đang được thử nghiện tại Trung tâm Th�
 
 **Catimor**
 
-- Xuất xứ: Là giống lai giữa Caturra và Hybrido de Timor - là giống cây lai tự nhiên giữa Arabica và Robusta đến từ Đông Timor.
-- Thói quen tăng trưởng: Bán lùn, gọn.
+- Xuất xứ: Là giống lai giữa Caturra và Hybrido de Timor (giống cây lai tự nhiên giữa Arabica và Robusta đến từ Đông Timor)
+- Sinh trưởng: Bán lùn, gọn.
 - Năng suất: Năng suất rất cao nếu như được canh tác tốt. Năng suất thấp dưới điều kiện canh tác nghèo nàn. Thậm chí có thể chết cây nếu như không có bóng che cũng như canh tác kém.
 - Kháng bệnh gỉ lá: Kháng các loại bệnh gỉ lá với điều kiện lựa chọn cẩn thận.
 - Chất lượng thử nếm: Bình thường.
@@ -272,3 +265,11 @@ Vai trò của bộ rễ cây là đảm bảo cây được bám chắc vào tr
 ![http://www.fao.org/3/ae939e/ae939e0m.jpg](http://www.fao.org/3/ae939e/ae939e0m.jpg)
 
 Tầm quan trọng của kỹ thuật trồng trọt cần được nhấn mạnh (ươm trong vường ươm, làm cỏ, phủ đất, tưới tiêu và cách bố trí cây trồng) ảnh hưởng đến bộ rễ cây như nào. Ba năm đầu tiên rất quan trọng đối với sự phát triển hệ thống rễ cây khi cây có thể được cung cấp đầy đủ các chất như: nitrogen, phosphorous, calcium, magnesium và sulphur.
+
+#### Hiện tượng học thực vật (chu kỳ trồng) - Phenology
+
+Hiện tượng học của cây cà phê là giai đoạn phát triển thể chất cũng như sinh lý của cây trong suốt cả năm. Hiện tượng học thường được gọi là chu kỳ cây trồng hay chu kỳ hiện tượng học của cây.
+
+Cà phê cũng giống như các loại cây khác, phản ứng với các thay đổi của môi trường (nhiệt độ, lượng mưa, khô hạn hay thời gian trong ngày), cũng như ảnh hưởng bởi các mùa trong năm. Khi các mùa thay đổi, cây cà phê chuyển từ giai đoạn sinh dưỡng (phát triển rễ và chồi) sang sinh sản. Thời điểm này, cây phát triển, cho ra hoa, đậu trái, chín trái, sẵn sàng cho thu hoạc và tính sinh trưởng cho chu kỳ tiếp theo.
+
+Chu kỳ hiện tượng học chỉ ra thời điểm bón phân, tưới nước, giữ nước, cắt tỉa, phân tích lá cây và đất, kiểm tra sâu bệnh và áp dụng các biện pháp cho chúng. Việc áp dụng các phương pháp này đúng thời điểm rất quan trọng để tối ưu hóa việc sản xuất.
