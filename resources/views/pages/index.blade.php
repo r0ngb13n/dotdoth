@@ -3,10 +3,10 @@
         <div class="relative max-w-7xl mx-auto">
             <div class="text-center tracking-wider max-w-xl mx-auto">
                 <h2 class="text-3xl font-regular text-gray-900">
-                    HOME
+                    Trang chủ
                 </h2>
                 <p class="text-base mt-2  text-gray-500 font-regular sm:text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloremque optio, fuga architecto obcaecati atque
+                    Free for all.
                 </p>
             </div>
 

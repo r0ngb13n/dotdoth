@@ -31188,9 +31188,8 @@ a:hover {
 
 .post-content blockquote {
   --tw-border-opacity: 1;
-  border-color: rgba(55, 65, 81, var(--tw-border-opacity));
+  border-color: rgba(17, 24, 39, var(--tw-border-opacity));
   border-left-width: 4px;
-  font-weight: 500;
   padding-left: 0.5rem;
 }
 
@@ -31201,7 +31200,12 @@ a:hover {
 }
 
 .post-content strong {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.post-content img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-content h4 {

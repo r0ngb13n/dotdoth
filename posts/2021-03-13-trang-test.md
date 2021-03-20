@@ -1,7 +1,7 @@
 ---
 origin:
 title: Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet. 
-layout: post
+layout: review
 category: review
 date: 2021-03-13
 description: Curabitur hendrerit nisl quam, quis lacinia nisi mattis vitae. Vestibulum nunc enim, tempor et turpis at, molestie pulvinar nisi. Vestibulum. 

@@ -6,7 +6,7 @@
                     Dịch
                 </h2>
                 <p class="text-base mt-2  text-gray-500 font-light sm:text-lg">
-Dịch sách hay các báo cáo, nghiên cứu, ..
+                    Dịch sách hay các báo cáo, nghiên cứu, ..
                 </p>
             </div>
 
