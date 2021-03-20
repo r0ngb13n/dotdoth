@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Các yếu tố ảnh hưởng đến hương vị cà phê</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-lg mx-auto pt-0 sm:pt-0 px-5 md:px-16 sm:px-32">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex flex-wrap items-center justify-between space-x-3 md:space-x-4 sm:space-x-10 relative" x-data="{open: false}">
+
+        <div>
+            <a href="/" class="text-lg" title="home page">
+                 <svg class="w-16 h-16 sm:w-16 sm:h-16" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+	<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+</svg>
+ 
+            </a>
+        </div>
+
+        <div class="fixed pr-5 right-0 top-0 w-1/2 h-screen bg-white shadow-lg overflow-hidden
+            bg-white flex flex-col pt-24 z-10 content-right transition hidden
+            sm:bg-transparent sm:shadow-none sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row
+            sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center
+            sm:content-center sm:space-y-0
+            md:mt-0
+            "
+        	:class="{'hidden': open === false}">
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-viet.html" title="Bài viết">Bài viết</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/danh-gia.html" title="Đánh giá">Đánh giá</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-dich.html" title="Bài Dịch">Bài Dịch</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/cong-cu.html" title="Công cụ">Công cụ</a>
+ 
+                        <div @click="open = false" class="absolute top-0 right-0 mr-5 mt-7 sm:hidden">
+            	<svg x-show="open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        	</div>
+        </div>
+
+        <div class="mobile-menu sm:hidden absolute right-0 top-0 mt-7 mr-5" @click="open = true">
+        	<svg x-show="!open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </div>
+	</div>
+
+	<hr class="border sm:mt-0">
+</div>
+ 
+
+            <!-- main content -->
+            <div class="pt-5 sm:pt-12">
+                <div class="post-content relative max-w-screen-md sm:max-w-screen-sm mx-auto">
+        <h1 class="text-3xl tracking-wide text-gray-900 text-left font-semibold md:text-4xl">Các yếu tố ảnh hưởng đến hương vị cà phê</h1>
+
+        <div class="meta flex text-sm text-gray-500 mt-3 sm:mt-2.5">
+            <div>
+                <span> <a class="text-grey-500 uppercase" href="/nong-trai.html" title="Nông trại">Nông trại</a>
+ ;&nbsp;</span>
+            </div>
+            <div>
+                <span>Viết vào:&nbsp;<time datetime="2021-03-20">2021-03-20</time></span> 
+            </div>
+        </div>
+
+        <div class="mt-6 leading-8 post-content sm:mt-12">
+            <p>Để có một cốc cà phê ngon là cả một quá trình dài khởi đầu từ nông trại đến cốc cà phê đó. Vậy quá trình này gồm những gì? Và điều gì trong đó có thể ảnh hưởng đến hương vị của cà phê?</p>
+<hr />
+<blockquote>
+<p>Các yếu tố chính sẽ được đánh dấu <strong>in đậm</strong>.</p>
+</blockquote>
+<h2>I. Hạt</h2>
+<p>Giống như các loại cây trồng khác, cà phê cũng có nhiều giống, loài khác nhau. Ba loài chính là: Arabica (Cà phê chè), Robusta (Cà phê vối) hay Liberia (Cà phê mít). Trong đó, Arabica và Robusta hầu hết tổng sản lượng cà phê trên thế giới.</p>
+<p>Nhờ các phép lai tự nhiên hay nhân tạo, các loài cây này cho ra các giống cây con, ví dụ: Blue Moutain, Bourbon, Catuai, Catimor, v.. v.. <strong>Giống cây</strong> khác nhau sẽ có năng suất, thích nghi với môi trường, chống chọi các loại sâu bệnh khác nhau. Điều đó cũng ảnh hưởng đến chất lượng hạt, tạo nên hương vị khác nhau với từng loại giống cây khác nhau.</p>
+<p><img src="https://www.esseloncoffee.com/wp-content/uploads/2016/08/Coffee-Tree-1024x663.jpg" alt="https://www.esseloncoffee.com/wp-content/uploads/2016/08/Coffee-Tree-1024x663.jpg" /></p>
+<p>Coffee Family Tree</p>
+<p>Tuy vậy, không giống cây nào cũng có thể tối ưu trước mọi yếu tố mối trường, dịch bệnh. Vì thế nên trước khi lựa chọn giống cây để trồng, thì việc xác định vùng trồng cần quan tâm nhiều hơn. <strong>Vùng trồng</strong> của cây sẽ quyết định tới các yếu tố có thể ảnh hưởng đến cây cà phê. Mỗi vùng trồng khác nhau sẽ có đặc trưng riêng của từng vùng đó, ví dụ như khí hậu xung quanh (độ cao, nhiệt độ,), chất lượng đất (thành phần, cấu trúc, dinh dưỡng, ..), cũng như chất lượng nước của vùng đó (lượng mưa, lượng nước ngầm, thành phần, cấu trúc, ..), ngoài ra còn nhiều yếu tố khác cũng cần phải cân nhắc.</p>
+<p>Ngoài yếu tố tự nhiên, có những yếu tố của con người cũng có thể gây tác động nhất định, dù lợi hay hại - đều ảnh hưởng đến khả năng sinh trưởng của cây. Việc thay đổi tự nhiên hay đi ngược lại tự nhiên gần như không thể. Vì vậy, với <strong>Chế độ trồng trọt</strong>, sẽ thay đổi để thích nghi, bù đắp những thiếu hụt trong điều kiện tự nhiên vốn có của mỗi vùng. Cách quản lý, canh tác như bón phân, dinh dưỡng (hữu cơ, vô cơ, sinh học, ...), tưới tiêu, cắt tỉa, dùng thuốc trừ sâu, diệt cỏ, nấm hay thậm chí việc trồng các xen canh với các cây cộng sinh, cây che bóng; tất cả các điều trên có thể ảnh hưởng đến chất lượng cà phê, thậm chí cả môi trường xung quanh vùng trồng đó.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coffee_Plantation.jpg/800px-Coffee_Plantation.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coffee_Plantation.jpg/800px-Coffee_Plantation.jpg" /></p>
+<p>Arabica được trồng tại São João do Manhuaçu, Minas Gerais, Brazil (ảnh: wikipedia)</p>
+<h2>II. Chế biến - sơ chế</h2>
+<p>Sau khi được chọn lựa kỹ lưỡng từ vùng trồng, giống cây, canh tác thì sau 2 đến 4 năm, cây cũng đơm hoa kết trái, chờ đợi để được thu hoạch. Trái cà phê cũng giống như các loại quả khác, chúng sẽ tổng hợp đầy đủ các dinh dưỡng khi đạt tới độ chín nhất định. Vì vậy sẽ tốt hơn cả nếu như trái cà phê được hái khi đạt độ chín nhất của nó để đảm bảo dinh dưỡng cũng như các chất được tổng hợp đầy đủ. Tuy nhiên, các trái cà phê lại không cùng chín cùng một thời điểm. Điều này khiến cho cách <strong>Thu hoạch</strong> sẽ ảnh hưởng đến chất lượng, cũng như giá thành tùy thuộc vào cách hái của mỗi nhà vườn. Để đảm bảo rằng cà phê sau khi hái có độ chín &quot;tới&quot; nhất, chất lượng đồng đều nhất, thì cách hái thủ công bằng tay vẫn được ưu tiên để có thể đảm bảo chất lượng cà phê tốt nhất. Tuy việc hái thủ công này có thể gia tăng thêm giá cho cà phê thành phẩm khi phí nhân công được thêm vào, thế nhưng người mua đã bắt đầu chịu chi hơn vì muốn đảm bảo chất lượng tốt nhất cho cốc đồ uống của mình, cũng như góp phần nâng cao thu nhập cho người nông dân, phát triển tổng thể ngành cà phê. </p>
+<p><img src="https://38espresso.com/site/wp-content/uploads/2014/07/Harvesting-2.jpg" alt="https://38espresso.com/site/wp-content/uploads/2014/07/Harvesting-2.jpg" /></p>
+<p>Hái thủ công - tuy tốn kém nhưng chất lượng sẽ được đảm bảo.</p>
+<p>Thông thường, các trạm sơ chế được lập lên ngay gần các nông trại để giảm thiểu việc các hợp chất trong trái biến đổi ngay sau khi hái. Vì vậy, công đoạn <strong>Sơ chế</strong> này thường được thực hiện ngay sau khi cà phê được thu hoạch. Các giai đoạn trong quá trình sơ chế có thể khác nhau tùy thuộc vào các cách sơ chế khác nhau. Nhưng thông thường sẽ là: Đầu tiên, các trái cà phê sẽ được vệ sinh, loại bỏ các vật chất không phải trái như lá, cành cây, sỏi đá, ... và rửa qua với nước, cũng như loại bỏ một phần các trái không đạt chất lượng. Các bước tiếp theo được thực hiện tùy thuộc vào cách sơ chế, mục đích cuối đều là loại bỏ các lớp quả, chất nhầy xung quanh của hạt cà phê. Thế nhưng, tùy thuộc vào cách sơ chế, cũng như thời gian mà các lớp xung quanh trái được loại bỏ, cũng có ảnh hưởng rất nhiều đến chất lượng hạt cà phê,. Vì ngoài các hợp chất dinh dưỡng cũng như tạo mùi có sẵn trong hạt (là ảnh hưởng của cả một quá trình phát triển từ cây cho đến trái), hương vị cũng sẽ bị thay đổi tùy thuộc vào lớp nhớt xung quanh hạt cũng như các biến đổi của lớp nhớt đó qua thời gian, quá trình này thường được gọi là quá trình lên men (fermentation).</p>
+<p><img src="https://perfectdailygrind.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-03-20-at-20.53.05-4-1024x614.jpeg" alt="https://perfectdailygrind.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-03-20-at-20.53.05-4-1024x614.jpeg" /></p>
+<p>Hạt cà phê được phơi dưới nắng. Ảnh: <a href="https://www.capricorniocoffees.com.br/">https://www.capricorniocoffees.com.br/</a></p>
+<p>Sau khi được sơ chế, giờ chúng ta còn lại hạt của trái cà phê - thường được gọi là nhân xanh (green bean), chờ được vận chuyển đến các nhà rang trên toàn thế giới. Nhưng trước đó, hạt cà phê cần được lưu trữ <strong>**cẩn thận sẽ đảm bảo không có yếu tố môi trường, sinh vật nào ảnh hưởng đến chất lượng nhân xanh trước khi được vận chuyển. Việc đầu tiên để đảm bảo các hạt cà phê có chất lượng ổn định mà không bị ảnh hưởng bởi các yếu tố sinh vật, môi trường thì các hạt cần phải đạt độ ẩm nhất định để có thể lưu trữ. </strong>Phơi khô** đúng (chậm và đều) có thể giảm độ ẩm của hạt xuống mức tối ưu để lưu trữ (10-11%). Độ ẩm cao có thể tạo ra môi trường lý tưởng cho các vi sinh vật, nấm mốc phát triển, ngược lại đội ẩm thấp hơn mức tối ưu có thể làm hạt bị khô, giòn. Cả hai điều này đều ảnh hưởng đến chất lượng của hạt. </p>
+<p>Sau khi hạt cà phê đạt đến độ ẩm lý tưởng, cà phê xanh có thể để trong thời gian dài 10-14 tháng mà hương vị không bị mất đi nhiều. Để đạt được điều này thì điều kiện <strong>Lưu trữ</strong> cần phải đáp ứng đủ các điều kiện cần thiết. Việc xây dựng các kho chứa, đảm bảo điều kiện ổn định (không có ánh sáng mặt trời, ảnh hưởng thời tiết, nhiệt độ - độ ẩm ổn định, ...), giảm thiểu các sinh vật gây hại, ... giúp cho cấu trúc hạt ổn định, không làm mất hay biến đổi các hợp chất có trong hạt, vì thế các hương vị sẽ được bảo toàn trong quá trình lưu trữ hạt. Ngoài ra, các yêu cầu về chất lượng bao chứa, thùng chứa (container) khi vận chuyển cũng được đặt ra để đảm bảo các điều kiện như khi lưu trữ trong các kho chứa. </p>
+<p><img src="https://dailycoffeenews.com/wp-content/uploads/2020/10/Green-Coffee-Warehouse-e1602090205734.jpg" alt="https://dailycoffeenews.com/wp-content/uploads/2020/10/Green-Coffee-Warehouse-e1602090205734.jpg" /></p>
+<p>Kho chứa cà phê tại Colombia. Ảnh: Jiyoon Han</p>
+<h2>III. Rang</h2>
+<p>Rang cà phê là một quá trình vô cùng phức tạp để có thể viết hết trong một phần bài viết ngắn. Nhưng có thể tóm gọn lại thành câu dưới đây</p>
+<blockquote>
+<p>Rang - là quá trình sử dụng nhiệt để thay đổi các đặc tính sinh - lý - hóa trong hạt cà phê xanh - biến đổi các thành phần đó để biến đổi và phát triển các hương vị.</p>
+</blockquote>
+<p>Tuy chỉ chiếm thời gian ngắn ngủi trong cả quá trình, thế nhưng <strong>kỹ thuật rang</strong> cà phê cũng là một trong những yếu tố quan trọng quyết định tới cà phê thành phẩm. Trước khi được rang, hạt cà phê có ít hoặc hầu như không có vị &quot;cà phê&quot; như chúng ta thường thấy. Trong cà phê có hơn một nghìn hợp chất hóa học khác nhau, có những chất tốt và không, thậm chí có cả những chất có thể ảnh hưởng đến sức khỏe con người khi được tiêu thụ. Vì thế, dưới ảnh hưởng của quá trình rang, các hợp chất hóa học có trong hạt cà phê sẽ được thay đổi tùy với ý đồ của người rang chúng. Tùy thuộc vào kỹ thuật của mỗi cá nhân rang, các thành phần tốt có thể được tăng cường, các thành phần xấu có thể được giảm thiểu, nhưng cũng có thể gây ra điều ngược lại . Cùng lúc có thể phát triển hàng trăm các thành phần tạo nên hương vị, mùi vị của hạt. Biến hạt cà phê xanh thành những hạt màu nâu quen thuộc với chúng ta hơn.</p>
+<p><img src="https://cdn.shopify.com/s/files/1/1470/2456/articles/blog-banner_1400x.progressive.jpg?v=1544022516" alt="https://cdn.shopify.com/s/files/1/1470/2456/articles/blog-banner_1400x.progressive.jpg?v=1544022516" /></p>
+<p>Việc rang cà phê KHÔNG HỀ đơn giản như chúng ta thường nghĩ. Nó là cả một quá trình học hỏi, trau dồi, sửa chữa, tổng kết những kinh nghiệm để có thể hiểu được đặc tính của các hạt cà phê, cũng như cách rang tương ứng với các hạt cà phê đó. Vì thế, có thể nói cá nhân rang chuyên nghiệp có thể được ví như là điểm giao thoa giữa nghệ thuật và khoa học: họ sử dụng những kiến thức của mình để biến đổi những thành phần trong hạt cà phê, cùng lúc áp lên phong cách rang của riêng mình để biến đổi các hạt cà phê đó. Thế nên, dù có sử dụng chung một loại cà phê xanh như nhau, các cá nhân rang khác nhau sẽ cho ra được các hạt cà phê thành phẩm khác nhau. </p>
+<h2>IV. Pha</h2>
+<p>Để pha một cốc cà phê NGON và ĐỒNG ĐỀU không hề đơn giản, có quá nhiều biến số cần phải kiểm soát. Thế nhưng đây có lẽ là phần mà bạn - người đọc, những &quot;home barista&quot; mà mình muốn hướng tới, có thể kiểm soát được. Điều kiện tiên quyết là bạn phải có hạt cà phê ngon, chất lượng và hương vị vẫn được đảm bảo. Vì dù với kỹ thuật tốt đến đâu cũng không thể thay đổi chất lượng của một mẻ cà phê kém.</p>
+<ul>
+<li><strong>Kích cỡ xay hạt:</strong> kích cỡ, độ đồng đều, ...</li>
+<li><strong>Nước:</strong> thành phần, nhiệt độ, độ pH, ...</li>
+<li><strong>Thời gian:</strong> thời gian tiếp xúc giữa bột và nước, thời gian sử dụng sau khi pha, ...</li>
+<li><strong>Dụng cụ</strong>: chất liệu, hình thức pha (thẩm thấu, ngâm, áp suất), chất liệu lọc, ...</li>
+<li><strong>Cách pha</strong>: tỷ lệ, công thức, ...</li>
+</ul>
+<p>Vì kỹ năng mỗi người sẽ cho ra kết quả khác nhau tùy thuộc vào kỹ thuật pha, cũng như công cụ của họ hỗ trợ đến như nào. Thế nên mình sẽ không nhắc đến yếu tố người pha. </p>
+<p><img src="https://cdn.kapwing.com/final_6055acd531ac6901058ff0a3_792453.gif" alt="https://cdn.kapwing.com/final_6055acd531ac6901058ff0a3_792453.gif" /></p>
+<p>Như bạn có thể thấy, quả là một quá trình dài kể từ khi bắt đầu, với bất kỳ một lỗi nhỏ nào trong cả quá trình cũng có thể ảnh hưởng đến chất lượng cuối cùng của ly cà phê. Bất kỳ thay đổi nhỏ nào trong cả quá trình, dù tố hay xấu, đều có thể dẫn đến các hương vị khác nhau của ly cà phê đó. Thế nên việc tìm ra một cốc cà phê thực sự hoàn hảo, có thể phục vụ cho tất cả mọi người là điều không thể. Việc này tuy dở nhưng cũng có cái hay của nó, đó là nó đã góp phần tạo nên sự đa dạng trong thế giới cà phê, cũng như khẩu vị của mỗi người đều khác nhau vậy.</p>
+<hr />
+<h3>Nguồn tham khảo:</h3>
+<ul>
+<li><a href="https://www.quora.com/Where-do-coffee-beans-get-their-flavor-notes">https://www.quora.com/Where-do-coffee-beans-get-their-flavor-notes</a></li>
+<li>SCAA - The Coffee Brewing Handbook (Chapter 4)</li>
+<li><a href="https://en.wikipedia.org/wiki/Terroir">https://en.wikipedia.org/wiki/Terroir</a></li>
+<li><a href="https://ictcoffee.com/how-to-properly-store-your-green-coffee-beans-before-roasting/">https://ictcoffee.com/how-to-properly-store-your-green-coffee-beans-before-roasting/</a></li>
+</ul>
+        </div>
+    </div>
+            </div>
+
+            <!-- footer -->
+             <footer class="flex justify-between flex-col sm:flex-row items-center border-t mt-20 py-5">
+    <div class="flex">
+        <div class="flex flex-shrink">
+            <div class="flex space-x-3 items-end">
+                <a href="#" title="facebook">
+                     <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="#" title="youtube">
+                     <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="#" title="instagram">
+                     <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a>
+            </div>
+        </div>
+    </div>
+    <div class="text-sm text-right flex-shrink flex-grow">
+        <p>Crafted by <a class="text-indigo-500 hover:text-indigo-700" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
+    </div>
+</footer> 
+            
+        </div>
+    </div>
+</body>
+
+</html>
+ 
