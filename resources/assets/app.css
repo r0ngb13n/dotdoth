@@ -34,8 +34,12 @@ a:hover {
 .post-content a:hover {
 	@apply text-indigo-700;
 }
-
 .post-content ul {
 	@apply list-disc pl-10;
 }
-
+.post-content table{
+	@apply table-auto border-collapse;
+}
+.post-content table th, table td{
+	@apply border border-gray-900;
+}
