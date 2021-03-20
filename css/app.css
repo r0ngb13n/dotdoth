@@ -31243,6 +31243,17 @@ a:hover {
   padding-left: 2.5rem;
 }
 
+.post-content table{
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.post-content table th, table td{
+  --tw-border-opacity: 1;
+  border-color: rgba(17, 24, 39, var(--tw-border-opacity));
+  border-width: 1px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -183977,4 +183988,3 @@ a:hover {
             animation: bounce 1s infinite;
   }
 }
-
