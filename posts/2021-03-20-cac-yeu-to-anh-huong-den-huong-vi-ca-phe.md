@@ -2,9 +2,10 @@
 origin: 
 title: Các yếu tố ảnh hưởng đến hương vị cà phê
 layout: post
-category: Nông trại
+category: Pha cà phê
 created_at: 2021-03-20
-description: 
+description: Để có một cốc cà phê ngon là cả một quá trình dài khởi đầu từ nông trại đến cốc cà phê đó. Vậy quá trình này gồm những gì? Và điều gì trong đó có thể ảnh hưởng đến hương vị của cà phê?
+
 ---
 Để có một cốc cà phê ngon là cả một quá trình dài khởi đầu từ nông trại đến cốc cà phê đó. Vậy quá trình này gồm những gì? Và điều gì trong đó có thể ảnh hưởng đến hương vị của cà phê?
 
