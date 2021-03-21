@@ -6,7 +6,7 @@
                     Trang chủ
                 </h2>
                 <p class="text-base mt-2  text-gray-500 font-regular sm:text-lg">
-                    Free for all.
+                    Chưa biết để trang chủ như nào. 
                 </p>
             </div>
 
