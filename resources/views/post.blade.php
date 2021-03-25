@@ -7,12 +7,17 @@
                 <span><x-category-href :name="$post->category" class="text-grey-500 uppercase" />;&nbsp;</span>
             </div>
             <div>
-                <span>Viết vào:&nbsp;<time datetime="{{ $post->created_at }}">{{ $post->created_at }}</time></span> 
+                <span>Viết vào:&nbsp;<time datetime="{{ $post->created_at }}">{{ $post->created_at }}</time></span>
             </div>
         </div>
 
-        <div class="mt-6 leading-8 post-content sm:mt-12">
-            {!! $post->content !!}
+        <div>
+            <div class="mt-6 leading-8 post-content sm:mt-12">
+                {!! $post->content !!}
+            </div>
+            <div class="absolute top-0 right-0 h-full z-0">
+                <x-posts.toc class="hidden lg:block fixed"/>
+            </div>
         </div>
     </div>
 </x-layout>
