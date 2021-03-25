@@ -7,8 +7,13 @@
             <span>Viết vào:&nbsp;<time datetime="{{ $post->created_at }}">{{ $post->created_at }}</time></span>
         </div>
 
-        <div class="mt-6 leading-8 post-content rvlayout sm:mt-12">
-            {!! $post->content !!}
+        <div>
+            <div class="mt-6 leading-8 post-content rvlayout sm:mt-12">
+                {!! $post->content !!}
+            </div>
+            <div class="absolute top-0 right-0 h-full z-0">
+                <x-posts.toc class="hidden lg:block fixed"/>
+            </div>
         </div>
     </div>
 </x-layout>
