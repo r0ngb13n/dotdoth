@@ -78,8 +78,9 @@
             <span>Viết vào:&nbsp;<time datetime="2021-03-13">2021-03-13</time></span>
         </div>
 
-        <div class="mt-6 leading-8 post-content rvlayout sm:mt-12">
-            <p><img src="https://c.files.bbci.co.uk/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe the frog" /></p>
+        <div>
+            <div class="mt-6 leading-8 post-content rvlayout sm:mt-12">
+                <p><img src="https://c.files.bbci.co.uk/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe the frog" /></p>
 <h1>Heading one</h1>
 <h1>bur</h1>
 <p>Sint sit <strong><em>cillum</em></strong> pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem. Ut laborum cillum laboris fugiat culpa sint irure do reprehenderit culpa occaecat. Exercitation esse mollit tempor magna aliqua in occaecat aliquip veniam reprehenderit nisi dolor in laboris dolore velit.</p>
@@ -231,6 +232,23 @@ func main() {
 <p>Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip incididunt voluptate magna amet cupidatat cillum pariatur sint aliqua est <em>enim <strong>anim</strong> voluptate</em>. Magna aliquip proident incididunt id duis pariatur eiusmod incididunt commodo culpa dolore sit. Culpa do nostrud elit ad exercitation anim pariatur non minim nisi <strong>adipisicing sunt <em>officia</em></strong>. Do deserunt magna mollit Lorem commodo ipsum do cupidatat mollit enim ut elit veniam ea voluptate.</p>
 <p><a href="https://youtu.be/s6bCmZmy9aQ"><img src="https://img.youtube.com/vi/s6bCmZmy9aQ/0.jpg" alt="Manny Pacquiao" /></a></p>
 <p>Reprehenderit non eu quis in ad elit esse qui aute id <a href="#!">incididunt</a> dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.</p>
+            </div>
+            <div class="absolute top-0 right-0 h-full z-0">
+                 <div class="fixed hidden lg:block fixed" x-data="makeData()">
+    <div class="table-of-contents w-96 sticky top-0 right-0 pt-5 pl-5">
+        <ol class="list-decimal list-inside">
+            <template x-for="item in items" :key="item.id">
+                <li class="transition text-gray-300 hover:text-gray-500">
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>
+                </li>
+            </template>
+        </ol>
+    </div>
+</div>
+
+
+ 
+            </div>
         </div>
     </div>
             </div>
@@ -277,7 +295,24 @@ func main() {
         </div>
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
+    <script>
+        function makeData() {
+            const elements = document.querySelectorAll('h2');
+            const items = [...elements].filter(function (ele) {
+                return ele.getAttribute('id');
+            }).map(function (ele) {
+                return {
+                    id: ele.getAttribute('id'),
+                    label: ele.textContent
+                };
+            });
+            return {
+                items: items
+            };
+        }
+    </script>
+
 </body>
 
 </html>
