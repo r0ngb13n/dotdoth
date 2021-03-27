@@ -1,0 +1,16 @@
+---
+origin: 
+title: Kasuya's recipe
+layout: post
+category: Công cụ
+created_at: 2021-03-28
+description: Công thức pha pour đơn giản của nhà vô định World Brewers Cup 2016. Đi kèm bảng tính cho người lười.
+---
+<!-- pc -->
+<iframe class="hidden sm:block" width="550" height="300" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BB1DCFE92739C40E%2123712&authkey=%21ALO6T4VlDHj_XxQ&em=2&wdAllowInteractivity=False&AllowTyping=True&Item='pc'!A1%3AH10&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<!--  -->
+
+<!-- mobile -->
+<iframe class="block sm:hidden" width="100%" height="435" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BB1DCFE92739C40E%2123712&authkey=%21ALO6T4VlDHj_XxQ&em=2&wdAllowInteractivity=False&AllowTyping=True&Item='mobile'!A1%3AF15&wdHideGridlines=True&wdInConfigurator=True"></iframe>
+<!--  -->
+
