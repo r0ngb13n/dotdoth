@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home page</title>
+    <title>Kasuya&#039;s recipe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -69,199 +69,50 @@
 
             <!-- main content -->
             <div class="pt-5 sm:pt-12">
-                <div class="relative">
-        <div class="relative max-w-7xl mx-auto">
-            <div class="text-center tracking-wider max-w-xl mx-auto">
-                <h2 class="text-3xl font-regular text-gray-900">
-                    Trang chủ
-                </h2>
-                <p class="text-base mt-2  text-gray-500 font-regular sm:text-lg">
-                    Chưa biết để trang chủ như nào. 
-                </p>
-            </div>
+                <div class="post-content relative max-w-screen-md sm:max-w-screen-sm mx-auto">
+        <h1 class="text-3xl tracking-wide text-gray-900 text-left font-semibold md:text-4xl">Kasuya&#039;s recipe</h1>
 
-            <div class="mt-10 max-w-xl mx-auto grid gap-6 sm:mt-10 sm:gap-12 sm:max-w-xl lg:grid-cols-1">
-                                     <div class="flex flex-row overflow-hidden">
-    <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
-            <div class="flex w-a flex-col text-right text-sm text-gray-500">
-                <div>
-                     <a class="text-indigo-500 hover:text-indigo-700" href="/cong-cu.html" title="Công cụ">Công cụ</a>
- 
-                </div>
-                <span>
-                    2021-03-28
-                </span>
+        <div class="meta flex text-sm text-gray-500 mt-3 sm:mt-2.5">
+            <div>
+                <span> <a class="text-grey-500 uppercase" href="/cong-cu.html" title="Công cụ">Công cụ</a>
+ ;&nbsp;</span>
+            </div>
+            <div>
+                <span>Viết vào:&nbsp;<time datetime="2021-03-28">2021-03-28</time></span>
             </div>
         </div>
-        <div class="flex-1">
-            <div class="block">
 
-                <p class="font-light text-sm text-gray-500" >
-                     <a class="text-gray-500" href="/.html" title=""></a>
- 
-                </p>
-                
-                <h2 class="text-xl leading-6 font-medium text-gray-900 sm:text-2xl ">
-                    <a href="/posts/kasuya-method.html">
-                        Kasuya&#039;s recipe
-                    </a>
-                </h2>
-
-                <p class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5" >
-                    Công thức pha pour đơn giản của nhà vô định World Brewers Cup 2016. Đi kèm bảng tính cho người lười.
-                </p>
-
+        <div>
+            <div class="mt-6 leading-8 post-content sm:mt-12">
+                <iframe class="block sm:hidden" width="383" height="543" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BB1DCFE92739C40E%2123712&amp;authkey=%21ALO6T4VlDHj_XxQ&amp;em=2&amp;wdAllowInteractivity=False&amp;AllowTyping=True&amp;ActiveCell='Kasuya%20mobile'!A4&amp;Item='Kasuya%20mobile'!A1%3AF19&amp;wdHideGridlines=True&amp;wdInConfigurator=True"></iframe>
+<iframe class="hidden sm:block" width="521" height="300" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BB1DCFE92739C40E%2123712&amp;authkey=%21ALO6T4VlDHj_XxQ&amp;em=2&amp;wdAllowInteractivity=False&amp;AllowTyping=True&amp;ActiveCell='Kasuya%20ver2'!A1&amp;Item='Kasuya%20ver2'!A1%3AH10&amp;wdInConfigurator=True"></iframe>
             </div>
-        </div>
+            <div class="absolute top-0 right-0 h-full z-0">
+                 <div class="fixed hidden lg:block fixed" x-data="makeData()">
+    <div class="table-of-contents w-96 sticky top-0 right-0 pt-5 pl-5">
+        <ol class="list-decimal list-inside">
+            <template x-for="item in items" :key="item.id">                                        
+                <li class="transition text-gray-300 hover:text-gray-500">
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+
+                    <template x-if="item.children.length">
+                        <ol class="list-decimal list-inside ml-5">
+                            <template x-for="subItem in item.children" :key="subItem.id">
+                                <li class="transition text-gray-300 hover:text-gray-500">
+                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+                                </li>
+                            </template>
+                        </ol>
+                    </template>
+                </li>                
+            </template>
+        </ol>
     </div>
 </div>
+
+
  
-                                     <div class="flex flex-row overflow-hidden">
-    <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
-            <div class="flex w-a flex-col text-right text-sm text-gray-500">
-                <div>
-                     <a class="text-indigo-500 hover:text-indigo-700" href="/cau-chuyen.html" title="Câu chuyện">Câu chuyện</a>
- 
-                </div>
-                <span>
-                    2021-03-22
-                </span>
             </div>
-        </div>
-        <div class="flex-1">
-            <div class="block">
-
-                <p class="font-light text-sm text-gray-500" >
-                     <a class="text-gray-500" href="/.html" title=""></a>
- 
-                </p>
-                
-                <h2 class="text-xl leading-6 font-medium text-gray-900 sm:text-2xl ">
-                    <a href="/posts/ve-lan-song-ca-phe.html">
-                        Về làn sóng cà phê?
-                    </a>
-                </h2>
-
-                <p class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5" >
-                    Có thể bạn đã nghe thoáng qua về cụm từ &quot;&quot;Làn sóng cà phê thứ 3&quot;&quot; (Third wave coffee), vậy làn sóng này là gì, và các làn sóng 1,2 trước đó thì sao? Hôm nay chúng ta sẽ cùng tìm hiểu thêm về các làn sóng này.
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
- 
-                                     <div class="flex flex-row overflow-hidden">
-    <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
-            <div class="flex w-a flex-col text-right text-sm text-gray-500">
-                <div>
-                     <a class="text-indigo-500 hover:text-indigo-700" href="/nong-trai.html" title="Nông trại">Nông trại</a>
- 
-                </div>
-                <span>
-                    2021-03-21
-                </span>
-            </div>
-        </div>
-        <div class="flex-1">
-            <div class="block">
-
-                <p class="font-light text-sm text-gray-500" >
-                     <a class="text-gray-500" href="/so-tay-ca-phe-arabica-cua-lao.html" title="Sổ tay cà phê Arabica của Lào">Sổ tay cà phê Arabica của Lào</a>
- 
-                </p>
-                
-                <h2 class="text-xl leading-6 font-medium text-gray-900 sm:text-2xl ">
-                    <a href="/posts/cay-ca-phe-va-lua-chon-vung.html">
-                        Chương 1 : Cây cà phê và lựa chọn vùng
-                    </a>
-                </h2>
-
-                <p class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5" >
-                    This Arabica coffee manual for Lao People&#039;s Democratic Republic (Lao PDR) is an activity under a FAO Technical Cooperation Program coffee project for Lao PDR
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
- 
-                                     <div class="flex flex-row overflow-hidden">
-    <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
-            <div class="flex w-a flex-col text-right text-sm text-gray-500">
-                <div>
-                     <a class="text-indigo-500 hover:text-indigo-700" href="/pha-ca-phe.html" title="Pha cà phê">Pha cà phê</a>
- 
-                </div>
-                <span>
-                    2021-03-20
-                </span>
-            </div>
-        </div>
-        <div class="flex-1">
-            <div class="block">
-
-                <p class="font-light text-sm text-gray-500" >
-                     <a class="text-gray-500" href="/.html" title=""></a>
- 
-                </p>
-                
-                <h2 class="text-xl leading-6 font-medium text-gray-900 sm:text-2xl ">
-                    <a href="/posts/cac-yeu-to-anh-huong-den-huong-vi-ca-phe.html">
-                        Các yếu tố ảnh hưởng đến hương vị cà phê
-                    </a>
-                </h2>
-
-                <p class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5" >
-                    Để có một cốc cà phê ngon là cả một quá trình dài khởi đầu từ nông trại đến cốc cà phê đó. Vậy quá trình này gồm những gì? Và điều gì trong đó có thể ảnh hưởng đến hương vị của cà phê?
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
- 
-                                     <div class="flex flex-row overflow-hidden">
-    <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
-            <div class="flex w-a flex-col text-right text-sm text-gray-500">
-                <div>
-                     <a class="text-indigo-500 hover:text-indigo-700" href="/review.html" title="review">review</a>
- 
-                </div>
-                <span>
-                    2021-03-13
-                </span>
-            </div>
-        </div>
-        <div class="flex-1">
-            <div class="block">
-
-                <p class="font-light text-sm text-gray-500" >
-                     <a class="text-gray-500" href="/.html" title=""></a>
- 
-                </p>
-                
-                <h2 class="text-xl leading-6 font-medium text-gray-900 sm:text-2xl ">
-                    <a href="/posts/trang-test.html">
-                        Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet.
-                    </a>
-                </h2>
-
-                <p class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5" >
-                    Curabitur hendrerit nisl quam, quis lacinia nisi mattis vitae. Vestibulum nunc enim, tempor et turpis at, molestie pulvinar nisi. Vestibulum.
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
- 
-                            </div>
         </div>
     </div>
             </div>
@@ -308,7 +159,38 @@
         </div>
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
+    <script>
+        function makeData() {        
+            const items = [...document.querySelectorAll('h2, h3')].map(function (ele) {
+                return {
+                    id: ele.getAttribute('id'),
+                    label: ele.textContent,
+                    level: parseLevel(ele.nodeName),
+                    children: []
+                };
+            });
+            
+            let tree = [];            
+            for (let i = 0; i < items.length; i++) {
+                let item = items[i];
+                if (item.level === 2) {
+                    tree.push(item);
+                }
+
+                if (item.level === 3) {
+                    tree[tree.length - 1].children.push(item);
+                }
+            }
+
+            return {items: tree};
+        }
+
+        function parseLevel(heading) {
+            return parseInt(heading.substr(1,1));
+        }
+    </script>
+
 </body>
 
 </html>
