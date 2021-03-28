@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <table class="border-collapse border border-gray-200" x-data="app()">
+    <table class="border-collapse border border-gray-200" x-data="kasuyaApp()">
         <thead>
-            <tr colspan="5">
-                <th class="border">kasuya 4:6 recipe</th>
+            <tr>
+                <th colspan="5" class="border">kasuya 4:6 recipe</th>
             </tr>
-            <tr colspan="5">
-                <th class="border">Profile</th>
+            <tr>
+                <th colspan="5" class="border">Profile</th>
             </tr>
             <tr>
                 <tr>
@@ -85,7 +85,7 @@
     </table>
 
     <script>
-        function app() {
+        function kasuyaApp() {
             let doseOut = this.doseIn * this.ratio;
             return {
                 doseIn: 10 + 10,
