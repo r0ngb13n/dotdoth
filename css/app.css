@@ -31292,7 +31292,7 @@ a:hover {
   table-layout: auto;
 }
 
-.post-content table th, table td{
+.post-content table th, .post-content table td{
   --tw-border-opacity: 1;
   border-color: rgba(17, 24, 39, var(--tw-border-opacity));
   border-width: 1px;
