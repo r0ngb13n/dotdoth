@@ -29,7 +29,7 @@ a:hover {
 }
 .post-content iframe {
 	@apply m-auto;
-} 
+}
 .post-content h4 {
 	@apply my-5 font-semibold text-lg;
 }
@@ -59,7 +59,7 @@ a:hover {
 .post-content table{
 	@apply table-auto border-collapse;
 }
-.post-content table th, table td{
+.post-content table th, .post-content table td{
 	@apply border border-gray-900;
 }
 
