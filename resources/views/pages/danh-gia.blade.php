@@ -12,7 +12,7 @@
 
             <div class="mt-10 max-w-xl mx-auto grid gap-14 sm:mt-10 sm:gap-24 sm:max-w-xl lg:grid-cols-1">
                 @foreach ($posts as $post)
-                    @if($post->layout === "review")
+                    @if($post->layout === "review" && $post->status !== 0)
                         <x-blocks.review :post="$post" />
                     @endif
                 @endforeach

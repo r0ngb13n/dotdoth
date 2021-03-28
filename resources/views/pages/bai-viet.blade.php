@@ -12,7 +12,7 @@
 
             <div class="mt-10 max-w-xl mx-auto grid gap-6 sm:mt-10 sm:gap-12 sm:max-w-xl lg:grid-cols-1">
                 @foreach ($posts as $post)
-                    @if($post->layout !== "book" && $post->layout !== "review" && $post->category !== "Công cụ" )
+                    @if($post->layout === "post" && $post->category !== "Công cụ" && $post->status != 0 )
                         <x-blocks.blog :post="$post" />
                     @endif
                 @endforeach

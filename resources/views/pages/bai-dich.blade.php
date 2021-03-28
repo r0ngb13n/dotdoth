@@ -13,7 +13,7 @@
             <div class="mt-10 max-w-xl mx-auto grid gap-14 sm:mt-10 sm:gap-24 sm:max-w-xl lg:grid-cols-1">
                 <!-- should filter only posts you need -->
                 @foreach ($posts as $post)
-                @if($post->layout === "book")
+                @if($post->layout === "book" && $post->status !== 0)
                     <div class="flex space-x-5">
                         <div class="w-1/4">
                             <x-img class="object-fill h-full" :src="$post->featureImage()" height="300" />
