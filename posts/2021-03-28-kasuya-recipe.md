@@ -20,7 +20,7 @@ status: 1
 
 ![https://www.mauricelacroix.com/media/Tetsu_Kasuya_1.jpg](https://www.mauricelacroix.com/media/Tetsu_Kasuya_1.jpg)
 
-Sau ba năm bước chân vào ngành công nghiệp cà phê, Tetsu Kasuya trở thành nhà vô địch World Brewers Cup vào năm 2016 với phương pháp pha độc đạo 4:6 của mình. Bài viết này đề cập đến phương pháp pha này cùng với các mẹo nhỏ.
+Sau ba năm bước chân vào ngành công nghiệp cà phê, Tetsu Kasuya trở thành nhà vô địch World Brewers Cup vào năm 2016 với phương pháp pha độc đáo 4:6 của mình. Bài viết này đề cập đến phương pháp pha này cùng với các mẹo nhỏ. Cùng với đó sẽ là một bảng tính hỗ trợ cho các bạn.
 
 > Phương pháp 4:6 bắt đầu từ việc chia lượng nước pha thành hai phần 40% và 60%.
 
