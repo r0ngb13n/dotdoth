@@ -31209,38 +31209,20 @@ a:hover {
 
 .post-content blockquote p{
   font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-left: 0.5rem;
   --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity));
-  font-style: italic;
-}
-
-.post-content p {
-  font-weight: 300;
-  margin-top: 1.25rem;
-  --tw-text-opacity: 1;
-  color: rgba(17, 24, 39, var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .post-content p {
-    font-weight: 400;
-  }
-}
-
-.post-content strong {
-  font-weight: 600;
-}
-
-.post-content strong>em{
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgba(185, 28, 28, var(--tw-text-opacity));
-  font-style: normal;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 .post-content img {
   margin-left: auto;
   margin-right: auto;
+}
+
+.post-content iframe {
+  margin: auto;
 }
 
 .post-content h4 {
@@ -31267,10 +31249,43 @@ a:hover {
   margin-bottom: 1.25rem;
 }
 
+.post-content p {
+  font-weight: 300;
+  margin-top: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .post-content p {
+    font-weight: 400;
+  }
+}
+
+.post-content strong {
+  font-weight: 600;
+}
+
+.post-content strong>em{
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+  font-style: normal;
+}
+
+/* list */
+
 .post-content ul {
   list-style-type: disc;
   padding-left: 1.5rem;
 }
+
+.post-content ul li::marker{
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+
+/* table */
 
 .post-content table{
   border-collapse: collapse;
@@ -31281,6 +31296,38 @@ a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(17, 24, 39, var(--tw-border-opacity));
   border-width: 1px;
+}
+
+.page-title{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.page-title .bigText{
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+.page-title .subText{
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .page-title .subText {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 /* layout cho page reivew */
