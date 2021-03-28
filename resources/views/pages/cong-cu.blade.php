@@ -1,11 +1,11 @@
 <x-layout :categories="$posts->map(fn ($post) => $post->category)->unique()">
     <div class="relative">
         <div class="relative max-w-7xl mx-auto">
-            <div class="text-center tracking-wider max-w-xl mx-auto">
-                <h2 class="text-3xl font-regular text-gray-900">
+            <div class="page-title">
+                <h2 class="bigText">
                     Công cụ
                 </h2>
-                <p class="text-base mt-2  text-gray-500 font-light sm:text-lg">
+                <p class="subText">
                     Công cụ, tiện ích, ứng dụng.
                 </p>
             </div>
@@ -13,7 +13,7 @@
             <div class="mt-10 max-w-xl mx-auto grid gap-14 sm:mt-10 sm:gap-24 sm:max-w-xl lg:grid-cols-1">
                 @foreach ($posts as $post)
                     @if($post->category === "Công cụ")
-                        <x-blocks.blog :post="$post" />
+                        <x-blocks.review :post="$post" />
                     @endif
                 @endforeach
             </div>

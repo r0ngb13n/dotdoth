@@ -1,11 +1,11 @@
 <x-layout>
     <div class="relative">
         <div class="relative max-w-7xl mx-auto">
-            <div class="text-center tracking-wider max-w-xl mx-auto">
-                <h2 class="text-3xl font-regular text-gray-900">
+         <div class="page-title">
+                <h2 class="bigText">
                     Bài dịch
                 </h2>
-                <p class="text-base mt-2  text-gray-500 font-light sm:text-lg">
+                <p class="subText">
                     Dịch sách hay các báo cáo, nghiên cứu, ...
                 </p>
             </div>
