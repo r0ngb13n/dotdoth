@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home page</title>
+    <title>Kasuya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -32,9 +32,9 @@
                     <th class="border">Balance</th>
                     <th class="border">
                         <select x-model="balance">
-                            <option value="2">Sweet</option>
-                            <option value="3">Normal</option>
-                            <option value="4">Acidity</option>
+                            <option value="sweet">Sweet</option>
+                            <option value="normal">Normal</option>
+                            <option value="acidity">Acidity</option>
                         </select>
                     </th>
                     <th class="border">Ratio</th>
@@ -53,9 +53,9 @@
                     <th class="border">Strength</th>
                     <th class="border">
                        <select x-model="strength">
-                        <option value="0.3">Weak</option>
-                        <option value="0.2">Balance</option>
-                        <option value="0.15">Strong</option>
+                        <option value="weak">Weak</option>
+                        <option value="balance">Balance</option>
+                        <option value="strong">Strong</option>
                     </select>
                 </th>
                 <th  class="border">Sweet/Acidity (40%)</th>
@@ -75,7 +75,7 @@
             <template x-for="item in calculated" :key="item.time">
                 <tr>
                     <td class="border" x-text="item.time"></td>
-                    <td class="border" x-text="item.target"></td>
+                    <td class="border text-right" x-text="item.target <= doseOut ? item.target : ''"></td>
                     <td class="border" x-text="item.sweet"></td>
                     <td class="border" x-text="item.normal"></td>
                     <td class="border" x-text="item.acidity"></td>
@@ -90,31 +90,49 @@
             return {
                 doseIn: 10 + 10,
                 ratio: 15,
-                balance: 3,
-                strength: 0.2,
+                balance: 'sweet',
+                strength: 'strong',
                 get doseOut() {
                     return this.doseIn * this.ratio;
                 },
                 get calculated() {
-                    return [
-                    {
-                        time: '00:00',
-                        target: this.doseIn * 2,
-                        sweet: '',
-                        normal: '',
-                        acidity: ''
-                    },
-                        { // first
-                            time: '00:45',
-                            target: this.doseIn * 2,
+                    const balances = {
+                        sweet: 2,
+                        normal: 3,
+                        acidity: 4,
+                    };
+
+                    const strengths = {
+                        weak: 0.3,
+                        balance: 0.2,
+                        strong: 0.15,
+                    };
+
+                    let data = [];
+                    let times = ['00:00', '00:45', '01:30', '02:15', '03:00', '03:45', '04:30'];
+                    for (let i = 0; i < times.length; i++) {
+                        let target = 0;
+                        if (i === 0) {
+                            target = this.doseIn * balances[this.balance];
+                        } else if (i === 1) {
+                            target = this.doseOut * 0.4; // wtf
+                        } else {
+                            target = data[i-1].target + this.doseOut * strengths[this.strength];
+                        }
+
+                        data[i] = {
+                            time: times[i],
+                            target: target,
                             sweet: '',
                             normal: '',
                             acidity: ''
-                        }
-                        ];
+                        };
                     }
+
+                    return data;
                 }
             }
+        }
         </script>
 
     </body>
