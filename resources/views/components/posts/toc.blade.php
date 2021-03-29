@@ -1,5 +1,5 @@
 <div {{ $attributes->merge(['class' => "fixed"]) }} x-data="makeData()">
-    <div class="table-of-contents w-96 sticky top-0 right-0 pt-5 pl-5">
+    <div class="table-of-contents w-72 sticky top-0 right-0 pt-5 pl-5">
         <ol class="list-decimal list-inside">
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">

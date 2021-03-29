@@ -12,6 +12,15 @@ a:hover {
 	@apply underline;
 }
 /*post*/
+.post-content .postTitle{
+	@apply text-3xl tracking-wide text-gray-900 font-medium md:text-4xl leading-8 sm:leading-10;
+}
+.post-content .postInfo{
+	@apply text-sm tracking-wide text-gray-700 mt-3 sm:mt-2.5;
+}
+.post-content .postCont{
+	@apply mt-6 leading-8 sm:mt-12;
+}
 .post-content a {
 	@apply text-indigo-500;
 }
@@ -28,7 +37,7 @@ a:hover {
 	@apply mx-auto;
 }
 .post-content iframe {
-	@apply m-auto;
+	@apply m-auto w-full min-h-full;
 }
 .post-content h4 {
 	@apply my-5 font-semibold text-lg;
@@ -63,6 +72,7 @@ a:hover {
 	@apply border border-gray-900;
 }
 
+/* post list */
 .page-title{
 	@apply text-center tracking-wider max-w-xl mx-auto ;
 }
@@ -72,6 +82,8 @@ a:hover {
 .page-title .subText{
 	@apply text-base mt-2  text-gray-500 font-light sm:text-lg;
 }
+/*  */
+
 /* layout cho page reivew */
 /* .post-content.rvlayout :not(img){
 	@apply max-w-screen-sm mx-auto;
