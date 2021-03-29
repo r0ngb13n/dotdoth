@@ -52,16 +52,14 @@
                     <th class="border">Strength</th>
                     <th class="border">
                        <select x-model="strength">
-                        <option value="weak">Weak</option>
-                        <option value="balance">Balance</option>
-                        <option value="strong">Strong</option>
-                    </select>
-                </th>
-                <th  class="border">Sweet/Acidity (40%)</th>
-
-            </tr>
+                            <option value="weak">Weak</option>
+                            <option value="balance">Balance</option>
+                            <option value="strong">Strong</option>
+                        </select>
+                    </th>
+                    <th class="border" colspan="3">Sweet/Acidity (40%)</th>
+                </tr>
             <tr>
-
                 <th class="border">TIME</th>
                 <th class="border">Target</th>
                 <th class="border">Sweet</th>
