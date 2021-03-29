@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <table class="border-collapse border border-gray-200" x-data="kasuyaApp()">
+    <table class="border-collapse border border-gray-200 w-full" x-data="kasuyaApp()">
         <thead>
             <tr>
-                <th colspan="5" class="border">kasuya 4:6 recipe</th>
+                <th colspan="5" class="border uppercase text-xl">kasuya 4:6 recipe</th>
             </tr>
             <tr>
                 <th colspan="5" class="border">Profile</th>
@@ -23,8 +23,8 @@
                     <th class="border" colspan="3">Dose out</th>
                 </tr>
                 <tr>
-                    <th colspan="2" class="border">
-                        <input type="number" x-model="doseIn">
+                    <th colspan="2" class="border text-center">
+                        <input type="text" class="text-center bg-gray-200" x-model="doseIn" autofocus>
                     </th>
                     <th colspan="3" x-text="doseOut" class="border"></th>
                 </tr>
@@ -39,14 +39,13 @@
                     </th>
                     <th class="border">Ratio</th>
                     <th class="border">1:</th>
-                    <th class="border">
-                        <select x-model="ratio">
-                            <option value="13">13</option>
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                            <option value="16">16</option>
-                            <option value="17">17</option>
-                        </select>
+                    <th class="border flex items-center space-x-1 justify-center">
+                        <template x-for="value in [13, 14, 15, 16, 17]">
+                            <span class="font-base text-base rounded px-1 cursor-pointer hover:border hover:border-green-500"
+                             :class="{'bg-green-500': value === ratio}"
+                             x-text="value"
+                             @click="ratio = value"></span>
+                        </template>
                     </th>
                 </tr>
                 <tr>
