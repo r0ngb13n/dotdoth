@@ -31190,6 +31190,55 @@ a:hover {
 
 /*post*/
 
+.post-content .postTitle{
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+  letter-spacing: 0.025em;
+}
+
+@media (min-width: 640px) {
+  .post-content .postTitle {
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-content .postTitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.post-content .postInfo{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  letter-spacing: 0.025em;
+}
+
+@media (min-width: 640px) {
+  .post-content .postInfo {
+    margin-top: 0.625rem;
+  }
+}
+
+.post-content .postCont{
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .post-content .postCont {
+    margin-top: 3rem;
+  }
+}
+
 .post-content a {
   --tw-text-opacity: 1;
   color: rgba(99, 102, 241, var(--tw-text-opacity));
@@ -31223,6 +31272,8 @@ a:hover {
 
 .post-content iframe {
   margin: auto;
+  min-height: 100%;
+  width: 100%;
 }
 
 .post-content h4 {
@@ -31298,6 +31349,8 @@ a:hover {
   border-width: 1px;
 }
 
+/* post list */
+
 .page-title{
   margin-left: auto;
   margin-right: auto;
@@ -31329,6 +31382,8 @@ a:hover {
     line-height: 1.75rem;
   }
 }
+
+/*  */
 
 /* layout cho page reivew */
 

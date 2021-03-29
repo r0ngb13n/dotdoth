@@ -73,17 +73,18 @@
 
             <!-- main content -->
             <div class="pt-5 sm:pt-12">
-                <div class="post-content relative mx-auto sm:max-w-screen-md">
-        <h1 class="text-3xl tracking-wide text-left text-gray-900 font-semibold md:text-4xl md:text-center">Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet.</h1>
+                <div class="post-content relative mx-auto max-w-screen-md">
+        <h1 class="postTitle text-left  md:text-center">
+            Nullam pretium enim et orci tincidunt congue. Praesent et arcu semper, rutrum quam ut, imperdiet.
+        </h1>
 
-        <div class="text-left text-sm text-gray-500 mt-3 sm:mt-2.5 md:text-center">
-            <span> <a class="text-grey-500 uppercase" href="/review.html" title="review">review</a>
+        <div class="postInfo text-left  md:text-center">
+            <span> <a class="uppercase" href="/review.html" title="review">review</a>
  ;&nbsp;</span>
-            <span>Viết vào:&nbsp;<time datetime="2021-03-13">2021-03-13</time></span>
+                        <span>Viết vào:&nbsp;<time datetime="2021-03-13">2021-03-13</time></span>
         </div>
-
         <div>
-            <div class="mt-6 leading-8 post-content rvlayout sm:mt-12">
+            <div class="postCont">
                 <p><img src="https://c.files.bbci.co.uk/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" alt="Pepe the frog" /></p>
 <h1>Heading one</h1>
 <h1>bur</h1>
@@ -239,7 +240,7 @@ func main() {
             </div>
             <div class="absolute top-0 right-0 h-full z-0">
                  <div class="fixed hidden lg:block fixed" x-data="makeData()">
-    <div class="table-of-contents w-96 sticky top-0 right-0 pt-5 pl-5">
+    <div class="table-of-contents w-72 sticky top-0 right-0 pt-5 pl-5">
         <ol class="list-decimal list-inside">
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">
