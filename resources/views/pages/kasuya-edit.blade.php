@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <table class="kasuyaTool" x-data="kasuyaApp()"> 
+    <table class="kasuyaTool " x-data="kasuyaApp()"> 
         <thead>
             <tr>
                 <th colspan="6">Kasuya 4:6 method</th>
@@ -19,17 +19,17 @@
             </tr>
             
             <tr>
-                <th colspan="2" class="w-2/5">Dose in</th>
-                <th colspan="2" class="w-1/5">Ratio</th>
-                <th colspan="2" class="w-2/5">Dose out</th>
+                <th colspan="2" >Dose in</th>
+                <th colspan="2" >Ratio</th>
+                <th colspan="2" >Dose out</th>
             </tr>
             <tr>
                 <th colspan="2">
-                    <input type="text" class="text-center" x-model="doseIn" autofocus placeholder="Lượng cà phê ban đầu">      
+                    <input type="number" class="text-center" x-model="doseIn" autofocus placeholder="Lượng cà phê ban đầu">      
                 </th>
                 <th>1:</th>
                 <th>
-                    <input type="text" class="text-center" x-model="ratio" autofocus>      
+                    <input type="number" class="text-center" x-model="ratio" autofocus>      
                 </th>
                 <th colspan="2" x-text="doseOut"></th>
             </tr>
