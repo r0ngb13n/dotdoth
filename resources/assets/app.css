@@ -37,7 +37,7 @@ a:hover {
 	@apply mx-auto;
 }
 .post-content iframe {
-	@apply m-auto w-full min-h-full;
+	@apply m-auto w-full ;
 }
 .post-content h4 {
 	@apply my-5 font-semibold text-lg;
@@ -84,10 +84,31 @@ a:hover {
 }
 /*  */
 
-/* layout cho page reivew */
-/* .post-content.rvlayout :not(img){
-	@apply max-w-screen-sm mx-auto;
+/* kasuya app */
+.kasuyaTool {
+	@apply border-collapse border w-full table-fixed text-sm sm:text-lg tracking-wider;
 }
-.post-content.rvlayout p img{
-	@apply mx-auto min-w-full outline-black;
-} */
+
+.kasuyaTool th {
+	@apply my-5 font-semibold border;
+}
+
+.kasuyaTool td {
+	@apply my-5 font-normal border;
+}
+
+.kasuyaTool input{
+	@apply w-full bg-gray-100;
+}
+
+.kasuyaTool input:hover{
+	@apply ring-1 ring-gray-200;
+}
+
+.kasuyaTool input:focus{
+	@apply ring-1 ring-gray-400;
+}
+.kasuyaTool select{
+	@apply w-full;
+}
+/*  */
