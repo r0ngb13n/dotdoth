@@ -37,7 +37,7 @@ a:hover {
 	@apply mx-auto;
 }
 .post-content iframe {
-	@apply m-auto w-full ;
+	@apply m-auto w-full min-h-full;
 }
 .post-content h4 {
 	@apply my-5 font-semibold text-lg;
@@ -84,9 +84,14 @@ a:hover {
 }
 /*  */
 
+/* table of content */
+
+
+/*  */
+
 /* kasuya app */
 .kasuyaTool {
-	@apply border-collapse border w-full table-fixed text-sm sm:text-lg tracking-wider;
+	@apply border-collapse border w-full table-fixed text-base sm:text-lg tracking-wider;
 }
 
 .kasuyaTool th {
@@ -98,7 +103,7 @@ a:hover {
 }
 
 .kasuyaTool input{
-	@apply w-full bg-gray-100;
+	@apply w-full bg-gray-100 pl-1;
 }
 
 .kasuyaTool input:hover{
@@ -106,7 +111,7 @@ a:hover {
 }
 
 .kasuyaTool input:focus{
-	@apply ring-1 ring-gray-400;
+	@apply ring-1 ring-gray-400 outline-none;
 }
 .kasuyaTool select{
 	@apply w-full;

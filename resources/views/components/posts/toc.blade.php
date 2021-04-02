@@ -3,13 +3,13 @@
         <ol class="list-decimal list-inside">
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">
-                    <a x-bind:href="`#${item.id}`" x-text="item.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
 
                     <template x-if="item.children.length">
                         <ol class="list-decimal list-inside ml-5">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
-                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
                                 </li>
                             </template>
                         </ol>

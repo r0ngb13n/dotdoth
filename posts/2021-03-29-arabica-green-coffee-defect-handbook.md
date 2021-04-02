@@ -5,7 +5,7 @@ layout: book
 category: Sản xuất
 created_at: 2021-03-29
 description: Các lỗi của cà phê nhân xanh theo tiêu chuẩn của SCA
-status: 1
+status: 0
 ---
 ![https://www.plantgrower.org/uploads/6/5/5/4/65545169/published/3a51c9424f7e60b1638e6e506a493c07.jpg?1515169012](https://www.plantgrower.org/uploads/6/5/5/4/65545169/published/3a51c9424f7e60b1638e6e506a493c07.jpg?1515169012)
 

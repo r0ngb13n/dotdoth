@@ -1,6 +1,6 @@
 <div class="flex flex-row overflow-hidden">
     <div class="flex-1 bg-white flex flex-row justify-between">
-        <div class="flex-none w-20 mt-2 tracking-wide sm:w-28 mr-2">
+        <div class="flex-none w-20 mt-0 sm:mt-1 tracking-wide sm:w-28 mr-2">
             <div class="flex w-a flex-col text-right text-sm text-gray-500">
                 <div>
                     <x-category-href :name="$post->category" class="text-indigo-500 hover:text-indigo-700" />
