@@ -12,29 +12,29 @@
     <table class="kasuyaTool " x-data="kasuyaApp()"> 
         <thead>
             <tr>
-                <th colspan="6">Kasuya 4:6 method</th>
+                <th colspan="8">Kasuya 4:6 method</th>
             </tr>                       
             <tr>
-                <th colspan="6">Profile</th>
+                <th colspan="8">Profile</th>
             </tr>
             
             <tr>
-                <th colspan="2" >Dose in</th>
+                <th colspan="3" >Dose in</th>
                 <th colspan="2" >Ratio</th>
-                <th colspan="2" >Dose out</th>
+                <th colspan="3" >Dose out</th>
             </tr>
             <tr>
-                <th colspan="2">
+                <th colspan="3">
                     <input type="number" class="text-center" x-model="doseIn" autofocus placeholder="Lượng cà phê ban đầu">      
                 </th>
                 <th>1:</th>
                 <th>
                     <input type="number" class="text-center" x-model="ratio" autofocus>      
                 </th>
-                <th colspan="2" x-text="doseOut"></th>
+                <th colspan="3" x-text="doseOut"></th>
             </tr>
             <tr>
-                <th >Balance</th>
+                <th colspan="2">Balance</th>
                 <th colspan="2">
                     <select x-model="balance">
                         <option value="sweet">Sweet</option>
@@ -43,7 +43,7 @@
                     </select>
                 </th>
 
-                <th class="border">Strength</th>
+                <th colspan="2">Strength</th>
                 <th colspan="2" class="border">
                     <select x-model="strength">
                         <option value="weak">Weak</option>
@@ -54,18 +54,21 @@
                 
             </tr>
             <tr>
-                <th>Time</th>
-                <th>Target</th>
-                <th colspan="4">NOTE</th>
+                <th colspan="1">Time</th>
+                <th colspan="1">
+                    <span class="hidden sm:block">Target</span>
+                    <span class="sm:hidden">Targ.</span>
+                </th>
+                <th colspan="6">NOTE</th>
             </tr>
         </thead>
 
         <tbody>
             <template x-for="item in calculated" :key="item.time">
                 <tr>
-                    <td x-text="item.time"></td>
-                    <td x-text="item.target <= doseOut ? item.target : ''"></td>
-                    <td colspan="4">
+                    <td colspan="1" x-text="item.time"></td>
+                    <td colspan="1" class="text-right "x-text="item.target <= doseOut ? item.target : ''"></td>
+                    <td colspan="6">
                         <input type="text">
                     </td>
                 </tr>

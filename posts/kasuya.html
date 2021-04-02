@@ -111,7 +111,7 @@
 <li><strong><em>Nước pha</em></strong>: tùy thuộc vào TDS của nước. TDS của nước cũng như thành phần của nó ảnh hưởng đến cách mà nước chiết xuất bột cà phê. Điều chỉnh nhiệt độ và thời gian pour tùy thuộc TDS của nước.</li>
 <li><strong><em>Ấm rót</em></strong>: cổ ngỗng nếu có thể. Vì dòng rót theo phương thẳng đứng sẽ dễ dàng kiểm soát hơn.</li>
 </ul>
-<h2>Video tham khảo</h2>
+<h2 id="video">Video tham khảo</h2>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/OFLaCs99lWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="absolute top-0 right-0 h-full z-0">
@@ -120,13 +120,13 @@
         <ol class="list-decimal list-inside">
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">
-                    <a x-bind:href="`#${item.id}`" x-text="item.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
 
                     <template x-if="item.children.length">
                         <ol class="list-decimal list-inside ml-5">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
-                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class="transition text-gray-300 hover:no-underline hover:text-gray-500"></a>                   
+                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
                                 </li>
                             </template>
                         </ol>
