@@ -100,13 +100,13 @@
                     <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
 
                     <template x-if="item.children.length">
-                        <ol class="list-decimal list-inside ml-5">
+                        <ul class="list-decimal list-inside ml-2">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
                                     <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
                                 </li>
                             </template>
-                        </ol>
+                        </ul>
                     </template>
                 </li>                
             </template>
