@@ -40,10 +40,10 @@ a:hover {
 	@apply m-auto w-full min-h-full;
 }
 .post-content h4 {
-	@apply my-5 font-semibold text-lg;
+	@apply my-5 font-semibold text-lg mb-2;
 }
 .post-content h3 {
-	@apply my-5 font-semibold text-xl;
+	@apply my-5 font-semibold text-xl mb-2;
 }
 .post-content h2 {
 	@apply my-5 font-semibold text-2xl;

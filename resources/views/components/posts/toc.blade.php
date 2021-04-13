@@ -1,12 +1,12 @@
 <div {{ $attributes->merge(['class' => "fixed"]) }} x-data="makeData()">
-    <div class="table-of-contents w-72 sticky top-0 right-0 pt-5 pl-5">
-        <ol class="list-decimal list-inside">
+    <div class="table-of-contents w-72 sticky top-0 right-0 ml-5 pt-5 pl-5">
+        <ol class="list-decimal list-inside"  style="list-style-type:none;">
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">
                     <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
 
                     <template x-if="item.children.length">
-                        <ul class="list-decimal list-inside ml-2">
+                        <ul class="list-decimal list-inside text-sm" style="list-style-type:none;">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
                                     <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
