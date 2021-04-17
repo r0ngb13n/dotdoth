@@ -30,7 +30,7 @@ a:hover {
 .post-content blockquote {
 	@apply pl-2 border-l-4 border-red-700;
 }
-.post-content blockquote p{
+.post-content blockquote p, li{
 	@apply text-gray-700 font-normal text-lg ml-2;
 }
 .post-content img {
