@@ -74,12 +74,7 @@ Một dung dịch có thể duy trì ở một độ pH ổn định, bất kể
 
 Giống như hương ướt, sự đa dạng cũng như nồng độ của các acids và muối sẽ thay đổi tùy thuộc vào nguồn gốc cà phê và thông số rang độ rang của từng loại cà phê cụ thể. Ví dụ, tương tác của phosphoric acid (một loại acid mạnh) với kali (một loại base mạnh) có tầm quan trọng đến cảm nhận vị chua. Nồng độ phosphoric acid xuất hiện không chỉ có ảnh hưởng trực tiếp đến cảm nhận vị chua trong đồ uống mà còn "kết nối" với Kali, tạo vị ít mặn ở lưỡi.
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](/images/scaa-water/image7.png "image_tooltip")
 
 
 Hình 7: Hệ thống đệm
@@ -183,12 +178,7 @@ Việc các hạt cà phê riêng lẻ nở như nào chịu ảnh hưởng củ
 
 _Hình 8_ (lấy từ Coffee Brewing Chart trong SCAA Coffee Brewing Handbook) mô tả quá trình chiết xuất dưới các điều kiện lý tưởng
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](/images/scaa-water/image8.png "image_tooltip")
 
 
 Hình 8
@@ -201,11 +191,7 @@ Tại thời điểm này chúng ta đã có cái nhìn về chất lượng nư
 Ở các đồ thị dưới đây, các thuộc tính hương vị được liệt kê ngoài mạng, khoảng cách từ tâm hướng ra chỉ ra nồng độ của hương vị đó. Ở hình đầu tiên là cà phê chất lượng tốt, cân bằng, với độ ngọt tốt và độ chua vừa phải.
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](/images/scaa-water/image9.png "image_tooltip")
 
 
 Ở _Hình 9_, cà phê dịu nhẹ bởi vị nó có vừa hương thơm, có ngọt, có chua, với body vừa phải. Có sự xuất hiện của muối/kali và có vị đắng, thể nhưng ở mức độ ít, không ảnh hưởng đến hương vị tổng thể của cà phê.
@@ -215,11 +201,7 @@ Thế nhưng nếu như chúng ta sử dụng nước có TDS cao, hương vị 
 Ở _hình 10_, không nhiều hương vị được chiết xuất vào cốc cà phê - là những hương vị mà chúng ta mong muốn. Muối trong cà phê được hòa tan hoàn toàn cùng lượng muối có thể có sẵn trong nước pha, cùng các thành phần gây đắng do ảnh hưởng của việc pha quá lâu hay các tác động người pha, nhưng hương thơm, độ chua hay độ ngọt không được hòa tan.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](/images/scaa-water/image10.png "image_tooltip")
 
 
 Nước (trong _hình 11_) được dùng để pha có độ pH cao (tính kiềm), có ảnh hưởng trực tiếp với tính chua có trong cà phê.
@@ -253,12 +235,7 @@ Các sự khác biệt vừa nêu cũng có thể khác nhau theo tần suất b
 
 Chúng ta cũng cần để ý rằng hiện tượng đóng cặn không phải lúc nào cũng do các yếu tố trong hệ thống carbonate gây nên. Silica, khi xuất hiện chỉ chiếm nồng độ rất thấp so với calcium, nhưng lại có thể đóng cặn với mức độ ngang ngửa calcium, bất kể ở mức pH nào.
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](/images/scaa-water/image11.png "image_tooltip")
 
 
 Hình 13: Cặn được lấy từ bên trong máy pha cà phê. Một khi xuất hiện có thể phát triển rất nhanh. Kể cả sau khi thiết bị pha được tẩy cặn, các hạt siêu nhỏ vẫn còn, vẫn có khả năng đóng cặn. Để giải quyết triệt để chính là thay thế bộ phận đó.
@@ -268,13 +245,7 @@ Hình 13: Cặn được lấy từ bên trong máy pha cà phê. Một khi xu�
 Vấn đề gây ra hiện tượng này hiếm khi đến từ nguồn nước tự nhiên, dù một vài loại nước chứa acid có thể có dưới điều kiện đặc biệt. Nguyên nhân thường là acid trợ hàn được sử dụng trong mối hàn nối các ống đồng. Xuất hiện từ 6 đến 18 tháng sau khi dụng cụ được sử dụng. Hydrochloric acid từ các chất trợ sử dụng trong các mối nối đồng hay lớp phủ chromium oxide của lớp kim thép không rỉ, dần dần ăn mòn đi lớp phủ này.
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
+![alt_text](/images/scaa-water/image12.png "image_tooltip")
 Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất trợ hàn được sử dụng trong các mối nối đồng, không phải từ nước. Lỗi này xuất hiện sau 6 tháng sử dụng. Kéo dài từ 6 đến 18 tháng sau khi lắp đặt
 
 Nước có thể là một vấn đề trên mọi mức độ. Ở chương cuối, chúng ta sẽ một vấn đề quan trọng khác, đó là ảnh hưởng của nước đến với thiết bị pha. Quan trọng hơn, chúng ta sẽ quan sát các bài tra và hiệu chỉnh nước để có thể pha một cốc cà phê lý tưởng.

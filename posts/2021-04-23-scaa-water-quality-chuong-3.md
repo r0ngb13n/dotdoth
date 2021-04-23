@@ -408,31 +408,19 @@ _Sắt là vấn đề chính_: Khi pha cà phê mà có sử dụng nước có
 _Các tiêu chuẩn cho hệ thống carbonate_: Carbonates và bicarbonates làm chậm tốc độ chiết xuất của nước qua lớp bột cà phê hơn bất kỳ các nhóm hợp chất khác trong nguồn nước, - đặc biệt là khi nồng độ của chúng vượt quá 100mg/L (_Bảng 4_). Như có thể thấy trong Bảng 5, sự thay đổi lớn nhất của tốc độ dòng chảy ở giai đoạn đầu của quá trình pha, giảm dần nếu như nồng độ các hợp chất carbonate-bicarbonate tăng lên (xem _Bảng 6_). Thậm chí có thể khiến nước không thể đi qua lớp cà phê trong một khoảng thời gian nếu như nồng độ. Trong những trường hợp xảy ra như vậy, chúng ta cần phải có hệ thống xử lý.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](/images/scaa-water/image13.png "image_tooltip")
 
 
 Bảng 4: Thời gian pha của các loại nước khử ion có sử dụng các hợp chất vô cơ với nồng độ 400ppm. Lưu ý: Vạch thời gian 350 giây là khi sử dụng nước khử ion hoàn toàn.
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](/images/scaa-water/image14.png "image_tooltip")
 
 
 Bảng 5: Ảnh hưởng của Sodium Bicarbonate với các nồng độ khác nhau tới thời gian pha.
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](/images/scaa-water/image15.png "image_tooltip")
 
 
 Bảng 6: Ảnh hưởng của các nồng độ khác nhau của một vài chất trong dung dịch tới thời gian pha. Lưu ý: Vạch thời gian 350 giây là khi sử dụng nước khử ion hoàn toàn.

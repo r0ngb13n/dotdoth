@@ -63,7 +63,7 @@ Các phân tử được tạo thành từ các "khối xây dưng" là các ngu
 Điều quan trọng cần phải lưu ý rằng, để có thể tồn tại trong dung dịch, các ion cần phải đạt độ cân bằng. Có nghĩa rằng, các ion mang điện tích âm (anion) phải có cùng số lượng với các ion điện tích dương (cation).
 
 
-![alt_text](images\image1.png "image_tooltip")
+![alt_text](/images/scaa-water/image1.png "image_tooltip")
 
 
 Hình 1: Phân tử đường cùng các phân tử nước xung quanh.
@@ -97,14 +97,14 @@ Liên kết hydrogen giữa các phân tử nước khiến cho điểm sôi và
 
 Nước là dung môi phân cực, có mặt âm và mặt dương (hình 2). Ngược lại, một dung môi không phân cực là dung môi mà trong đó các phân tử có cấu trúc đối xứng, lúc này các electron được chia sẻ cân bằng giữa các nguyên tử, từ đó không xảy ra lực hút hay lực đẩy trong đó (hình 3).
 
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](/images/scaa-water/image2.png "image_tooltip")
 
 
 Hình 2: Phân tử nước, H2O, với các cực được đánh dấu. Các nguyên tử hydrogen có màu xám trắng, nguyên tử oxygen có màu đỏ.
 
 Tất cả các phân tử phân cực đều có hướng dương và hướng âm, điều này có ảnh hưởng đến tính chất hòa tan của chất tan. Các chất mang cực dễ dàng hòa tan trong các dung môi phân cực, và ngược lại. Dù vậy, các chất phân cực lại mất nhiều thời gian hơn để liên kết với nhau cho đến khi mặt âm và mặt dương của các phân tử được liên kết với nhau, điều này chỉ xảy ra 50% trong suốt quá trình.
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](/images/scaa-water/image3.png "image_tooltip")
 
 
 Hình 3: Methane, CH4, là một phân tử không phân cực (non-polar). Các nguyên tử hydrogens sắp xếp đối xứng quanh nguyên tử carbon. Kết quả là không có liên kết hydrogen hình thành cùng với các phân tử methane khác, khiến cho chất này có nhiệt độ sôi thấp. Tuy nhiên ở dạng lỏng, nó có khả năng hòa tan các chất nhanh hơn nhiều so với các phân tử phân cực như nước.
@@ -119,17 +119,17 @@ Dưới tác động của liên kết hydrogen, nước có thể hoạt độn
 Khi ở dạng nguyên chất, phân tử nước có vô vàn cấu trúc khác nhau. Từ cấu trúc 4 phân tử (hình 4), tới nhiều loại hình hay kết hợp khác (hình 5), cũng có thể đến cấu trúc 280 phân tử phức tạp (hình 6).
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](/images/scaa-water/image4.png "image_tooltip")
 
 
 Hình 4: Các cụm 4 phân tử nước tự sắp xếp thành cụm 8 phân tử.
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](/images/scaa-water/image5.png "image_tooltip")
 	
 
 Hình 5: Các cấu trúc đa dạng của các cụm phân tử.
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](/images/scaa-water/image6.png "image_tooltip")
 
 
 Hình 6: Hai cấu trúc phân tử phức tạp của nước. Cấu trúc bên trái có mật độ ít hơn cấu trúc bên phải do trình từ sắp xếp của các phân tử.
