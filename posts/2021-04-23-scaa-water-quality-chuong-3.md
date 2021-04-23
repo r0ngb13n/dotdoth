@@ -9,21 +9,21 @@ status: 1
 ---
 Xác định chất lượng nước cũng như tìm giải pháp cho các vấn đề về nó có thể gây đau đầu cho chúng ta. Nước không chỉ là một vấn đề phức tạp, việc lựa chọn các giải pháp để xử lý nó cũng không đơn giản khi có quá nhiều sản phẩm ngoài kia, tất cả đều hướng hẹn sẽ khắc phục bất kỳ vấn đề nào bạn có. Điều quan trọng là xác định chất lượng nước đang có, chất lượng mong muốn cho hệ thống của bạn.
 
-Trong buổi thử nếm tổ chức bởi Ủy ban Tiêu chuẩn Kỹ Thuật (the Tecnical Standards Committee) của SCAA, cà phê được pha với các loại nước có TDS khác nhau để tìm hiểu xem có khác biệt đáng kể về hương vị cũng như mức độ khác biệt nếu có. Bảng 2 **cho ta thấy kết quả của bài kiểm tra mù (blind test) với các nguồn nước có TDS khác nhau. Trong các bài kiểm tra đó, họ dùng chung một loại cà phê, máy xay, dụng cụ pha, cùng kết hợp tiêu chuẩn của các chất khoáng trong đó, chỉ khác biệt về nồng độ chất khoáng trong nước. Thử nghiệm đầu tiên sử dụng 3 mẫu nước: mẫu đầu có TDS đo được là 45mg/L, mẫu 2 sử dụng nước 150mg/L, mẫu 3 là 450mg/L. Cà phê được pha với mẫu nước TDS 150mg/L cho ra kết quả tốt hơn hẳn.
+Trong buổi thử nếm tổ chức bởi Ủy ban Tiêu chuẩn Kỹ Thuật (the Tecnical Standards Committee) của SCAA, cà phê được pha với các loại nước có TDS khác nhau để tìm hiểu xem có khác biệt đáng kể về hương vị cũng như mức độ khác biệt nếu có. Bảng 2 cho ta thấy kết quả của bài kiểm tra mù (blind test) với các nguồn nước có TDS khác nhau. Trong các bài kiểm tra đó, họ dùng chung một loại cà phê, máy xay, dụng cụ pha, cùng kết hợp tiêu chuẩn của các chất khoáng trong đó, chỉ khác biệt về nồng độ chất khoáng trong nước. Thử nghiệm đầu tiên sử dụng 3 mẫu nước: mẫu đầu có TDS đo được là 45mg/L, mẫu 2 sử dụng nước 150mg/L, mẫu 3 là 450mg/L. Cà phê được pha với mẫu nước TDS 150mg/L cho ra kết quả tốt hơn hẳn.
 
 
-<table>
+<table class="table-fixed text-center text-center">
   <tr>
-   <td colspan="3" ><strong>Bảng 2: </strong>Ảnh hưởng của TDS có trong nước đến chiết xuất và hương vị
-   </td>
+   <th colspan="3" ><strong>Bảng 2: </strong>Ảnh hưởng của THS có trong nước đến chiết xuất và hương vị
+   </th>
   </tr>
   <tr>
-   <td><strong>Cốc số</strong>
-   </td>
-   <td><strong>TDS trong nước</strong>
-   </td>
-   <td><strong>Hương vị thử nếm</strong>
-   </td>
+   <th class="w-1/3" ><strong>Cốc số</strong>
+   </th>
+   <th class="w-1/3" ><strong>THS trong nước</strong>
+   </th>
+   <th class="w-1/3" ><strong>Hương vị thử nếm</strong>
+   </th>
   </tr>
   <tr>
    <td>1
@@ -57,23 +57,23 @@ Trong buổi thử nếm tổ chức bởi Ủy ban Tiêu chuẩn Kỹ Thuật (
 Khi đánh giá các mẫu nước đơn thuần, hầu như không một ai có thể chỉ ra khác biệt trong 25mg/L khác nhau trong nước. Thế nhưng khi dùng để pha có thể tạo ra những thay đổi đáng chú ý với những người tham gia. Điều này càng ủng hộ cho "ý tưởng" rằng các chất khoáng trong nước đóng vai trò quan trọng cho việc chiết xuất cà phê.
 
 
-### **Đơn vị đo lường**
+### Đơn vị đo lường {#unit}
 
 Giờ đây, chúng ta cần phải nghiên cứu nước ở mức độ phân tử để có thể hiểu các tác động của nó đến với hương vị cà phê khi pha. Trước khi áp dụng những thay đổi cần thiết, chúng ta cần phải đặt ra các tiêu chuẩn đo lường mà mọi người có thể gặp phải khi bắt gặp trong các sản phẩm, trong các báo cáo thử nghiệm hay các vấn đề liên quan đến đường nước. Dưới đây là các đơn vị đo cơ bản:
 
 
 
-*   **Các đơn vị đo nồng độ và kích thước**: Nồng độ của các chất hòa tan trong nước được tính dạng miligram trên lít, viết tắt là mg/L, tương đương với phần trên triệu đơn vị. Trong một vài đánh giá kết quả khác, một vài đơn vị khác cũng được sử dụng, tiêu biểu nhất là các _hạt_ - grains (hạt trên mỗi gallon nước - grains per gallon, hoặc gpg; 1pgp = 17.1mg/L. Kích thước hạt thực tế mà một giấy lọc có thể loại bỏ thường được tính bằng micro mét (microns). Một filter có thể lọc 1 micron cũng có thể lọc được khói thuốc lá.
-*   **Khối lượng và áp suất nước**: Trong thuật ngữ cơ học, _lượng nước (amount)_ đề cập đến dung tích nước, trong khi đó _áp suất (pressure)_ đề cập đến lực (hay tốc độ dòng chảy - rate of flow) mà nước "ép" trên một diện tích, pounds mỗi inches vuông (psi - pounds per square inch). Khi đổ đầy nước của 1 bình 1 gallon, sẽ mất thời gian hơn nếu như áp suất nước thấp. Áp suất thay đổi phụ thuộc các yếu tố như đường kính ống, chiều dài ống, hay bất kỳ lực cản nào ảnh hưởng đến dòng chảy, ví dụ như đường ống bị tắc.
-*   **Tổng chất rắn hòa tan (TDS - total dissolved solids)**: thước đo tiêu chuẩn cho TDS có thể là mg/L hoặc ppm (parts per million), hai chỉ số này tương đương nhau, không cần thiết phải chuyển đổi. Máy đo độ dẫn điện được sử dụng để đo các hợp chất ion hóa đã tan trong nước dựa theo điện tích của chúng. Chỉ số này cho chúng ta một cái nhìn tổng thể về nồng độ các chất được hòa tan trong cà phê. Thế nhưng để đo các chính xác các ions nào xuất hiện chúng ta cần phải sử dụng các phép đo chi tiết hơn. Các ions mang điện tích dương được gọi là các cations, ngược lại là anions cho các ions mang điện tích âm. Như đã nói ở Chương 1, các ions này phải đạt độ cân bằng trong nước (số lượng ions âm hòa tan bằng với số lượng ions dương). Dưới đây là danh sách các ions phổ biến nhất có thể tìm thấy trong nước, có thể bắt gặp ở các bài báo cáo chất lượng nước.
+*   ***Các đơn vị đo nồng độ và kích thước***: Nồng độ của các chất hòa tan trong nước được tính dạng miligram trên lít, viết tắt là mg/L, tương đương với phần trên triệu đơn vị. Trong một vài đánh giá kết quả khác, một vài đơn vị khác cũng được sử dụng, tiêu biểu nhất là các _hạt_ - grains (hạt trên mỗi gallon nước - grains per gallon, hoặc gpg; 1pgp = 17.1mg/L. Kích thước hạt thực tế mà một giấy lọc có thể loại bỏ thường được tính bằng micro mét (microns). Một filter có thể lọc 1 micron cũng có thể lọc được khói thuốc lá.
+*   ***Khối lượng và áp suất nước***: Trong thuật ngữ cơ học, _lượng nước (amount)_ đề cập đến dung tích nước, trong khi đó _áp suất (pressure)_ đề cập đến lực (hay tốc độ dòng chảy - rate of flow) mà nước "ép" trên một diện tích, pounds mỗi inches vuông (psi - pounds per square inch). Khi đổ đầy nước của 1 bình 1 gallon, sẽ mất thời gian hơn nếu như áp suất nước thấp. Áp suất thay đổi phụ thuộc các yếu tố như đường kính ống, chiều dài ống, hay bất kỳ lực cản nào ảnh hưởng đến dòng chảy, ví dụ như đường ống bị tắc.
+*   ***Tổng chất rắn hòa tan (TDS - total dissolved solids)***: thước đo tiêu chuẩn cho TDS có thể là mg/L hoặc ppm (parts per million), hai chỉ số này tương đương nhau, không cần thiết phải chuyển đổi. Máy đo độ dẫn điện được sử dụng để đo các hợp chất ion hóa đã tan trong nước dựa theo điện tích của chúng. Chỉ số này cho chúng ta một cái nhìn tổng thể về nồng độ các chất được hòa tan trong cà phê. Thế nhưng để đo các chính xác các ions nào xuất hiện chúng ta cần phải sử dụng các phép đo chi tiết hơn. Các ions mang điện tích dương được gọi là các cations, ngược lại là anions cho các ions mang điện tích âm. Như đã nói ở Chương 1, các ions này phải đạt độ cân bằng trong nước (số lượng ions âm hòa tan bằng với số lượng ions dương). Dưới đây là danh sách các ions phổ biến nhất có thể tìm thấy trong nước, có thể bắt gặp ở các bài báo cáo chất lượng nước.
 
-<table>
+<table class="table-fixed text-center max-w-lg">
   <tr>
-   <td>
+   <th class="w-1/2">
 <strong>Cations</strong>
-   </td>
-   <td><strong>Anions</strong>
-   </td>
+   </th>
+   <th class="w-1/2"><strong>Anions</strong>
+   </th>
   </tr>
   <tr>
    <td>Calcium Ca++
@@ -110,13 +110,13 @@ Giờ đây, chúng ta cần phải nghiên cứu nước ở mức độ phân 
 
 
 
-*   **pH**: ở chương đầu tiên, chúng ta định nghĩa pH là thước đo của độ acid (acidity) và độ kiềm (alkalinity). Chỉ số đo pH là logarithm âm của nồng độ hydrogen trên thang từ 0 đến 14.0. Giá trị pH bằng 7.0 là trung tính, trong khi đó pH 9.0 nghĩa là có độ kiềm gấp 100 lần so với pH 7.0, và gấp 1000 lần so với pH 6.0. \
+*   ***pH***: ở chương đầu tiên, chúng ta định nghĩa pH là thước đo của độ acid (acidity) và độ kiềm (alkalinity). Chỉ số đo pH là logarithm âm của nồng độ hydrogen trên thang từ 0 đến 14.0. Giá trị pH bằng 7.0 là trung tính, trong khi đó pH 9.0 nghĩa là có độ kiềm gấp 100 lần so với pH 7.0, và gấp 1000 lần so với pH 6.0. \
  Độ pH chỉ ra sự cân bằng của dung dịch và có ảnh hưởng đến các thành phần khác có trong nước. Ví dụ, một nguồn nước có độ pH cao cùng sự có mặt của calcium trong đó dễ dàng gây ra tình trạng đóng cặn trong thiết bị pha hơn là với nguồn nước có độ pH thấp hơn dù với lượng calcium tương đương. Độ pH trong dung dịch rất khó để thay đổi nếu như không tăng giảm TDS, tương đương thay đổi các chất khoáng trong đó.
-*   **Tổng độ kiềm (total alkalinity)**: đây là chỉ số đo nồng độ các ions mang điện tích âm (anions) có trong nước, cũng là thước đo khả năng trung hòa các acids của nước. Các acids này bao gồm cả những acids có trong cà phê. \
+*   ***Tổng độ kiềm (total alkalinity)***: đây là chỉ số đo nồng độ các ions mang điện tích âm (anions) có trong nước, cũng là thước đo khả năng trung hòa các acids của nước. Các acids này bao gồm cả những acids có trong cà phê. \
  Nước cần một lượng nhỏ kiềm để pha, vì nó tăng khả năng ngậm nước của các hạt cà phê. Thế nhưng với số lượng nhiều hơn cần thiết, kiềm sẽ ảnh hưởng đến tốc độ chiết xuất cũng như thành phần được chiết xuất.
 
 
-### **Các bước để cải thiện chất lượng nước**
+### Các bước để cải thiện chất lượng nước {#steps}
 
 Để tránh tiều nhiều tiền vào các sản phẩm mà không cải thiện được các vấn đề có trong nguồn nước của bạn, 6 bước tiếp theo được khuyến nghị.
 
@@ -145,18 +145,18 @@ _Tiêu chuẩn cho TDS_: khi đánh giá mức độ của các tạp chất có
 Nghiên cứu rộng hơn của CBC liên quan đến người dùng thiết lập ra ngưỡng hương vị (taste thresholds) cho cả nước pha và cà phê bao gồm các chất khoáng phổ biến trong nước. Bảng dưới đây cho thấy thời điểm mà người uống có thể cảm nhận thấy thay đổi.
 
 
-<table>
+<table class="table-fixed text-center">
   <tr>
-   <td colspan="3" ><strong>Bảng 3: </strong>Các ngưỡng nồng độ nhận biết của các ions có trong nước và phê
+   <th colspan="3" ><strong>Bảng 3: </strong>Các ngưỡng nồng độ nhận biết của các ions có trong nước và phê
    </td>
   </tr>
   <tr>
-   <td><strong>Ion</strong>
-   </td>
-   <td><strong>Ngưỡng nhận biết trong nước (ppm)</strong>
-   </td>
-   <td><strong>Nồng độ nhận biêt trong cà phê (ppm)</strong>
-   </td>
+   <th class="w-1/5"><strong>Ion</strong>
+   </th>
+   <th class="w-2/5"><strong>Ngưỡng nhận biết trong nước (ppm)</strong>
+   </th>
+   <th class="w-2/5"><strong>Nồng độ nhận biết trong cà phê (ppm)</strong>
+   </th>
   </tr>
   <tr>
    <td>NaHCO3
@@ -442,20 +442,20 @@ Vì có thể dễ dàng sử dụng, phổ biến cũng như giá thành rẻ m
 Chlorine có ngưỡng nhận biết thấp trong nước (5mg/L) và cà phê (100mg/L). Chlorine có trong nước pha thường liên kết với các phenols có trong cà phê, tạo thành chlorophenol. Hợp chất này gây khó chịu khi uống, tạo nên các vị thuốc (medicinal taste) có thể nhận ra kể cả nồng độ rất thấp (0.001mg/L) khi có trong cà phê. Vì vậy, chlorine cần phải loại bỏ bằng các loại lọc than hoạt tính trước khi pha.
 
 
-<table>
+<table class="table-fixed text-center">
   <tr>
-   <td colspan="4" ><strong>Bảng 8</strong>: Ngưỡng nhận biết của các chất tạo mùi
-   </td>
+   <th colspan="4" ><strong>Bảng 8</strong>: Ngưỡng nhận biết của các chất tạo mùi
+   </th>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td><strong>Hợp chất</strong>
-   </td>
-   <td><strong>Ngưỡng trong nước ppm</strong>
-   </td>
-   <td><strong>Ngưỡng trong cà phê ppm</strong>
-   </td>
+   <th class="w-2/12">
+   </th>
+   <th class="w-4/12"><strong>Hợp chất</strong>
+   </th>
+   <th class="w-3/12"><strong>Ngưỡng trong nước ppm</strong>
+   </th>
+   <th class="w-3/12"><strong>Ngưỡng trong cà phê ppm</strong>
+   </th>
   </tr>
   <tr>
    <td rowspan="7" ><strong>Các chất hóa học tạo mùi</strong>
@@ -558,8 +558,6 @@ Các tiêu chuẩn dưới đây là kết quả của các bài thử nghiệm 
 
 Để có thể chiết xuất tốt các thành phần hòa tan trong cà phê, nước dùng để pha cần có các đặc tính sau:
 
-
-
 *   Không mùi;
 *   Không màu;
 *   Không có chlorine, sắt và các hợp chất sulfur;
@@ -572,21 +570,21 @@ Các tiêu chuẩn dưới đây là kết quả của các bài thử nghiệm 
 Trên là các tiêu chuẩn cần đạt được. Thực tế, khoảng chấp nhận được trong TDS của nước và tổng độ kiềm có ở bảng 9, khi sử dụng vẫn có thể chiết xuất tốt cà phê.
 
 
-<table>
+<table class="table-fixed text-center">
   <tr>
-   <td colspan="3" ><strong>Bảng 9:</strong> Thông số chất lượng nước tốt nhất hay đủ để pha cà phê
-   </td>
+   <th colspan="3" ><strong>Bảng 9:</strong> Thông số chất lượng nước tốt nhất hay đủ để pha cà phê
+   </th>
   </tr>
   <tr>
-   <td><strong>Tiêu chí chất lượng nước</strong>
-   </td>
-   <td><strong>Chất lượng tốt nhất</strong>
-   </td>
-   <td><strong>Chất lượng đủ để pha</strong>
-   </td>
+   <th class="w-1/3"><strong>Tiêu chí chất lượng nước</strong>
+   </th>
+   <th class="w-1/3"><strong>Chất lượng tốt nhất</strong>
+   </th>
+   <th class="w-1/3"><strong>Chất lượng đủ để pha</strong>
+   </th>
   </tr>
   <tr>
-   <td>Mùi
+   <th>Mùi
    </td>
    <td>Không có
    </td>
@@ -655,16 +653,16 @@ Trên là các tiêu chuẩn cần đạt được. Thực tế, khoảng chấp
 Các tham số ở trên cần phải kiểm tra ở mọi tình huống. Bao gồm TDS, các thông số hệ thống carbonate, và các vấn đề phổ biển nhất. Tuy nhiên, các vấn đề chất lượng nước khác cũng có thể tồn tại, cần kiểm tra thêm. Các vấn đề bổ sung thêm về chất lượng nước được tóm tắt dưới bảng 10
 
 
-<table>
+<table class="table-fixed text-center">
   <tr>
-   <td colspan="2" ><strong>Bảng 10:</strong> Các thông số cần kiểm tra thêm
-   </td>
+   <th colspan="2" ><strong>Bảng 10:</strong> Các thông số cần kiểm tra thêm
+   </th>
   </tr>
   <tr>
-   <td><strong>Thông số</strong>
-   </td>
-   <td><strong>Nhận xét</strong>
-   </td>
+   <th class="w-1/6"><strong>Thông số</strong>
+   </th>
+   <th class="w-5/6"><strong>Nhận xét</strong>
+   </th>
   </tr>
   <tr>
    <td>Iron - sắt 
@@ -739,7 +737,7 @@ Một khi có kết quả đánh giá nguồn nước, chúng ta cần phải so
 Rất nhiều vấn đề có thể giải quyết nhanh chóng chỉ cần một vài bộ lọc nước thích hợp. Các vấn đề cụ thể khác sẽ yêu cầu các giải pháp đặc biệt riêng. Tùy thuộc vào khả năng và chi phí để nước đạt được các chất lượng đề ra của SCAA (bảng 9), trong vài trường hợp với nguồn nước có chất lượng quá kém, việc sử dụng các loại nước đóng chai sẽ có giá thành rẻ hơn so với việc xử lý nguồn nước đó.
 
 
-### **Các giải pháp thông thường**
+### Các giải pháp thông thường {#solutions}
 
 _Lọc hạt (Particulate Filtration)_: đây là giải pháp lọc hạt theo các kích cỡ đã được xác định. Nếu như nước bị đục, xuất hiện nhiều tạp chất khác nhau, khuyến nghị sử dụng nhiều lớp lọc với kích cỡ khác nhau, từ thô cho tới mịn. Lõii lọc 5 micron có thể cho ra nguồn nước trong, nhưng nếu có xuất hiện của các u nang (cysts) như Giardia thì cần tới lõi lọc mịn hơn nữa. Lõi lọc dưới 5 microns cần phải thay mới liên tục. Việc lọc vật lý này cũng được sử dụng sau khi sử quá trình oxy hóa khử để loại bỏ sắt và manganese có trong nước.
 
@@ -778,41 +776,41 @@ Lọc RO sẽ làm giảm pH, làm cho nước trở nên trung tính, cũng nh�
 _Lưu ý_: RO có khả năng làm cho nước có tính xâm thực (aggressive - ăn mòn, trong trường hợp này), nếu như thiết kế hay lắp đặt không đúng. Nước RO sẽ gây ra các vấn đề ăn mòn với ống kim loại do nồng độ gas có trong đó. Không được sử dụng lọc RO nếu như sử dụng các ống mạ kẽm hoặc ống đống được hàn bằng chất hàn chì.
 
 
-### **Giải pháp cho các vấn đề cụ thể**
+### Giải pháp cho các vấn đề cụ thể {#specific-solution}
 
 Nước có mùi: phần lớn là các mùi từ chlorine, dù vậy các mùi khác vẫn có thể cảm nhận. Đa phần các mùi này có thể loại bỏ bằng lõi lọc carbon (lọc than). Mùi trứng thối có thể do hydrogen sulfide gây nên, có thể loại bỏ bằng oxy hóa - khử, sau đó là lọc cặn (sediment filtration).
 
 Nước đục, mờ hay đổi màu: Đầu tiên cần phải tìm nguồn gốc của các chất bẩn. Màu vàng có thể do tannin, xảy ra khi các vật liệu bị thoái hóa, trong khi đó màu đỏ nghĩa là có sắt trong nước. Tannin, còn được biết đến là đất mùn (hummus), cần phải xử lý bằng lõi lọc carbon thô có kích thước phù hợp. Sắt thường được xử lý bằng quá trình oxy hóa - khử, sau đó lọc cặn. Các tạp chất khác, đất hay các bụi nhỏ chủ yếu sử dụng lọc cặn. Kích thước lọc thông dụng để lọc các chất cặn này là 5 microns, nhưng cần phải lưu ý, kích thước lọc của bộ lọc phụ thuộc vào kích cỡ của cát hạt, nghĩa là các hạt nhỏ hơn cần cỡ lọc nhỏ hơn.
 
-**TDS thấp**: Do hàm lượng chất khoáng trong nước thấp. Cần sử dụng lọc carbon để điều chỉnh mùi vị và lọc cặn để loại bỏ tạp chất. Sau đó có thể bù khoáng, hoặc có thể sử dụng nước đóng chai, cũng là giải pháp khả thi để cải thiện.
+***TDS thấp***: Do hàm lượng chất khoáng trong nước thấp. Cần sử dụng lọc carbon để điều chỉnh mùi vị và lọc cặn để loại bỏ tạp chất. Sau đó có thể bù khoáng, hoặc có thể sử dụng nước đóng chai, cũng là giải pháp khả thi để cải thiện.
 
-**TDS cao**: Sử dụng lọc carbon để điều chỉnh mùi vị, lọc cặn (5 micros) cho đất và các tạp chất. Ngoài ra, có thể sử dụng thêm lõi lọc RO nếu cần thiết. RO cực kỳ hiệu quả trong việc giảm TDS nước, thế nhưng nó lại làm giảm TDS quá mức cần thiết. Vì vậy cần phải bù khoáng để có thể bổ sung lượng chất khoáng cần thiết. Một mẫu nước từ hệ thống RO cần phải kiểm tra để có thể áp dụng các điều chỉnh phù hợp.
+***TDS cao***: Sử dụng lọc carbon để điều chỉnh mùi vị, lọc cặn (5 micros) cho đất và các tạp chất. Ngoài ra, có thể sử dụng thêm lõi lọc RO nếu cần thiết. RO cực kỳ hiệu quả trong việc giảm TDS nước, thế nhưng nó lại làm giảm TDS quá mức cần thiết. Vì vậy cần phải bù khoáng để có thể bổ sung lượng chất khoáng cần thiết. Một mẫu nước từ hệ thống RO cần phải kiểm tra để có thể áp dụng các điều chỉnh phù hợp.
 
-**Hệ thống carbonate (chất cứng, pH, tổng độ kiềm)**: Cần phải xác định loại chất cứng (magnesium hoặc calcium) cùng với nồng độ của chúng trong nước. Lượng chất calcium thấp (dưới 50mg/L) không cần thiết phải xử lý, thế nhưng cùng nồng độ đó cho magnesium sẽ có ảnh hưởng xấu đến hương vị cà phê. Nồng độ calcium cao hơn cũng vẫn không có quá nhiều ảnh hưởng tiêu cực đến hương vị cà phê, nhưng lại gây ra nhiều vấn đề cho thiết bị pha. Có thể sử dụng chỉ số Langelier để điều chỉnh.
+***Hệ thống carbonate (chất cứng, pH, tổng độ kiềm)***: Cần phải xác định loại chất cứng (magnesium hoặc calcium) cùng với nồng độ của chúng trong nước. Lượng chất calcium thấp (dưới 50mg/L) không cần thiết phải xử lý, thế nhưng cùng nồng độ đó cho magnesium sẽ có ảnh hưởng xấu đến hương vị cà phê. Nồng độ calcium cao hơn cũng vẫn không có quá nhiều ảnh hưởng tiêu cực đến hương vị cà phê, nhưng lại gây ra nhiều vấn đề cho thiết bị pha. Có thể sử dụng chỉ số Langelier để điều chỉnh.
 
-**Các giải pháp khác**: Để kiểm tra xem sản phẩm nào có thể giải quyết các vấn đề được tìm ra, tham khảo bảng 11. Nếu như tất cả các thông số được liệt kê nằm trong các thông số kỹ thuật mà vẫn còn nghi ngở, có thể yêu cầu các thử nghiệm sâu hơn.
+***Các giải pháp khác***: Để kiểm tra xem sản phẩm nào có thể giải quyết các vấn đề được tìm ra, tham khảo bảng 11. Nếu như tất cả các thông số được liệt kê nằm trong các thông số kỹ thuật mà vẫn còn nghi ngở, có thể yêu cầu các thử nghiệm sâu hơn.
 
 
-<table>
+<table class="table-fixed text-center">
   <tr>
-   <td colspan="7" ><strong>Bảng 11: </strong>Các vấn đề của nước và cách giải quyết
-   </td>
+   <th colspan="7" ><strong>Bảng 11: </strong>Các vấn đề của nước và cách giải quyết
+   </th>
   </tr>
   <tr>
-   <td><strong>Vấn đề</strong>
-   </td>
-   <td><strong>Lọc hạt </strong>
-   </td>
-   <td><strong>Lọc carbon</strong>
-   </td>
-   <td><strong>Lọc RO</strong>
-   </td>
-   <td><strong>Bù khoáng</strong>
-   </td>
-   <td><strong>Nước mềm</strong>
-   </td>
-   <td><strong>Nhận xét</strong>
-   </td>
+   <th class="w-2/12"><strong>Vấn đề</strong>
+   </th>
+   <th class="w-1/12"><strong>Lọc hạt </strong>
+   </th>
+   <th class="w-2/12"><strong>Lọc carbon</strong>
+   </th>
+   <th class="w-1/12"><strong>Lọc RO</strong>
+   </th>
+   <th class="w-1/12"><strong>Bù khoáng</strong>
+   </th>
+   <th class="w-1/12"><strong>Nước mềm</strong>
+   </th>
+   <th class="w-4/12"><strong>Nhận xét</strong>
+   </th>
   </tr>
   <tr>
    <td>Có mùi hoặc vị lạ
@@ -946,7 +944,7 @@ Nước đục, mờ hay đổi màu: Đầu tiên cần phải tìm nguồn g�
 
 
 
-### Đánh giá các thông số các thiết bị nước và đường ống
+### Đánh giá các thông số các thiết bị nước và đường ống {#equipment}
 
 Sau khi xác định các vấn đề mà nguồn nước đang có và các giải pháp xử lý cần thực hiện, đây là lúc chúng ta bắt đầu tìm kiếm hệ thống thích hợp. Các hệ thống khác nhau sẽ có các thông số và đánh giá khác nhau.
 
@@ -955,7 +953,7 @@ Ngoài hiểu biết về các vấn đề cần giải quyết, ta cần phải
 Mục tiêu để lắp đặt một hệ thống tiết kiệm nhất mà vẫn có thể đáp ứng các nhu cầu sử dụng, bao gồm khả năng mở rộng sau này. Cần phải trả lời được các câu hỏi, bao gồm như: có các vấn đề nào cần chú ý khác không, ví dụ như ăn mòn hay đóng cặn trong các thiết bị? Lượng nước được sử dụng là bao nhiêu? Trong khoảng thời gian như nào?
 
 
-### **Các vấn đề đến đường ống dẫn nước**
+### Các vấn đề đến đường ống dẫn nước {#plumbing}
 
 Một vấn đề phổ biến trong các máy pha thương mại lại short-pots, nghĩa là cà phê pha ra ít hơn so với dự kiến. Vấn đề này xảy ra bởi áp suất nước thấp hoặc áp suất bất thường trong ngày. Vấn đề này khá là phổ biến ở các trung tâm mua sắm do hệ thống tăng áp cùng các đường ống nhỏ. Cũng như cần phải để ý các đợt tăng áp cao bất thường tại các trung tâm cũng như các toà nhà cao tầng sau giờ làm việc, hoặc thời điểm nào đó trong ngày. Áp suất trên 150 psi đã được ghi nhận thường xuyên tại các vị trí trung tâm mua sắm, cùng với các tòa nhà cao tầng có áp lực nước dao động mạnh.
 
@@ -965,12 +963,12 @@ Miễn là áp suất không bị tụt dưới một ngưỡng nào đó, một
 
 Nếu như cần thiết phải tăng áp suất, có thể sử dụng máy bơm và bình tích áp. Máy bơm cần bật liên tục để duy trì áp suất trong bình. Kích thước của bình tích áp phụ thuộc vào lượng nước cần thiết trong thời gian nhất định.
 
-**Đun nước khi dùng.** Trong một số trường hợp nhất định có thể xảy ra(chẳng hạn như thiên tai), các sở y tế có thể ban hành các hướng dẫn đặc biệt để đảm bảo an toàn cho nguồn nước. Ngập lụt, động đất có thể làm đứt gãy đường ống dẫn nước và cống rãnh, hoặc mất điện có thể gây ra vi khuẩn xâm nhập. Giardia, cryptosporidium và các vi khuẩn khác có thể lây nhiễm vào đường nước dưới các điều kiện trên. Việc sử dụng bộ lọc được chứng nhận NSF 53 (hệ thống được chứng nhận loại bỏ các vi sinh vật gây hại) được khuyến nghị sử dụng. Trong các trường hợp như này, khuyến nghị đun sôi nước trong vòng 10 phút trước khi sử dụng.
+***Đun nước khi dùng.*** Trong một số trường hợp nhất định có thể xảy ra(chẳng hạn như thiên tai), các sở y tế có thể ban hành các hướng dẫn đặc biệt để đảm bảo an toàn cho nguồn nước. Ngập lụt, động đất có thể làm đứt gãy đường ống dẫn nước và cống rãnh, hoặc mất điện có thể gây ra vi khuẩn xâm nhập. Giardia, cryptosporidium và các vi khuẩn khác có thể lây nhiễm vào đường nước dưới các điều kiện trên. Việc sử dụng bộ lọc được chứng nhận NSF 53 (hệ thống được chứng nhận loại bỏ các vi sinh vật gây hại) được khuyến nghị sử dụng. Trong các trường hợp như này, khuyến nghị đun sôi nước trong vòng 10 phút trước khi sử dụng.
 
 Cần phải vệ sinh đường ống nước sau khi có cảnh báo từ các cơ sở y tế do các vấn đề đường ống có thể xảy ra kể trên. Khi tình huống này xảy ra, nguồn nước thành phố sẽ được khử chlorine, thường là super-chlorination. Tuy vậy vẫn còn khả năng tồn tại các vi khuẩn gây hại có thể sống sót sau khi khử chlorine. Vì vậy, việc đun sôi nước trong 10 phút trước khi sử dụng được khuyến nghị để đảm bảo tiêu diệt hoàn toàn các vi khuẩn trên.
 
 
-### **Lựa chọn đại lý**
+### Lựa chọn đại lý {#dealer}
 
 Sau khi thiết lập mục tiêu chất lượng nước, hãy tìm hiểu một vài công ty có các hệ thống xử lý như yêu cầu. Tổng hợp các thông số kỹ thuật, ghi chú chi tiết, yêu cầu các giấy tờ đảm bảo, có chữ ký đầy đủ các bên. Tham khảo các khách hàng khác của công ty đó. Cũng như đặt các câu hỏi chi tiết về việc bảo trì, bao gồm tần suất bảo trì, linh kiện thay thế, cũng như nhà cung cấp các linh kiện đó. Và yêu cầu dư tính giá thành cho các thủ tục trên. Cần lựa chọn các đại lý có hiểu biết về ngành cũng như cách thức hoạt động của các thiết bị. Tìm hiểu thêm thông tin của đại lý trên website của họ.
 

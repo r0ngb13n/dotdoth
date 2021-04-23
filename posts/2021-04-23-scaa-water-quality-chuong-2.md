@@ -10,7 +10,7 @@ status: 1
 Như đã biết ở chương trước, nước là một chủ đề khá phức tạp. Việc pha cà phê hay hòa tan các chất tạo hương vị mong muốn vào cốc cũng góp thêm phần phức tạp cho vấn đề này. Việc hiểu biết về những gì xảy ra trong quá trình pha sẽ cần thiết để có thể đưa ra các quyết định khác nhau tùy thuộc vào chất lượng nước được sử. Trong phần đầu của chương này, các hương vị cà phê sẽ được kiểm tra, theo đó là đánh giá của chính quá trình pha, bao gồm ảnh hưởng của chất lượng nước với hương vị cuối cùng của cà phê. Cuối cùng, một vài ví dụ sẽ cho chúng ta cái nhìn trực quan hơn về cách mà nước với chất lượng nhất định có thể ảnh hưởng như nào.
 
 
-### Thuộc tính hương vị của cốc cà phê
+### Thuộc tính hương vị của cốc cà phê {#attribute}
 
 Dù ở dạng hạt xanh, dạng hạt rang hay dung dịch sau khi pha, hương vị của hạt cà phê liên tục thay đổi. Đồng nghĩa rằng, khi tiến hành các phân tích, đánh giá hóa học hay cảm quan thử nếm, cần phải coi cà phê như một đối tượng "động". Trạng thái của cà phê tại một thời điểm sẽ không giống như thời điểm khác. Sự biến đổi này khiến cà phê trở thành một trong những "đối tượng" đồ uống khó đo đạc một cách chính xác nhất.
 
@@ -27,7 +27,7 @@ Hương vị của cà phê đến từ sự cân bằng phức tạp của các
 Trải nghiệm các hương vị của cà phê còn nhiều hơn so với những gì kể trên. Vì vậy, hiểu biết về các mục này có thể hữu ích trong việc thảo luận về cách mà các hợp chất hương vị khác nhau trong cà phê được chiết xuất thông qua quá trình pha, cũng như chất lượng nước ảnh hưởng đến quá trình này và tạo ra kết quả như nào.
 
 
-### Hương ướt (Aromas)
+### Hương ướt (Aromas) {#aroma}
 
 Hương ướt được cảm nhận bởi thùy khứu giác nằm trên đầu mũi. Có 2 đường dẫn đến thùy khứu giác : lỗ mũi - gọi là kênh trực tràng (orthonasal channel), và một đường dẫn từ vùng miệng và cổ họng, được gọi là kênh sau mũi (retronasal channel). Bản thân thùy khứu giác cũng bao gồm nhiều lông mao (cilia - các cơ quan nhỏ giống như lông) ở trong một lớp nhầy. Khi một hợp chất hương hòa tan trong cà phê, một ít các chất này sẽ theo hơi nước bốc lên, chạm tới cơ quan này, hòa tan vào trong lớp nhầy, nơi các lông mao cảm nhận và gửi các tín hiệu kích thích đến não. Khi người uống cảm nhận được các kích thích này, người đó có thể phân loại được loại và cường độ của hương thơm vừa ngửi.
 
@@ -44,7 +44,7 @@ Một số loại acids nhất định cũng có "đóng góp" cho mùi hương 
 Đặc điểm hương thơm của một cốc cà phê ảnh hưởng bởi độ thô mịn của cỡ xay, nước, nhiệt độ và thời gian. Các biến số này ảnh hưởng đến số lượng các hợp chất thơm được chiết xuất cũng như nồng độ của chúng. Cảm nhận về hương thơm phụ thuộc vào sự cân bằng của các thành phần này.
 
 
-### Cảm nhận vị giác (Gustatory Sensations)
+### Cảm nhận vị giác (Gustatory Sensations) {#gustatory}
 
 Số lượng các chất có ảnh hưởng đến cảm nhận vị giác thấp hơn nhiều so với các chất tạo hương thơm. Các cảm nhận này được cảm nhận bởi các chồi vị giác của chúng ta theo nhiều cách. Ngoài ra, các hợp chất này cũng có tác động đến não bộ với mức độ khác nhau và các cách khác nhau. Ngay từ những buổi đào tạo đầu tiên, các cuppers chuyên nghiệp cần biết một số bộ phận trong miệng, vòm họng hay lưỡi nhạy cảm hơn với một số kích thích nhất định, cũng như một vài cảm nhận có thể cảm nhận nhanh hơn các cảm nhận khác. Cách mà các cảm nhận riêng lẻ khi kết hợp, có thể triệt tiêu nhau hoặc khuếch đại lẫn nhau, cũng cần phải xem xét khi đánh giá hương vị của cà phê.
 
@@ -94,7 +94,7 @@ Các nghiên cứu liên quan đến chồi vị giác gần đây giả thiết
 Các hợp chất đắng được tìm thấy trong cà phê bao gồm chlorogenic acids (CGA), diterpenes, trigonelline và caffeine. Tất cả các chất này đều hòa tan được trong nước, thế nhưng lại cần thời gian pha lâu hơn, nhiệt độ pha cao hơn hay tác động vật lý từ người pha nhiều hơn để có thể hòa tan hoàn toàn. Vì lý do này, tốc độ chiết xuất hương vị, là điều mà ảnh hưởng trực tiếp bởi chất lượng nước và độ nở của cấu trúc bột, sẽ quyết định tới độ cân bằng trong cà phê.
 
 
-### Body và các cảm nhận xúc giác khác
+### Body và các cảm nhận xúc giác khác {#body}
 
 Body được định nghĩa như độ nhớt (vicosity) hay độ "nặng" (cảm nhận có được khi uống cà phê không sử dụng giấy lọc hay các loại sữa nguyên kem) có trong miệng. Body bị ảnh hưởng bởi lượng các chất rắn có trong cốc cà phê, hoặc các thành phần bị nhũ hóa (emulsified) như các loại dầu cà phê, hay một vài phản ứng hóa học nhất định xảy ra trong miệng. Người cupping thường đánh giá body bằng cách chạm lưỡi vào vòm miệng, tạo áp lực cho dung dịch lên bề mặt miệng.
 
@@ -103,7 +103,7 @@ Việc cảm nhận body khi dung dịch dịch chuyển tự do trong miệng l
 Các nghiên cứu gần đây chỉ rằng chúng ta nhiều hơn các loại xúc giác có thể cảm nhận chứ không chỉ riêng body. Chúng bao gồm smoothness, syrupiness gắn liền với các đường đơn, và cảm giác sau khi uống. Các khiến cạnh này đặc biệt quan trọng trong việc thưởng thức espresso.
 
 
-### Hệ thống sinh ba (The Trigeminal Sensory System)
+### Hệ thống sinh ba (The Trigeminal Sensory System) {#tri-system}
 
 Hệ thống thần kinh sinh ba (trigeminal sensory system) chắc hẳn không mấy quen thuộc với mọi người, nhưng nó lại đang trở thành mục tiêu của nghiên cứu gần đây để chỉ ra ảnh hưởng của nó đến với hương vị. Các đầu tín hiệu thần kinh này có trong cả đường mũi và miệng, gây ra cảm giác nóng và đau. Ở mức độ nhẹ hơn, chúng gây ra cảm giác cay (pungency) và ngứa (tingling). Chúng có ảnh hưởng đến cảm nhận của khứu giác và vị giác, đặc biệt là cảm nhận nồng độ của hương vị. Nhiều loại chất có trong cà phê có thể gây ra các cảm giác trên, như các chất thơm mercaptans, citric, phosphoric, và quinic acid. Dù nghe có vẻ tiêu cực, hệ thống này góp phần cảm nhận hương vị cuối cho nhiều loại thực phẩm, trong đó có cà phê.
 
@@ -112,14 +112,14 @@ Hiện tượng se (astringency) là một trường hợp đặc biệt. Nó ch
 Khi cân nhắc vấn đề nước pha, chúng ta phải tìm cách để cân bằng tất cả các yếu tố này. Một vài yếu tố có trong nước như muối, sẽ có ảnh hưởng trực tiếp và có thể gây ra mất cân bằng trong đồ uống. Các thành phần khác có trong nước sẽ ảnh hưởng đến những gì chiết xuất từ cà phê, chiết xuất đủ (của các loại đường), chiết xuất quá (của các thành phần gây đắng), hay trung hòa (kiềm kết hợp cùng acid). Để đi sâu hơn vào vấn đề này, quá trình pha sẽ được xem xét dưới đây.
 
 
-### Quá trình pha
+### Quá trình pha {#brewing-process}
 
 Việc pha cà phê cần được đánh giá dưới 2 góc độ: vật lý và hóa học. Góc độ vật lý bao gồm các ảnh hưởng của nước tác dụng lên bột cà phê (ví dụ như sự nở), lượng chất được hòa tan (ảnh hưởng của nhiệt độ, khuấy, ...), và tác động vật lý khi nước đi qua bột hay thời gian nước tiếp xúc với cà phê. Về mặt hóa học bao gồm hương và vị, các hợp chất hương thực tế được hòa tan trong dung dịch. Những điều này có ảnh hưởng đến chất lượng của cốc cà phê, là yếu tố để cốc cà phê đó có thể sử dụng (hoặc vứt bỏ) bởi người dùng.
 
 Người pha khác nhau sẽ có cách thức pha cà phê khác nhau: sử dụng áp suất, cách kết hợp nước, bột và phê và các cách riêng để tách cà phê khỏi cốc đồ uống. Các phương pháp pha có thể được chia thành 4 loại: loại mà bột không bị tách ra khỏi đồ uống (được sử dụng tại Thổ Nhĩ Kỳ, Hy Lạp, Nga và Trung Đông); loại mà cà phê tiếp xúc với nước trong khoảng thời gian nào đó, rồi nhanh chóng tách bột ra khỏi nước (French Press); kiểu chảy thẩm thấu (drip) khi nước liên tục được chảy qua cà phê; và phương pháp sử dụng áp suất như espresso. Các phương pháp trên khác nhau chủ yếu về số lượng tác động vật lý tác động đến quá trình pha (Lưu ý: Ở đây không nhắc đến phương pháp pha percolation). Tất cả các phương pháp pha đều có mục đích chính là chiết xuất các chất rắn có trong cà phê vào dung dịch. Và một khi các chất được hòa tan vào cốc, quá trình pha kết thúc.
 
 
-### Tác động vật lý
+### Tác động vật lý {#physical}
 
 Trong quá trình pha, bột cà phê "trải qua" nhiều quá trình vật lý để có thể biến đổi từ dạng rắn thành dạng lỏng. Quá trình này có thể mô tả như sau:
 
@@ -155,7 +155,7 @@ Trong quá trình pha, bột cà phê "trải qua" nhiều quá trình vật lý
 Cùng với tác động vật lý chiết xuất chất rắn trong cà phê thành dung dịch, cũng có các tác động hóa học của nước, ảnh hưởng đến hương vị và tốc độ chiết xuất.
 
 
-### Tác động hóa học
+### Tác động hóa học {#chemical}
 
 Khi một dung môi (nước) đi qua chất tan (bột cà phê) ở một nhiệt độ nhất định, các quá trình xảy ra lần lượt như sau:
 
@@ -184,7 +184,7 @@ _Hình 8_ (lấy từ Coffee Brewing Chart trong SCAA Coffee Brewing Handbook) m
 Hình 8
 
 
-### Tương tác của cà phê và nước
+### Tương tác của cà phê và nước {#reaction}
 
 Tại thời điểm này chúng ta đã có cái nhìn về chất lượng nước và quá trình pha. Giờ chúng ta sẽ bàn luận về những gì có thể xảy ra khi sử dụng nước chất lượng kém để cà phê. Các khả năng này sẽ được biểu thị ở các biểu đồ đưới đây.
 
@@ -213,7 +213,7 @@ Nếu như nước mặn (_hình 12_) được sử dụng, tính cân bằng l�
 _Hình 12_ không bị mất cân bằng như các biểu đồ trước, thế nhưng tính chua và hương không cảm nhận được rõ như vị mặn có trong cà phê. Kết quả là cà phê sẽ đắng nhiều hơn so với vị ngọt và chua.
 
 
-### Ảnh hưởng của nước đến thiết bị pha
+### Ảnh hưởng của nước đến thiết bị pha {#equipment}
 
 Nhiều cửa hàng cà phê cho rằng chất lượng nước có thể gây ra các vấn đề cho các thiết bị. Họ nhận ra rằng một lượng cặn trắng tích lại ở các đầu vòi nước, trong trường hợp tệ hơn là trong máy pha espresso và máy pha, khiến cho các máy này dừng hoạt động.
 

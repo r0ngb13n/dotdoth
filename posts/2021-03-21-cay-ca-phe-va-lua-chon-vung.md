@@ -5,7 +5,7 @@ layout: book
 category: Nông trại
 created_at: 2021-03-21
 description: This Arabica coffee manual for Lao People's Democratic Republic (Lao PDR) is an activity under a FAO Technical Cooperation Program coffee project for Lao PDR
-status: 1
+status: 0
 ---
 
 Cà phê là một trong những ngành công nghiệp chính của Lào, là mặt hàng xuất khẩu đứng thứ 5 của quốc gia này. Cây cà phê đầu tiên được mang tới bởi người Pháp trên cao nguyên Bolovens ở phía nam Lào. Ban đầu, cả ba loài chính là Robusta, Arabica và Liberica đều được trồng ở đây, thế nhưng do bệnh gỉ sắt lá của Arabica cũng nhưng giá mua thấp của Liberia, Robusta trở thành giống cà phê trọng điểm cho trồng trọt. Cùng khoảng thời gian này, một giống lai mới của Arabica được đem tới đây nhằm kích thích ngành cà phê Arabica. Giống Arabica Catimor này có khả năng kháng bệnh gỉ sắt lá.

@@ -7,7 +7,7 @@ created_at: 2021-04-23
 description: Chương thứ nhất trong 3 chương có trong sách
 status: 1
 ---
-## Lời giới thiệu
+## Lời giới thiệu {#gioi-thieu}
 
 Khi các chuyên gia về cà phê thảo luận đến quá trình pha cà phê, có vô số các yếu tố quan trọng - hạt cà phê, rang, xay, nhiệt độ pha, và người pha - đều được nhắc đến. Không may, một trong những yếu tố quan trọng nhất là Nước, thường bị bỏ qua trong những cuộc thảo luận đó. Chiếm tỷ lệ 98.5% trmột cốc cà phê pha, 95% trong espresso, vì vậy nước là một trong những yếu tố quan trọng, thậm chí, chất lượng của nó càng đáng được quan tâm. Để chiết xuất đầy đủ các hương vị có trong hạt cà phê, cần phải đáp ứng các tiêu chuẩn của nước để có thể làm được điều đó.
 
@@ -21,7 +21,7 @@ Vấn đề thứ hai là xác định chất lượng nước hiện có và đ
 
 Cuốn sổ tay này được thiết kế để cung cấp cho người đọc các thông tin cần thiết để giải quyết các vấn đề, để họ có thể tự đưa ra các quyết định của mình, gia tăng hiệu quả về chi phí liên quan đến việc kiểm tra và xử lý nước.
 
-**Chương 1: Cơ bản về nước**, sẽ mô tả ngắn gọn về các thuật ngữ và thảo luận về nước. **Chương 2 - Cái nhìn chi tiết về việc pha cà phê từ góc độ nước**, mô tả các thuộc tính của cà phê và ảnh hưởng của nước đến với quá trình pha. **Chương 3 - Tiếp cận chiến lược tới chất lượng nước**, chỉ ra sáu bước để giải quyết các vấn đề về chất lượng nước. Chương này cũng bao gồm các phần liên quan đến các nghiên cứu cơ bản, các thông số của nước, đánh giá, so sánh kết quả đánh giá với tiêu chuẩn, xác định vấn đề và các giải pháp tiềm năng, và lựa chọn đại lý xử lý nước.
+***Chương 1: Cơ bản về nước***, sẽ mô tả ngắn gọn về các thuật ngữ và thảo luận về nước. ***Chương 2 - Cái nhìn chi tiết về việc pha cà phê từ góc độ nước***, mô tả các thuộc tính của cà phê và ảnh hưởng của nước đến với quá trình pha. ***Chương 3 - Tiếp cận chiến lược tới chất lượng nước***, chỉ ra sáu bước để giải quyết các vấn đề về chất lượng nước. Chương này cũng bao gồm các phần liên quan đến các nghiên cứu cơ bản, các thông số của nước, đánh giá, so sánh kết quả đánh giá với tiêu chuẩn, xác định vấn đề và các giải pháp tiềm năng, và lựa chọn đại lý xử lý nước.
 
 Để xác định các thông số lý tưởng của nước để pha cà phê, như có trong Chương 2, thông tin từ The Coffee Brewing Center và các nghiên cứu khác đã được xem xét và cải thiện. Tuy nhiên điểm mấu chốt là hương vị cà phê. Vì vậy, để hiểu được tầm quan trọng của hóa học nước và ảnh hưởng của nó đối với hương và vị cà phê, sáu thành viên của Ủy ban Tiêu chuẩn Kỹ thuật SCAA đã tham gia một thử nghiệm vị mù (blind test) tại phòng thí nghiệm SCAA ở Long Beach, California và xác nhận kết quả nghiên cứu. Một số kết quả được trình bày trong Chương 3. Mặc dù đây không thể được coi là một thử nghiệm có giá trị thống kê, nhưng nó cho thấy tầm quan trọng của nước cũng như các khía cạnh của nó.
 
@@ -42,7 +42,7 @@ Nước phức tạp hơn so với chúng ta nghĩ, nó bao gồm nhiều các c
 Khi nước tiếp xúc với cà phê, nó hòa tan các chất có trong cà phê để đạt tới độ cân bằng hóa học cũng như vật lý. Các phản ứng này ảnh hưởng đến hương vị được chiết xuất trong quá trình pha. Nghệ thuật của việc pha cà phê là kiểm soát các biến số này; và chất lượng nước, đương nhiên, cần phải kiểm soát, cũng như giữ ở mức cân bằng, để có thể chiết xuất đầy đủ. Nếu như một trong các thành phần của nước (ví dụ độ cứng) bị loại bỏ, nước sẽ mất cân bằng và có thể cho ra hương vị khác.
 
 
-### Tiêu chuẩn cho nước uống
+### Tiêu chuẩn cho nước uống {#tieu-chuan-nuoc-uong}
 
 Đa phần (99%) lượng nước máy được sử dụng cho các mục đích chung, như tưới tiêu, giặt giũ, dọn rửa hay cứu hỏa, ... Chỉ có 1% lượng nước này được sử dụng trong ăn uống. "The Safe Drinking Water Act" (~đạo luật nước uống an toàn) đảm bảo việc bảo vệ sức khỏe người tiêu dùng bằng cách yêu cầu các hệ thống nước công cộng phải đáp ứng được các tiêu chuẩn cho sức khỏe, yêu cầu được giám sát liên tục cũng như các báo cáo thường kỳ. Cơ quan bảo vệ môi trường Mỹ (U.S EPA - United States Environmental Protection Agency), các bang, và các công ty xử lý nước địa phương, hợp tác với nhau để đảm bảo các yêu cầu nước được duy trì đảm bảo. Dù vậy, với việc chỉ có một phần rất nhỏ được sử dụng trong ăn uống, sẽ tốn kém nếu như nước được xử lý theo cả tiêu chuẩn liên quan đến hương vị.
 
@@ -51,12 +51,12 @@ Khi nước tiếp xúc với cà phê, nó hòa tan các chất có trong cà p
 Dù các tiêu chuẩn trên có thể đáp ứng được cho nhu cầu nước trong ăn uống, thế nhưng không có nghĩa nó là lựa chọn tốt nhất để có thể pha cà phê. Nước máy mang mùi và vị có thể ảnh hưởng đến chất lượng pha. Hơn nữa, một số chất có trong nước có thể ảnh hưởng đến quá trình pha. Điều này sẽ được thảo luận ở phần dưới đây.
 
 
-### Độ hòa tan và cơ chế hòa tan
+### Độ hòa tan và cơ chế hòa tan {#solub-mechanism}
 
 Trước khi "đào sâu" vào việc nước hòa tan các chất khác nhau như thế nào, chúng ta phải ổn qua về vài vấn đề hóa học cần thiết. Các khái niệm cơ bản này sẽ hữu ích trong việc hiểu thêm về quá trình pha và ảnh hưởng của nước đến quá trình đó.
 
 
-### Các loại liên kết hóa học
+### Các loại liên kết hóa học {#bonding}
 
 Các phân tử được tạo thành từ các "khối xây dưng" là các nguyên tử. Các nguyên tử được liên kết với nhau bởi hai liên kết chính: liên kết cộng hóa trị (covalent) và liên kết ion (ionic). Trong liên kết cộng hóa trị, các nguyên tử chia sẻ electron với nhau, trong khi liên kết ion các hợp chất liên kết với nhau, biến thành thể rắn vì các thành phần nguyên tử của nó có các điện tích (electrical charge). Ví dụ cho hợp chất liên kết hóa trị là đường sucrose (đường ăn). Kể cả khi được hòa tan trong nước, các thành phần đường vẫn duy trì hình dạng của nó. Ngược lại, liên kết ion được hòa tan trong nước, chúng thường tách ra thành các thành phần con cấu tạo nên (tùy thuộc vào độ mạnh của liên kết). Ví dụ, khi muối ăn (NaCl) được hòa tan trong nước nguyên chất, nó được tách ra thành các ion Na+ và Cl-.
 
@@ -69,7 +69,7 @@ Các phân tử được tạo thành từ các "khối xây dưng" là các ngu
 Hình 1: Phân tử đường cùng các phân tử nước xung quanh.
 
 
-### Acidity, Alkalinity và pH
+### Acidity, Alkalinity và pH {#acidity}
 
 Như đã được nhắc trước đó, nước có công thức H2O. Là phân tử hóa học liên kết cộng hóa trị, nhưng cũng có thể phân ly thành các ion H+ hay OH-. Nếu như nồng độ ion H+ nhiều hơn, dung dịch có tính acid, ngược lại nếu như ion OH- nhiều hơn, dung dịch có tính kiềm. Nếu như dung dịch đạt độ cân bằng (ion H+ và ion OH- bằng nhau), độ pH đo được sẽ là 7. Nếu như pH nhỏ hơn 7, dung dịch có tính acid; trên 7, dung dịch là kiềm (basic).
 
@@ -78,7 +78,7 @@ Theo như những gì đã nói ở trên, một câu hỏi có thể phát sinh
 Độ mạnh của một acid dựa theo việc nó dễ dàng phân ly (tách ion H+ và ion âm tương ứng) trong dung dịch. Một acid mạnh có trong cà phê là phosphoric acid (acid đặc trưng trong cà phê Kenya), trong khi đó acid yếu là chlorogenic acid, có thể cảm nhận thấy vị đắng nhiều hơn so với acid vì tính ít hòa tan của nó.
 
 
-### Tính hòa tan
+### Tính hòa tan {#solub}
 
 Tốc độ hòa tan (solubility), hay việc một chất có hòa tan trong nuốc hay không được gọi là tính hòa tan (solubility) của chất đấy. Nhiều chất, như thép không gỉ (stainless steel) có trong thìa ăn, không dễ dàng bị hòa tan. Nhưng dưới điều kiện thích hợp hoặc thời gian đủ dài, vẫn có thể hòa tan một ít. Một vài vật chất có thể không hoàn toàn hòa tan.
 
@@ -87,7 +87,7 @@ Khi nói đến cà phê, tính hòa tan là thuộc tính của các chất, ba
 Để mô tả rõ hơn về tính chất hòa tan của một chất, chúng ta phải cân nhắc 3 yếu tố sau: số lượng dung môi, số lượng chất hòa tan và nhiệt độ dung dịch. Các chất khác nhau sẽ hòa tan ở nhiệt độ khác nhau cũng như hòa tan với tốc độ khác nhau, tùy thuộc các đặc tính của chúng. Vài chất sẽ cần nhiệt độ cao để có thể hòa tan hoàn toàn, trong khi một vài chất chỉ hoàn tan một phần với cùng nhiệt độ. Cũng có các chất được hòa tan hoàn toàn và ngay lập tức ở nhiệt độ thấp. Tốc độ hòa tan (rate of solubility) xác định thời gian mà các chất tan hòa tan vào dung dịch ngay khi tiếp xúc với nước. Vài yếu tố khác như tán nhỏ (xay mịn), khuấy hay gia nhiệt, có thể tăng tốc quá trình này. Nghệ thuật của việc pha cà phê chính là kiểm soát quá trình hòa tan này, mà trong đó, chất lượng nước là yếu tố chính để kiểm soát nó.
 
 
-### Các thuộc tính khác của nước
+### Các thuộc tính khác của nước {#other}
 
 Nước có các thuộc tính đặc trưng của nó để trở thành dung môi. Nhiệt độ sôi (boiling point) và tan chảy (melting point) - nhiệt độ chuyển từ dung dịch thành hơi nước, hay rắn thành dung dịch - khá là cao. Mật độ nước (water's density) tăng dần khi được đun nóng, thể tích thu nhỏ khi trở thành dung dịch. Các thuộc tính riêng biệt này là ảnh hưởng của lực hút giữa các phân tử nước với nhau, quá trình này được biết đến là liên kết hydrogen (hydrogen bonding).
 
@@ -110,7 +110,7 @@ Tất cả các phân tử phân cực đều có hướng dương và hướng 
 Hình 3: Methane, CH4, là một phân tử không phân cực (non-polar). Các nguyên tử hydrogens sắp xếp đối xứng quanh nguyên tử carbon. Kết quả là không có liên kết hydrogen hình thành cùng với các phân tử methane khác, khiến cho chất này có nhiệt độ sôi thấp. Tuy nhiên ở dạng lỏng, nó có khả năng hòa tan các chất nhanh hơn nhiều so với các phân tử phân cực như nước.
 
 
-### Cấu trúc của nước
+### Cấu trúc của nước {#structure}
 
 Chúng ta hiếm khi nghĩ đến việc nước có cấu trúc của nó, bởi vì khi ở dạng lỏng, các phân tử liên tục chuyển động, tùy thuộc trọng lực cũng như áp suất. Nhưng ở cấp độ phân tử, các phân tử nước được liên kết với nhau là kết quả của liên kết hydrogen. Các cấu trúc nhỏ này liên tục di chuyển và biến đổi trạng thái. Chúng trở nên cực kỳ linh hoạt khi nước được đun nóng, các cấu trúc được hành thành cũng có thể thay đổi nếu như có mặt các hợp chất phân cực khác cũng như thay đổi pH trong nước.
 
@@ -137,7 +137,7 @@ Hình 6: Hai cấu trúc phân tử phức tạp của nước. Cấu trúc bên
 Khi nước được đun nóng, các phân tử nước có được năng lượng, tháo rời một vài liên kết hydrogen. Điều này khiến cho nước có thể liên kết với các chất hóa học khác. Kích thước của các cấu trúc giảm dần khi số lượng các cấu trúc tăng lên, tạo nên nhiều vị trí tích điện nên càng nhiều chất được thủy phân hơn. Đây cũng là một trong các lý do nhiệt độ nước pha quan trọng trong khi pha. Khi các chất khác ngoài nước có mặt trong dung môi - là trường hợp sử dụng nước máy hay hay nước đến từ tự nhiên - các cấu trúc này sẽ thay đổi đáng kể cũng như ảnh hưởng của chúng đến quá trình chiết xuất.
 
 
-### Các đặc tính riêng
+### Các đặc tính riêng {#unique}
 
 Nước là chất được tái chế hay tái sử dụng nhiều nhất trên Trái Đất. Cho dù bắt nguồn từ biển, mưa, sông băng, sông hồ hay các mạch ngầm, chất lượng nước được xác định bởi nguồn của nó. Giống như các lữ khách, nước mang theo một số "đồ lưu niệm" từ các khu vực khác nhau qua suốt quá trình di chuyển. Những gì nó mang theo, có thể khác biệt từ khu vực này sang khu vực khác. Và các đồ "lưu niệm" này phần lớn gây nên những ảnh hưởng đáng kể đến chất lượng nước.
 
@@ -146,7 +146,7 @@ Nguồn cung cấp nước được phân loại theo nguồn gốc của nó. N
 Các vấn đề chính đối với quá trình pha cà phê có thể đo bởi Tổng chất hòa tan (Total Dissolved Solids - TDS), hệ thống carbonate, các chất oxy hóa gốc chlorine được sử dụng để đảm bảo an toàn nguồn nước uống. Tính chất hóa học của ba yếu tố trên được thảo luận chi tiết ở dưới đây. Một số vấn đề cụ thể có thể được thảo luận ở các chương khác.
 
 
-### Tổng chất rắn hòa tan (Total Dissolved Solids)
+### Tổng chất rắn hòa tan (Total Dissolved Solids) {#tds}
 
 Số lượng và bản chất của các chất được hòa tan trong nước được gọi là tổng chất rắn hòa tan (TDS - Total Dissolved Solids). Nguồn cấp nước chủ yếu xác định loại chất và nồng độ các chất rắn này.
 
@@ -169,7 +169,7 @@ Việc đo TDS nước cho ta thấy tổng thể các chất hòa tan có trong
 Tuy vậy, TDS nước không phải là tất cả. Để xác định chất lượng và bản chất của hương vị cà phê khi được chiết xuất, việc kiểm soát từng loại chất có trong nước được khuyến nghị.
 
 
-### Hệ thống Carbonate
+### Hệ thống Carbonate {#carbonate}
 
 Trong nguồn nước tự nhiên, hệ thống carbonate đề cập đến nhiều yếu tố liên quan đến acids và bases (ba zơ) như chất đệm (buffers), tổng độ kiềm (total alkalinity), pH và một vài kim loại nhất định, đặc biệt là Calcium (Ca+) và Magnesium (Mg+), tất cả đều có liên quan với nhau khi nói đến chất lượng nước. Hệ thống này được gọi là hệ thống carbonate (carbonate system) vì các acids, bases và các ions trên đều bắt nguồn từ carbon dioxide (CO2) hòa tan vào trong nước (tạo thành carbonic acid). Khi sử dụng các đặc điểm này để đánh giá về chất lượng nước khi pha, tất cả các yếu tố đo đạc cũng như ảnh hưởng qua lại của chúng cần phải được tính. Ví dụ, sự xuất hiện của calcium có trong nước sẽ góp phần đóng cặn ở các dụng có pha nếu như tổng độ kiềm cao hoặc pH thay đổi.
 
@@ -196,12 +196,12 @@ _Độ cứng (hardness)_ có liên quan đến sự xuất hiện của calcium
 Do ảnh hưởng tương tác của hệ thống carbonate và các ions khác, lớp cặn có thể hình thành bên trong các máy pha, đặc biệt là khu vực có nhiệt độ thay đổi, ví dụ như đầu phun nước hay các bộ phận gia nhiệt.
 
 
-### Chlorine và Chloramines
+### Chlorine và Chloramines {#chlorine}
 
 Mục đích chính của các hệ thống xử lý nước là loại bỏ các thành phần ảnh hưởng xấu tới sức khỏe có trong nước. Phần lớn các chất sử dụng để đảm bảo an toàn cho nguồn nước, lại ảnh hưởng tiêu cực đến hương và vị của cà phê. Chlorine và chloramines (hợp chất tạo bởi chlorine và ammonia) là các chất oxi hóa được sử dụng để tiêu diệt các mầm bệnh. Tuy nhiệt chúng cũng có ảnh hưởng đến hương vị cà phê bằng việc oxy hóa các hợp chất thơm cũng như dầu cà phê. Vì việc khử trùng với chlorine là tiêu chuẩn bắt buộc trong các hệ thống xử lý nước sinh hoạt, việc loại bỏ các chất này để tạo ra hương vị cà phê tốt là điều cần thiết.
 
 _Chlorine tự do (free chlorine)_ là các ions chlorine dễ oxy hóa và bay hơi nhất. _Chlorine tổng (total chlorine)_ bao gồm các chlorine tự do và các chất có gốc chlorine, mà một vài trong số chúng giúp duy trì liên tục lượng chlorine trong toàn bộ hệ thống cung cấp nước. Cả chlorine tự do và chlorine tổng đều có tác động xấu đến hương vị cà phê, trong đó, các chlorine tự do có ảnh hưởng nhất trong quá trình pha.
 
 
-### Các vấn đề ảnh hưởng chất lượng nước khác
+### Các vấn đề ảnh hưởng chất lượng nước khác {#others}
 Tùy thuộc vào nguồn cấp nước, các vấn đề khác cũng có thể phát sinh. Sắt phổ biến và thường có trong nước, có thể làm cho cà phê chuyển màu hơi xanh. Hydrogen sulfide (H₂S) có thể bị oxy hóa, là khí gas gây cho nước có mùi như trứng thối (rotten eggs). Chloride và sulfate ở nồng độ cao có thể làm cho nước có vị mặn và làm cà phê mất cân bằng.

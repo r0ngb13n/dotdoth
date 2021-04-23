@@ -9,7 +9,7 @@ hr {
 	@apply my-3;
 }
 a:hover {
-	@apply underline;
+	@apply underline transition duration-75;
 }
 /*post*/
 .post-content .postTitle{
@@ -25,14 +25,15 @@ a:hover {
 	@apply text-indigo-500;
 }
 .post-content a:hover {
-	@apply text-indigo-700;
+	@apply text-indigo-700 transition duration-75;
 }
 .post-content blockquote {
 	@apply pl-2 border-l-4 border-red-700;
 }
-.post-content blockquote p, li{
+.post-content blockquote p, .post-content blockquote li{
 	@apply text-gray-700 font-normal text-lg ml-2;
 }
+
 .post-content img {
 	@apply mx-auto;
 }
@@ -58,20 +59,25 @@ a:hover {
 	@apply font-semibold text-red-700 not-italic;
 }
 /* list */
-.post-content ul {
+.post-content ul, ol {
 	@apply list-disc pl-6;
 }
-.post-content ul li::marker{
+.post-content li::marker, {
 	@apply text-red-700 ;
 }
 /* table */
 .post-content table{
-	@apply table-auto border-collapse;
+	@apply table-auto border-collapse my-2.5;
 }
 .post-content table th, .post-content table td{
 	@apply border border-gray-900;
 }
-
+.post-content table th{
+	@apply bg-gray-400 font-semibold;
+}
+.post-content table tr:hover{
+	@apply bg-gray-200 transition duration-75;
+}
 /* post list */
 .page-title{
 	@apply text-center tracking-wider max-w-xl mx-auto ;
@@ -107,7 +113,7 @@ a:hover {
 }
 
 .kasuyaTool input:hover{
-	@apply ring-1 ring-gray-200;
+	@apply ring-1 ring-gray-200 transition duration-75;
 }
 
 .kasuyaTool input:focus{
