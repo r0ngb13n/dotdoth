@@ -1,12 +1,13 @@
 ---
 origin: Sổ tay cà phê Arabica của Lào
-title: Chương 1 : Cây cà phê và lựa chọn vùng
+title: Chương 1 - Cây cà phê và lựa chọn vùng
 layout: book
 category: Nông trại
 created_at: 2021-03-21
 description: This Arabica coffee manual for Lao People's Democratic Republic (Lao PDR) is an activity under a FAO Technical Cooperation Program coffee project for Lao PDR
 status: 1
 ---
+
 Cà phê là một trong những ngành công nghiệp chính của Lào, là mặt hàng xuất khẩu đứng thứ 5 của quốc gia này. Cây cà phê đầu tiên được mang tới bởi người Pháp trên cao nguyên Bolovens ở phía nam Lào. Ban đầu, cả ba loài chính là Robusta, Arabica và Liberica đều được trồng ở đây, thế nhưng do bệnh gỉ sắt lá của Arabica cũng nhưng giá mua thấp của Liberia, Robusta trở thành giống cà phê trọng điểm cho trồng trọt. Cùng khoảng thời gian này, một giống lai mới của Arabica được đem tới đây nhằm kích thích ngành cà phê Arabica. Giống Arabica Catimor này có khả năng kháng bệnh gỉ sắt lá.
 
  Cà phê trở thành hệ thống được canh tác chủ yếu trên cao nguyên Bolovens: bao phủ diện tích khoảng 500km vuông, trải dài từ độ cao 600m - 1300ml so với mực nước biển, ở khoảng 15° vĩ độ Bắc. Khu vực này sản xuất 95% tổng sản lượng của cà phê Lào. Những năm gần đây, cây cà phê Arabica được trồng ở một số tỉnh phía bắc của Lào, tuy vậy chỉ đạt sản lượng tương đối nhỏ, thế nên không được khuyến khích để sản xuất cũng như bày bán chính.
