@@ -142,9 +142,8 @@
             <template x-for="item in items" :key="item.id">                                        
                 <li class="transition text-gray-300 hover:text-gray-500">
                     <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
-
                     <template x-if="item.children.length">
-                        <ul class="list-decimal list-inside text-sm" style="list-style-type:none;">
+                        <ul class="list-decimal list-inside text-sm" style="list-style-type: none;">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
                                     <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
@@ -222,12 +221,16 @@
             let tree = [];            
             for (let i = 0; i < items.length; i++) {
                 let item = items[i];
+
                 if (item.level === 2) {
                     tree.push(item);
                 }
 
                 if (item.level === 3) {
-                    tree[tree.length - 1].children.push(item);
+                    if (item.id === null ){ //skip khi không thấy id
+                        continue;
+                    }
+                    tree[tree.length - 1].children.push(item);                  
                 }
             }
 
