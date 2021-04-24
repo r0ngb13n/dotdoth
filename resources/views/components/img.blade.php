@@ -6,8 +6,10 @@
 
 @php
     $parsed = parse_url($src);
-    ['host' => $host, 'path' => $path] = $parsed;
+
+    $path = $parsed['path'];
     $query = $parsed['query'] ?? null;
+    $host = $parsed['host'] ?? 'dotdoth.com';
 
     $params = [];
     if ($width) {
