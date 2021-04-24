@@ -7,7 +7,7 @@
         <div class="postInfo text-left">
             <span><x-category-href :name="$post->category" class="uppercase" />;&nbsp;</span>
             @if($post->origin)
-                <span>Thuộc:&nbsp;<x-category-href :name="$post->origin"/>;&nbsp;</span> 
+                <span>Thuộc:&nbsp;<x-category-href :name="$post->origin"/>;&nbsp;</span>
             @endif
             <span>Viết vào:&nbsp;<time datetime="{{ $post->created_at }}">{{ $post->created_at }}</time></span>
         </div>
@@ -20,5 +20,13 @@
                 <x-posts.toc class="hidden lg:block fixed"/>
             </div>
         </div>
+
+    <!-- comment box -->
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5713444275748864-proj')</script>
+    <!--  -->
+
     </div>
+
 </x-layout>

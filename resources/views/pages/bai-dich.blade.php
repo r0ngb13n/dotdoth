@@ -20,6 +20,9 @@
                         </div>
 
                         <div class="w-3/4">
+                            <p class="font-light text-sm text-gray-500" >
+                                <x-category-href :name="$post->origin" class="text-gray-500" />
+                            </p>
                             <h2 class="text-lg leading-5 font-medium text-gray-900 sm:text-2xl ">
                                 <a href="{{ $post->link() }}">
                                     {{ $post->title }}

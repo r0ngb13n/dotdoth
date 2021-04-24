@@ -39,7 +39,7 @@ class Post
 
     public function description()
     {
-        return $this->description ?? $this->inferDescription();
+        return substr($this->description ?? $this->inferDescription(), 0, 255).'...';
     }
 
     protected function inferDescription()

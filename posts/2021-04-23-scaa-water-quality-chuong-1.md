@@ -1,6 +1,6 @@
 ---
 origin: SCAA - THE WATER QUALITY HANDBOOK
-title: Chương 1- Cơ bản về nước 
+title: Chương 1- Cơ bản về nước
 layout: book
 category: Pha cà phê
 created_at: 2021-04-23
@@ -125,7 +125,7 @@ Khi ở dạng nguyên chất, phân tử nước có vô vàn cấu trúc khác
 Hình 4: Các cụm 4 phân tử nước tự sắp xếp thành cụm 8 phân tử.
 
 ![alt_text](/images/scaa-water/image5.png "image_tooltip")
-	
+
 
 Hình 5: Các cấu trúc đa dạng của các cụm phân tử.
 

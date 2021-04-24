@@ -25,6 +25,8 @@
 				$str = preg_replace("/($uni)/i", $nonUnicode, $str);
 			}
 			$str = str_replace(' ','-',$str);
+			$str = preg_replace('/-+/', '-',$str);
+
 			return strtolower($str);
 		}
 	}

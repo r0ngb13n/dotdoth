@@ -19,5 +19,13 @@
                 <x-posts.toc class="hidden lg:block fixed"/>
             </div>
         </div>
+    
+    <!-- comment box -->
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5713444275748864-proj')</script>    
+    <!--  -->
+    
     </div>
+
 </x-layout>
