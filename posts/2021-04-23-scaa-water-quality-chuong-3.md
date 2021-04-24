@@ -993,10 +993,7 @@ Khi một hệ thống được lắp đặt xong, không có nghĩa là công v
 Việc xử lý nước cần phải được bảo trì đều đặn. Một đại lý lý tưởng sẽ có bộ phận dịch vụ trực 24/7, bán các loại thiết bị, và cũng phải hiểu về chất lượng nước như chính bạn. Khi quá trình bảo trì định kỳ được thực hiện, cần hỏi về những gì đã được thực hiện hay hỏi các câu hỏi cần sự trả lời của bạn (ví dụ như thời gian những thứ-nào-đó sẽ hỏng nếu như không được thay thế?). Nếu phát hiện bất kỳ vấn đề gì (bao gồm tiếng động lạ, dòng chảy không tốt, khác biệt tham số), cần phải cho bên dịch vụ biết ngay khi có thể.
 
 
-# 
-
-
-# Lời kết
+## Lời kết
 
 Khi một khách hàng đến cửa hàng cà phê yếu thích của họ, bất kể nó nằm ở đâu, họ luôn mong chờ chất lượng đồ uống luôn ổn định mỗi khi đến. Những mong đợi của khách hàng có thể đạt được với chất lượng nước đồng đều. Một hệ thống xử lý nước tốt sẽ cung cấp một lịch trình bảo dưỡng đều đặn, giảm thiếu các vấn đề về thiết bị cũng như đảm bảo tính nhất quán qua thời gian.
 

@@ -7,7 +7,7 @@ created_at: 2021-04-23
 description: Chương thứ nhất trong 3 chương có trong sách
 status: 1
 ---
-## Lời giới thiệu {#gioi-thieu}
+## Lời giới thiệu {#intro}
 
 Khi các chuyên gia về cà phê thảo luận đến quá trình pha cà phê, có vô số các yếu tố quan trọng - hạt cà phê, rang, xay, nhiệt độ pha, và người pha - đều được nhắc đến. Không may, một trong những yếu tố quan trọng nhất là Nước, thường bị bỏ qua trong những cuộc thảo luận đó. Chiếm tỷ lệ 98.5% trmột cốc cà phê pha, 95% trong espresso, vì vậy nước là một trong những yếu tố quan trọng, thậm chí, chất lượng của nó càng đáng được quan tâm. Để chiết xuất đầy đủ các hương vị có trong hạt cà phê, cần phải đáp ứng các tiêu chuẩn của nước để có thể làm được điều đó.
 
@@ -189,7 +189,7 @@ _Tổng độ kiềm (total alkalinity)_ là thước đo khả năng trung hòa
 
 Sự xuất hiện của các ion trên có ảnh hưởng đáng kể trong quá trình pha cà phê. Tính kiềm và tổng độ kiềm đối nghịch trung hòa acid của cà phê cũng như làm nở bột cà phê.
 
-Trong các bác kiểm tra sử dụng nhiều loại nước có chất lượng khác nhau, cà phê được pha với nước có carbonates đắng nhất, có lượng pH cao nhất (độ kiềm cao), cảm nhận vị flat. Nước có nhiều carbonates hơn cũng tăng thời gian pha đáng kể.
+Trong các bài kiểm tra sử dụng nhiều loại nước có chất lượng khác nhau, cà phê được pha với nước có carbonates đắng nhất, có lượng pH cao nhất (độ kiềm cao), cảm nhận vị flat. Nước có nhiều carbonates hơn cũng tăng thời gian pha đáng kể.
 
 _Độ cứng (hardness)_ có liên quan đến sự xuất hiện của calcium và magnesium có trong nước. Nước với nồng độ cao các kim loại trên được coi là nước cứng vì gây ra việc đóng cặn hay vôi. Khi nước có TDS rất cao, thường có mặt thêm các kim loại khác. Hơn nữa, các loại nước này cũng cho thấy sự xuất hiện của các ion dương cực và một số lượng tương đương các ion âm cực bao gồm: chlorides, sulfates, carbonates và bicarbonates được hòa tan trong dung dịch. Các anion (ion âm cực) chịu trách nhiệm cho tổng độ kiềm là carbonate và bicarbonate (độ cứng tạm thời) hay sulfate (độ cứng thực).
 
