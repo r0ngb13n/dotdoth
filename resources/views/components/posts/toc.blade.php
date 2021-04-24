@@ -44,7 +44,7 @@
                     if (item.id === null ){ //skip khi không thấy id
                         continue;
                     }
-                    tree[tree.length - 1].children.push(item);                  
+                    tree[tree.length - 1].children.push(item);
                 }
             }
 
