@@ -18,7 +18,7 @@
                 </p>
             </div>
         </div>
-        <div class="mt-4 flex justify-between text-sm text-gray-500 text-sm">
+        <div class="mt-4 flex justify-between text-sm text-gray-500">
             <div>
                 <x-category-href :name="$post->category" class="text-indigo-500 hover:text-indigo-700 uppercase" />
             </div>

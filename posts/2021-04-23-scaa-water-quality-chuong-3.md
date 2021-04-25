@@ -12,7 +12,7 @@ Xác định chất lượng nước cũng như tìm giải pháp cho các vấn
 Trong buổi thử nếm tổ chức bởi Ủy ban Tiêu chuẩn Kỹ Thuật (the Tecnical Standards Committee) của SCAA, cà phê được pha với các loại nước có TDS khác nhau để tìm hiểu xem có khác biệt đáng kể về hương vị cũng như mức độ khác biệt nếu có. Bảng 2 cho ta thấy kết quả của bài kiểm tra mù (blind test) với các nguồn nước có TDS khác nhau. Trong các bài kiểm tra đó, họ dùng chung một loại cà phê, máy xay, dụng cụ pha, cùng kết hợp tiêu chuẩn của các chất khoáng trong đó, chỉ khác biệt về nồng độ chất khoáng trong nước. Thử nghiệm đầu tiên sử dụng 3 mẫu nước: mẫu đầu có TDS đo được là 45mg/L, mẫu 2 sử dụng nước 150mg/L, mẫu 3 là 450mg/L. Cà phê được pha với mẫu nước TDS 150mg/L cho ra kết quả tốt hơn hẳn.
 
 
-<table class="table-fixed text-center text-center">
+<table class="table-fixed text-center">
   <tr>
    <th colspan="3" ><strong>Bảng 2: </strong>Ảnh hưởng của THS có trong nước đến chiết xuất và hương vị
    </th>
