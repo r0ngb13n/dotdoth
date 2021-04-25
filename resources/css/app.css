@@ -31186,6 +31186,10 @@ hr {
 
 a:hover {
   text-decoration: underline;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 75ms;
 }
 
 /*post*/
@@ -31247,6 +31251,10 @@ a:hover {
 .post-content a:hover {
   --tw-text-opacity: 1;
   color: rgba(67, 56, 202, var(--tw-text-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 75ms;
 }
 
 .post-content blockquote {
@@ -31256,7 +31264,7 @@ a:hover {
   padding-left: 0.5rem;
 }
 
-.post-content blockquote p{
+.post-content blockquote p, .post-content blockquote li{
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -31280,58 +31288,80 @@ a:hover {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .post-content h4 {
+    font-weight: 500;
+  }
 }
 
 .post-content h3 {
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .post-content h3 {
+    font-weight: 500;
+  }
 }
 
 .post-content h2 {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
 .post-content p {
-  font-weight: 300;
-  margin-top: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
+.post-content strong {
+  font-weight: 400;
+}
+
 @media (min-width: 768px) {
-  .post-content p {
-    font-weight: 400;
+  .post-content strong {
+    font-weight: 500;
   }
 }
 
-.post-content strong {
-  font-weight: 600;
-}
-
 .post-content strong>em{
-  font-weight: 600;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgba(185, 28, 28, var(--tw-text-opacity));
   font-style: normal;
 }
 
+@media (min-width: 768px) {
+  .post-content strong>em {
+    font-weight: 600;
+  }
+}
+
+.post-content em{
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
 /* list */
 
-.post-content ul {
+.post-content ul, ol {
   list-style-type: disc;
   padding-left: 1.5rem;
 }
 
-.post-content ul li::marker{
+.post-content li::marker,  {
   --tw-text-opacity: 1;
   color: rgba(185, 28, 28, var(--tw-text-opacity));
 }
@@ -31340,6 +31370,8 @@ a:hover {
 
 .post-content table{
   border-collapse: collapse;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
   table-layout: auto;
 }
 
@@ -31347,6 +31379,21 @@ a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(17, 24, 39, var(--tw-border-opacity));
   border-width: 1px;
+}
+
+.post-content table th{
+  --tw-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+  font-weight: 600;
+}
+
+.post-content table tr:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 75ms;
 }
 
 /* post list */
@@ -31435,6 +31482,10 @@ a:hover {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(229, 231, 235, var(--tw-ring-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 75ms;
 }
 
 .kasuyaTool input:focus{

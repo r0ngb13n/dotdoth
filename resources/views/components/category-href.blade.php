@@ -34,4 +34,4 @@
 	$slug = str_slug($name);
 @endphp
 
-<a {{ $attributes->merge(['class' => ""]) }} href="/{{ $slug }}.html" title="{{ $name }}">{{ $name }}</a>
+<span class="text-black" {{ $attributes->merge(['class' => ""]) }} href="/{{ $slug }}.html" title="{{ $name }}">{{ $name }}</span>

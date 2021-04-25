@@ -5,7 +5,7 @@
         </h1>
 
         <div class="postInfo text-left  md:text-center">
-            <span><x-category-href :name="$post->category" class="uppercase" />;&nbsp;</span>
+            <!-- <span><x-category-href :name="$post->category" class="uppercase" />;&nbsp;</span> -->
             @if($post->origin)
                 <span>Thuộc:&nbsp;<x-category-href :name="$post->origin"/>;&nbsp;</span> 
             @endif

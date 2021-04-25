@@ -484,7 +484,7 @@ Chlorine có ngưỡng nhận biết thấp trong nước (5mg/L) và cà phê (
    </td>
   </tr>
   <tr>
-   <td>Othor - 
+   <td>Othor -
    </td>
    <td>0.006
    </td>
@@ -492,7 +492,7 @@ Chlorine có ngưỡng nhận biết thấp trong nước (5mg/L) và cà phê (
    </td>
   </tr>
   <tr>
-   <td>Para - 
+   <td>Para -
    </td>
    <td>0.9
    </td>
@@ -665,7 +665,7 @@ Các tham số ở trên cần phải kiểm tra ở mọi tình huống. Bao g�
    </th>
   </tr>
   <tr>
-   <td>Iron - sắt 
+   <td>Iron - sắt
    </td>
    <td>Khá phổ biến, có thể làm cho cà phê có màu xanh lục và có vị đắng / kim loại, nước có thể có màu gỉ.
    </td>

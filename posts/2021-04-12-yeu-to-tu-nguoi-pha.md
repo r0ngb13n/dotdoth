@@ -1,5 +1,5 @@
 ---
-origin: 
+origin:
 title: Yếu tố từ người pha.
 layout: post
 category: Pha cà phê
@@ -7,7 +7,7 @@ created_at: 2021-04-12
 description: Quá trình từ trái cà phê để có thể trở thành cốc cà phê là cả một quá trình dài, không phải ai cũng có thể kiểm soát hoàn toàn cả một quá trình đó.
 status: 1
 ---
-Quá trình từ trái cà phê để có thể trở thành cốc cà phê là cả một quá trình dài, không phải ai cũng có thể kiểm soát hoàn toàn cả một quá trình đó. Tuy nhiên, nếu bạn là người dùng cà phê, thì pha là một trong ít giai đoạn có thể tự mình kiểm soát. 
+Quá trình từ trái cà phê để có thể trở thành cốc cà phê là cả một quá trình dài, không phải ai cũng có thể kiểm soát hoàn toàn cả một quá trình đó. Tuy nhiên, nếu bạn là người dùng cà phê, thì pha là một trong ít giai đoạn có thể tự mình kiểm soát.
 
 Để có thể pha bất kỳ một loại cà phê nào đó, việc cần phải làm đó là tìm điểm cân bằng giữa chiết xuất cũng như nồng độ cà phê có trong đó. Tuy vậy điểm cân bằng này sẽ khác nhau với từng người uống, vì vậy để thành công trong việc tìm một phương pháp pha có thể đáp ứng tất cả khẩu vị của mọi người là điều không thể. Bài viết này sẽ chỉ giúp tìm cho bạn tìm được cho mình điểm cân bằng riêng.
 
@@ -21,11 +21,11 @@ Giải thích qua về hai thuật ngữ được dùng nhiều, cũng như thư
 
 Độ mạnh, độ đậm, ... ***là thước đo nồng độ chất hòa tan có trong nước***, được biểu thị theo tỉ lệ % trong cốc cà phê. Cà phê là chất tạo hương cực kỳ mạnh. Một cốc cà phê thông thường chỉ có 1.2% là các chất hòa tan "cà phê", phần còn lại là nước cũng như các chất khoáng có trong đó. Mức nồng độ chấp nhận được là từ 0.5% cho tới 1.8% cho điều kiện pha thông thường (nghĩa là ngoại trừ cho espresso). Strengthcó thể đo được bằng các máy đo TDS chuyên dụng cho cà phê.
 
-Ví dụ: nếu chúng ta sử dụng máy đo và cho ra được 1.18% TDS, điều đó có nghĩa là trong cốc cà phê đó có 1.18% là các chất hòa tan tạo hương vị cà phê, còn lại 98.2% là nước. 
+Ví dụ: nếu chúng ta sử dụng máy đo và cho ra được 1.18% TDS, điều đó có nghĩa là trong cốc cà phê đó có 1.18% là các chất hòa tan tạo hương vị cà phê, còn lại 98.2% là nước.
 
 ### Extraction {#extraction}
 
-Chiết xuất, solubles yield, ... ***là thước đo năng suất hòa tan của cà phê***. Nói đơn giản, extraction là chỉ số cho chúng ta biết được cà phê được hòa tan bao nhiêu, còn bao nhiêu chất còn có thể chiết xuất được tiếp. Giống như nồng độ, extraction cũng được thể hiện theo tỉ lệ %, so sánh lượng cà phê đã được hòa tan vào nước so với lượng cà phê sử dụng ban đầu. 
+Chiết xuất, solubles yield, ... ***là thước đo năng suất hòa tan của cà phê***. Nói đơn giản, extraction là chỉ số cho chúng ta biết được cà phê được hòa tan bao nhiêu, còn bao nhiêu chất còn có thể chiết xuất được tiếp. Giống như nồng độ, extraction cũng được thể hiện theo tỉ lệ %, so sánh lượng cà phê đã được hòa tan vào nước so với lượng cà phê sử dụng ban đầu.
 
 Trong cà phê, 1/3 số hợp chất trong đó là các chất hữu cơ cũng như vô cơ, có thể hòa tan trong nước. 2/3 lượng còn lại là các cellulose không hòa tan được dưới điều kiện pha thông thường. Các hợp chất tạo hương hòa tan được này được thoát ra khi cà phê được xay nhỏ và tiếp xúc với nước, khi đó các "khoang chứa" cellulose này mới được mở rộng, giúp các chất hòa tan được thoát ra và hòa tan vào nước. Các chất rắn hòa tan với tốc độ khác nhau, có nghĩa là extraction khác nhau sẽ có hỗn hợp dung dịch và khí gas khác nhau. Đồng nghĩa với việc hương vị tại chiết xuất khác nhau sẽ có hương vị khác nhau.
 
@@ -33,7 +33,7 @@ Ví dụ: khi ta sử dụng 100gr cà phê để pha, sau khi sử dụng thì 
 
 ### Ví dụ {#vi-du}
 
-Một ví dụ để hiểu thêm, nếu như chúng ta ngâm một chiếc áo dính bẩn trong nước qua thời gian ngắn, chất bẩn có trên áo sẽ trôi một phần vào trong nước. Màu nước đậm hay nhạt thể hiện Strength, nếu như chất bẩn càng nhiều, nước càng đậm màu; tương đương như lượng các chất hòa tan càng cao, strength càng nhiều. 
+Một ví dụ để hiểu thêm, nếu như chúng ta ngâm một chiếc áo dính bẩn trong nước qua thời gian ngắn, chất bẩn có trên áo sẽ trôi một phần vào trong nước. Màu nước đậm hay nhạt thể hiện Strength, nếu như chất bẩn càng nhiều, nước càng đậm màu; tương đương như lượng các chất hòa tan càng cao, strength càng nhiều.
 
 Lượng chất bẩn trên áo trước khi ngâm và còn lại sau khi ngâm nước thể hiện Extraction. Nếu như lượng chất bẩn trên áo trôi vào nước càng nhiều, việc ngâm chiếc áo đó càng hiệu quả. Tương tự với cà phê, việc chiết xuất hiệu quả tương ứng với tỷ lệ chất hòa tan tăng lên.
 
@@ -55,15 +55,15 @@ Theo quyển The Coffee Brewing Handbook của SCA, có tổng cộng 24 yếu t
 
 ####Xay####
 
-Đây là một yếu tố cực kỳ quan trọng khi pha. Yếu tố này thường không có được sự quan tâm cần có từ người mới, khi họ bị "che mắt" bởi các chức năng, hình thức, ... của dụng cụ pha, hay những chức năng không mấy cần thiết của máy xay rẻ tiền. Một dụng cụ xay tốt cần cho ra ***kích cỡ*** hạt đúng và đủ dùng với dụng cụ pha. Cũng như ***độ đồng đều*** khi xay, điều này tránh lãng phí nếu như lượng hạt fine (hạt cực mịn) hay hạt thô sau quá trình xay quá nhiều. 
+Đây là một yếu tố cực kỳ quan trọng khi pha. Yếu tố này thường không có được sự quan tâm cần có từ người mới, khi họ bị "che mắt" bởi các chức năng, hình thức, ... của dụng cụ pha, hay những chức năng không mấy cần thiết của máy xay rẻ tiền. Một dụng cụ xay tốt cần cho ra ***kích cỡ*** hạt đúng và đủ dùng với dụng cụ pha. Cũng như ***độ đồng đều*** khi xay, điều này tránh lãng phí nếu như lượng hạt fine (hạt cực mịn) hay hạt thô sau quá trình xay quá nhiều.
 
 Bột cà phê thô và mịn có ảnh hưởng đến tốc độ và khả năng chiết xuất cà phê. Cùng một thời gian nhưng bột cà phê xay mịn đã chiết xuất hết, khi đó bột thô sẽ mới chỉ chiết xuất được một phần. Khi dụng cụ xay chất lượng kém hay căn chỉnh không đúng, sẽ cho kích cỡ bột không đều, ảnh hưởng đến quá trình pha cũng như chất lượng đồ uống. Vì vậy dù với ấm rót, phễu pha, máy pha espresso nhiều tiền cũng không giúp cà phê tốt hơn khi chất lượng xay quá kém.
 
 ####Nước####
 
-Chiếm khoảng 98% trong cốc cà phê dưới điều kiện pha thông thường, khoảng 90% trong espresso. Hiển nhiên nước là thành phần quan trọng cần phải quan tâm ngoài cà phê. Nước cần phải trải qua nhiều quá trình xử lý để có thể uống được. Việc đầu tiên đó là ***xử lý nước*** để loại bỏ các vi sinh vật, nấm hay các kim loại nặng gây ảnh hưởng đến sức khỏe. Cũng như loại bỏ các mùi của chất hóa học xử lý nước như chlorine (thường được sử dụng trong bể bơi). 
+Chiếm khoảng 98% trong cốc cà phê dưới điều kiện pha thông thường, khoảng 90% trong espresso. Hiển nhiên nước là thành phần quan trọng cần phải quan tâm ngoài cà phê. Nước cần phải trải qua nhiều quá trình xử lý để có thể uống được. Việc đầu tiên đó là ***xử lý nước*** để loại bỏ các vi sinh vật, nấm hay các kim loại nặng gây ảnh hưởng đến sức khỏe. Cũng như loại bỏ các mùi của chất hóa học xử lý nước như chlorine (thường được sử dụng trong bể bơi).
 
-Chúng ta dễ dàng nhận biết được sự khác biệt giữa nước từ các hãng khác nhau mà không yêu cầu cảm nhận cao siêu, vì lượng khoáng hòa tan có trong nước cho chúng ta cảm nhận hương vị nước khác nhau. Vì vậy, ***lượng chất hòa tan*** có trong nước có thể ảnh hưởng đến cảm nhận của cà phê khi được sử dụng. Lượng chất hòa tan có trong nước có thể đo được bằng dụng cụ đo TDS nước. Lượng khoáng trong nước càng cao thì khả năng ảnh hưởng chiết xuất hương vị từ cà phê càng nhiều. Ngoài ra, nếu như lượng chất khoáng cao đến mức độ nào đó, có thể gây hại cho các dụng cụ, máy móc. Tuy vậy, chỉ số đo TDS cũng có nhược điểm, nó chỉ cho chúng ta biết có bao nhiêu chất hòa tan trong nước, chứ không cho chúng ta số liệu cụ thể các chất khoáng hòa tan đó gồm những gì. Vì vậy ***thành phần nước*** cũng nên được nắm rõ nhất, vì các chất khoáng khác nhau có thể cho ra hương vị cũng như chiết xuất tốc độ khác nhau. 
+Chúng ta dễ dàng nhận biết được sự khác biệt giữa nước từ các hãng khác nhau mà không yêu cầu cảm nhận cao siêu, vì lượng khoáng hòa tan có trong nước cho chúng ta cảm nhận hương vị nước khác nhau. Vì vậy, ***lượng chất hòa tan*** có trong nước có thể ảnh hưởng đến cảm nhận của cà phê khi được sử dụng. Lượng chất hòa tan có trong nước có thể đo được bằng dụng cụ đo TDS nước. Lượng khoáng trong nước càng cao thì khả năng ảnh hưởng chiết xuất hương vị từ cà phê càng nhiều. Ngoài ra, nếu như lượng chất khoáng cao đến mức độ nào đó, có thể gây hại cho các dụng cụ, máy móc. Tuy vậy, chỉ số đo TDS cũng có nhược điểm, nó chỉ cho chúng ta biết có bao nhiêu chất hòa tan trong nước, chứ không cho chúng ta số liệu cụ thể các chất khoáng hòa tan đó gồm những gì. Vì vậy ***thành phần nước*** cũng nên được nắm rõ nhất, vì các chất khoáng khác nhau có thể cho ra hương vị cũng như chiết xuất tốc độ khác nhau.
 
 ####Pha####
 
@@ -80,7 +80,7 @@ Dưới đây là các yếu tố có thể ảnh hưởng từ dụng cụ pha,
 
 Là tỷ lệ cà phê so với nước. Việc quyết định công thức pha có liên quan đến cách uống của người uống vì nó có liên quan đến Strength và Extration. Việc sử dụng quá nhiều cà phê (hoặc quá ít nước) khiến việc chiết xuất không đủ, thiếu hiệu quả. Ngược lại, việc sử dụng quá ít cà phê so với nước có thể cho ra cốc đồ uống bị chiết xuất quá (over-extracted).
 
-Việc lựa chọn tỷ lệ cũng ảnh hưởng bởi dụng cụ pha, giới hạn của dụng cụ pha đó. 
+Việc lựa chọn tỷ lệ cũng ảnh hưởng bởi dụng cụ pha, giới hạn của dụng cụ pha đó.
 
 ## Kiểm soát {#kiem-soat}
 
@@ -94,7 +94,7 @@ Việc xay nhỏ hạt cà phê cũng giúp giải phóng khí CO2 (sản phẩm
 
 Ngoài việc cỡ xay cần có đồ đồng đều cũng như không cho ra quá nhiều cỡ xay không phù hợp ở phần trên, tìm mua dụng cụ cũng cần biết mục đích, nhu cầu của mình là gì. ***Để có thể chiết xuất đúng, cỡ xay cần phải phù hợp với dụng cụ pha***. Vì vậy, ta cần phải xác định được giới hạn của dụng cụ pha. Ví dụ, sử dụng cỡ hạt mịn của espresso cho phin hay french-press sẽ gây ảnh hưởng đến việc chiết xuất. Ngoài ra, cỡ xay thường căn chỉnh theo thời gian pha của dụng cụ pha đó..
 
-Dụng cụ xay cà phê chính là công cụ cần phải đầu tư đầu tiên. Một dụng cụ xay tốt được đánh giá theo nhiêu tiêu chí khác nhau. Tùy thuộc vào phương pháp pha mà tìm dụng cụ xay cà phê phù hợp. Chất lượng dụng cụ xay ảnh hưởng tới chất lượng xay cũng như độ đồng đều, điều này có thể chiết xuất tốt hơn cũng như tránh lãng phí số cà phê không thể sử dụng do cỡ xay không phù hợp. 
+Dụng cụ xay cà phê chính là công cụ cần phải đầu tư đầu tiên. Một dụng cụ xay tốt được đánh giá theo nhiêu tiêu chí khác nhau. Tùy thuộc vào phương pháp pha mà tìm dụng cụ xay cà phê phù hợp. Chất lượng dụng cụ xay ảnh hưởng tới chất lượng xay cũng như độ đồng đều, điều này có thể chiết xuất tốt hơn cũng như tránh lãng phí số cà phê không thể sử dụng do cỡ xay không phù hợp.
 
 Một vài lời khuyên khi mua máy xay, đó là:
 
@@ -105,7 +105,7 @@ Một vài lời khuyên khi mua máy xay, đó là:
 
 ####Thời gian####
 
-Quá trình pha có thể đánh dấu bắt đầu từ khi nước tiếp xúc với bột cà phê, cho tới khi bột được bỏ ra khỏi cà phê. Thời gian khi nước vẫn tiếp xúc với cà phê được gọi là thời gian pha (brewing time). 
+Quá trình pha có thể đánh dấu bắt đầu từ khi nước tiếp xúc với bột cà phê, cho tới khi bột được bỏ ra khỏi cà phê. Thời gian khi nước vẫn tiếp xúc với cà phê được gọi là thời gian pha (brewing time).
 
 Theo SCA, các thành phần hòa tan được chiết xuất nhiều nhất trong giai đoạn đầu của quá trình pha, cũng như đạt độ acidity cao nhất. Chuyển đến giai đoạn giữa, lượng chất hòa tan thấp hơn 3 lần so với giai đoạn đầu, cũng như tính acidity giảm gần 5 lần so với giai đoạn đầu. Nếu như tiếp tục đến giai đoạn cuối cùng, các chất hòa tan có hương tốt đã được chiết xuất hết, các chất tạo vị đắng và se (astrigency) bắt đầu xuất hiện, thậm chí với một lượng nhỏ có thể biến cốc cà phê trở nên không thể uống được. Giai đoạn này có thể gọi là over-extraction.
 
@@ -123,7 +123,7 @@ Vì vậy có thể nói rằng, ***nhiệt độ nước sẽ ảnh hưởng đ
 
 ####Nước####
 
-Chiếm ~98% khối lượng của cốc cà phê, không thể phủ nhận nước chính là "nguyên liệu" quan trọng để làm nên một cốc cà phê ngon. Thế nhưng nguồn nước chúng ta uống mỗi ngày là loại nước đã trải qua một quá trình dài để có thể trở thành nước uống. Nước qua nhà máy cần phải xử lý để loại bỏ các vi sinh vật gây hại, cũng như các chất hóa học nếu có. Khi đến các gia đình trải qua quá trình lọc để trở thành nước uống. 
+Chiếm ~98% khối lượng của cốc cà phê, không thể phủ nhận nước chính là "nguyên liệu" quan trọng để làm nên một cốc cà phê ngon. Thế nhưng nguồn nước chúng ta uống mỗi ngày là loại nước đã trải qua một quá trình dài để có thể trở thành nước uống. Nước qua nhà máy cần phải xử lý để loại bỏ các vi sinh vật gây hại, cũng như các chất hóa học nếu có. Khi đến các gia đình trải qua quá trình lọc để trở thành nước uống.
 
 Tuy vậy, nước uống an toàn để uống, không có nghĩa là nước đó có thể pha cà phê ngon nhất. Các chất khoáng có trong nước cũng có ảnh hưởng nhất định tới chiết xuất cà phê. Tuy vậy, để có thể nói sâu hơn về nước pha, có lẽ chúng ta cần một bài hoàn chỉnh hơn. Vì vậy theo SCA, nước dùng để pha cần đáp ứng được các nhu cầu tối thiểu sau:
 
@@ -134,18 +134,18 @@ Tuy vậy, nước uống an toàn để uống, không có nghĩa là nước �
 
     ![https://2.pik.vn/20210a1dd23d-8116-44bb-9228-458188c1f88f.jpg](https://2.pik.vn/20210a1dd23d-8116-44bb-9228-458188c1f88f.jpg)
 
-Các quán cà phê, đặc biệt với các cửa hàng cà phê sử dụng máy pha espresso hay các máy pha khác, thường dùng lõi lọc nước riêng để đáp ứng theo các yêu cầu trên của SCA. Việc sử dụng nước nhiều khoáng (TDS cao) lâu dài có thể gây ra nghẽn đường ống, cũng như đóng vôi các dụng cụ đun nước cũng như máy pha. Đồng thời, việc pha espresso với lượng khoáng chất vừa đủ sẽ đảm bảo tốc độ chiết xuất đúng cũng như cải thiện hương vị. Vì thế sử dụng nước có TDS quá thấp thường không hiệu quả. Do đó, các cửa hàng thường dùng các lõi lọc nước chuyên dụng để sử dụng để có thể có chất lượng nước riêng của mình. 
+Các quán cà phê, đặc biệt với các cửa hàng cà phê sử dụng máy pha espresso hay các máy pha khác, thường dùng lõi lọc nước riêng để đáp ứng theo các yêu cầu trên của SCA. Việc sử dụng nước nhiều khoáng (TDS cao) lâu dài có thể gây ra nghẽn đường ống, cũng như đóng vôi các dụng cụ đun nước cũng như máy pha. Đồng thời, việc pha espresso với lượng khoáng chất vừa đủ sẽ đảm bảo tốc độ chiết xuất đúng cũng như cải thiện hương vị. Vì thế sử dụng nước có TDS quá thấp thường không hiệu quả. Do đó, các cửa hàng thường dùng các lõi lọc nước chuyên dụng để sử dụng để có thể có chất lượng nước riêng của mình.
 
 Chiếm chủ yếu trong cốc cà phê, vì thế nếu hai nguồn nước khác nhau đương nhiên sẽ cho ra các cốc cà phê khác nhau rõ ràng, cho dù sử dụng chung 1 loại cà phê nào đó. Vì thế, các vấn đề liên quan đến nước cũng cần được quan tâm từ phía người bán lẫn người mua. Từ phía cửa hàng, người bán hay người rang, cần phải ghi chú thêm những lưu ý về chất lượng nước mà họ đang sử dụng khi pha, cupping, để có thể tư vấn và hướng dẫn người mua về chất lượng cũng như cách khắc phục với nguồn nước khác nhau. Về phía người mua cũng nên tìm hiểu về cách thức pha, chất lượng nước của nơi bán cà phê cũng như tìm các cách khắc phục những hạn chế của mình, cũng như không nên vội đánh giá chất lượng khi không tìm hiểu rõ.
 
 Tuy vậy, không có nghĩa rằng việc có TDS nước thấp hay pH thấp hơn yêu cầu không thể pha được cà phê. Thực chất đa phần nguồn nước lọc gia đình thường sử dụng lõi lọc RO (reverse osmosis) mà không bù khoáng, do thiết kế của lõi lọc RO, các chất hòa tan trong nước gần như loại bỏ hoàn toàn, đồng nghĩ với việc TDS nước lúc này sẽ rất thấp (<40ppm). Do đó, áp dụng tiêu chuẩn pha theo nguồn nước có TDS cao ở đây thường không mấy hiệu quả. Vì vậy, để pha cà phê với TDS thấp thường cần kỹ thuật khác so với pha theo nước có TDS tiêu chuẩn.
 
-== Chờ update == 
+== Chờ update ==
 
 Như bạn có thể thấy, pha cà phê tưởng chừng đơn giản, thế nhưng cũng có thể rất phức tạp để nắm rõ trong tay. Vì vậy, xác định được nhu cầu, hạn chế của mình để lựa chọn cho mình dụng cụ, phương pháp pha phù hợp. Sau đó áp dụng và thử nghiệm từng yếu tố để có thể thành công.
 
 ---
 
-## Nguồn tham khảo {#tham-khao}
+## Nguồn tham khảo
 
 - SCA - The coffee brewing handbook

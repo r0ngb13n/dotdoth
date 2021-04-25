@@ -41,22 +41,25 @@ a:hover {
 	@apply m-auto w-full min-h-full;
 }
 .post-content h4 {
-	@apply my-5 font-semibold text-lg mb-2;
+	@apply mb-2 font-semibold md:font-medium text-lg;
 }
 .post-content h3 {
-	@apply my-5 font-semibold text-xl mb-2;
+	@apply mb-4 font-semibold md:font-medium text-xl;
 }
 .post-content h2 {
-	@apply my-5 font-semibold text-2xl;
+	@apply mb-5 font-semibold text-2xl text-gray-800;
 }
 .post-content p {
-	@apply mt-5 text-gray-900 font-light md:font-normal;
+	@apply mb-3 text-gray-900 font-normal;
 }
 .post-content strong {
-	@apply font-semibold;
+	@apply font-normal md:font-medium;
 }
 .post-content strong>em{
-	@apply font-semibold text-red-700 not-italic;
+	@apply font-medium md:font-semibold text-red-700 not-italic;
+}
+.post-content em{
+	@apply text-gray-700;
 }
 /* list */
 .post-content ul, ol {
