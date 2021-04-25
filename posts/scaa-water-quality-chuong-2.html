@@ -78,9 +78,11 @@
         </h1>
 
         <div class="postInfo text-left  ">
-            <span> <a class="uppercase" href="/pha-ca-phe.html" title="Pha cà phê">Pha cà phê</a>
- ;&nbsp;</span>
-                            <span>Thuộc:&nbsp; <a href="/origin.html?origin=SCAA - THE WATER QUALITY HANDBOOK" title="SCAA - THE WATER QUALITY HANDBOOK" class="text-blue-500">SCAA - THE WATER QUALITY HANDBOOK</a> ;&nbsp;</span>
+            <!-- <span> <a class="uppercase" href="/pha-ca-phe.html" title="Pha cà phê">Pha cà phê</a>
+ ;&nbsp;</span> -->
+                            <span>Thuộc:&nbsp; <a class="" href="/scaa-the-water-quality-handbook.html" title="SCAA - THE WATER QUALITY HANDBOOK">SCAA - THE WATER QUALITY HANDBOOK</a>
+ ;</span>
+
                         <span>Viết vào:&nbsp;<time datetime="2021-04-23">2021-04-23</time></span>
         </div>
 
@@ -210,21 +212,21 @@ Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất 
             </div>
             <div class="absolute top-0 right-0 h-full z-0">
                  <div class="fixed hidden lg:block fixed" x-data="makeData()">
-    <div class="table-of-contents w-72 sticky top-0 right-0 ml-5 pt-5 pl-5">
+    <div class="table-of-contents w-80 sticky top-0 right-0 ml-5 pl-5">
         <ol class="list-decimal list-inside"  style="list-style-type:none;">
-            <template x-for="item in items" :key="item.id">                                        
+            <template x-for="item in items" :key="item.id">
                 <li class="transition text-gray-300 hover:text-gray-500">
-                    <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>                   
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>
                     <template x-if="item.children.length">
                         <ul class="list-decimal list-inside text-sm" style="list-style-type: none;">
                             <template x-for="subItem in item.children" :key="subItem.id">
                                 <li class="transition text-gray-300 hover:text-gray-500">
-                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>                   
+                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>
                                 </li>
                             </template>
                         </ul>
                     </template>
-                </li>                
+                </li>
             </template>
         </ol>
     </div>
@@ -266,7 +268,7 @@ Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất 
 </svg>
  
                 </a>
-                <a href="#" title="instagram">
+                <a href="https://www.instagram.com/dot.dot.h/" title="instagram">
                      <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
         d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
@@ -274,7 +276,7 @@ Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất 
 </svg>
  
                 </a>
-                <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a>
+                <!-- <a href="mailto:nvlh1995@gmail.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a> -->
             </div>
         </div>
     </div>
@@ -288,7 +290,7 @@ Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất 
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
     <script>
-        function makeData() {        
+        function makeData() {
             const items = [...document.querySelectorAll('h2, h3')].map(function (ele) {
                 return {
                     id: ele.getAttribute('id'),
@@ -297,12 +299,15 @@ Hình 14: Piston trong máy pha cà phê. Bị ăn mòn bởi acid trong chất 
                     children: []
                 };
             });
-            
-            let tree = [];            
+
+            let tree = [];
             for (let i = 0; i < items.length; i++) {
                 let item = items[i];
 
                 if (item.level === 2) {
+                    if (item.id === null ){ //skip khi không thấy id
+                        continue;
+                    }
                     tree.push(item);
                 }
 

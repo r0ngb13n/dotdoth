@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phân loại và đánh giá cà phê.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <div class="container max-w-screen-lg mx-auto pt-0 px-2 sm:pt-0 md:px-16 sm:px-32">
+
+            <!-- navbar -->
+             <div>
+	<!-- main menu -->
+	<div class="flex flex-wrap items-center justify-between space-x-3 md:space-x-4 sm:space-x-10 relative navlayout" x-data="{open: false}">
+
+        <div>
+            <a href="/" class="text-lg" title="home page">
+                 <svg class="w-16 h-16 sm:w-16 sm:h-16" class="hidden" viewBox="0 0 79 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M7.26 16.09C8.18 16.09 9.1 16.21 10.02 16.45C10.94 16.69 11.85 17.04 12.75 17.5C12.69 17.02 12.65 16.56 12.63 16.12C12.63 15.66 12.63 15.17 12.63 14.65V10H14.52V31H13.05L12.84 28.75C11.96 29.53 11.03 30.16 10.05 30.64C9.09 31.12 8.07 31.36 6.99 31.36C5.13 31.36 3.8 30.74 3 29.5C2.22 28.24 1.83 26.31 1.83 23.71C1.83 21.83 2.02 20.34 2.4 19.24C2.78 18.12 3.37 17.32 4.17 16.84C4.97 16.34 6 16.09 7.26 16.09ZM3.78 23.68C3.78 25.2 3.91 26.4 4.17 27.28C4.43 28.16 4.83 28.78 5.37 29.14C5.93 29.5 6.65 29.68 7.53 29.68C8.39 29.68 9.19 29.5 9.93 29.14C10.67 28.78 11.57 28.19 12.63 27.37V18.82C11.65 18.48 10.78 18.22 10.02 18.04C9.26 17.86 8.47 17.77 7.65 17.77C6.73 17.77 5.98 17.95 5.4 18.31C4.84 18.65 4.43 19.25 4.17 20.11C3.91 20.97 3.78 22.16 3.78 23.68ZM22.7201 16.09C24.3401 16.09 25.6401 16.34 26.6201 16.84C27.6001 17.34 28.3001 18.15 28.7201 19.27C29.1601 20.39 29.3801 21.88 29.3801 23.74C29.3801 25.6 29.1601 27.09 28.7201 28.21C28.3001 29.33 27.6001 30.14 26.6201 30.64C25.6401 31.14 24.3401 31.39 22.7201 31.39C21.0801 31.39 19.7701 31.14 18.7901 30.64C17.8301 30.14 17.1301 29.33 16.6901 28.21C16.2501 27.09 16.0301 25.6 16.0301 23.74C16.0301 21.88 16.2501 20.39 16.6901 19.27C17.1301 18.15 17.8301 17.34 18.7901 16.84C19.7701 16.34 21.0801 16.09 22.7201 16.09ZM22.7201 17.74C21.5401 17.74 20.6101 17.92 19.9301 18.28C19.2501 18.64 18.7601 19.26 18.4601 20.14C18.1801 21.02 18.0401 22.22 18.0401 23.74C18.0401 25.28 18.1801 26.49 18.4601 27.37C18.7601 28.23 19.2501 28.84 19.9301 29.2C20.6101 29.56 21.5401 29.74 22.7201 29.74C23.8801 29.74 24.8001 29.56 25.4801 29.2C26.1601 28.84 26.6501 28.23 26.9501 27.37C27.2501 26.49 27.4001 25.28 27.4001 23.74C27.4001 22.22 27.2501 21.02 26.9501 20.14C26.6501 19.26 26.1601 18.64 25.4801 18.28C24.8001 17.92 23.8801 17.74 22.7201 17.74ZM38.6044 16.45V18.01H33.6844V27.37C33.6844 28.11 33.8544 28.65 34.1944 28.99C34.5544 29.33 35.0944 29.5 35.8144 29.5H38.1844L38.4244 30.91C37.9644 31.03 37.4244 31.11 36.8044 31.15C36.1844 31.21 35.7144 31.24 35.3944 31.24C34.1944 31.24 33.2944 30.93 32.6944 30.31C32.0944 29.67 31.7944 28.77 31.7944 27.61V18.01H29.1544V16.6L31.7944 16.48V12.07H33.6844V16.45H38.6044ZM7.26 38.09C8.18 38.09 9.1 38.21 10.02 38.45C10.94 38.69 11.85 39.04 12.75 39.5C12.69 39.02 12.65 38.56 12.63 38.12C12.63 37.66 12.63 37.17 12.63 36.65V32H14.52V53H13.05L12.84 50.75C11.96 51.53 11.03 52.16 10.05 52.64C9.09 53.12 8.07 53.36 6.99 53.36C5.13 53.36 3.8 52.74 3 51.5C2.22 50.24 1.83 48.31 1.83 45.71C1.83 43.83 2.02 42.34 2.4 41.24C2.78 40.12 3.37 39.32 4.17 38.84C4.97 38.34 6 38.09 7.26 38.09ZM3.78 45.68C3.78 47.2 3.91 48.4 4.17 49.28C4.43 50.16 4.83 50.78 5.37 51.14C5.93 51.5 6.65 51.68 7.53 51.68C8.39 51.68 9.19 51.5 9.93 51.14C10.67 50.78 11.57 50.19 12.63 49.37V40.82C11.65 40.48 10.78 40.22 10.02 40.04C9.26 39.86 8.47 39.77 7.65 39.77C6.73 39.77 5.98 39.95 5.4 40.31C4.84 40.65 4.43 41.25 4.17 42.11C3.91 42.97 3.78 44.16 3.78 45.68ZM22.7201 38.09C24.3401 38.09 25.6401 38.34 26.6201 38.84C27.6001 39.34 28.3001 40.15 28.7201 41.27C29.1601 42.39 29.3801 43.88 29.3801 45.74C29.3801 47.6 29.1601 49.09 28.7201 50.21C28.3001 51.33 27.6001 52.14 26.6201 52.64C25.6401 53.14 24.3401 53.39 22.7201 53.39C21.0801 53.39 19.7701 53.14 18.7901 52.64C17.8301 52.14 17.1301 51.33 16.6901 50.21C16.2501 49.09 16.0301 47.6 16.0301 45.74C16.0301 43.88 16.2501 42.39 16.6901 41.27C17.1301 40.15 17.8301 39.34 18.7901 38.84C19.7701 38.34 21.0801 38.09 22.7201 38.09ZM22.7201 39.74C21.5401 39.74 20.6101 39.92 19.9301 40.28C19.2501 40.64 18.7601 41.26 18.4601 42.14C18.1801 43.02 18.0401 44.22 18.0401 45.74C18.0401 47.28 18.1801 48.49 18.4601 49.37C18.7601 50.23 19.2501 50.84 19.9301 51.2C20.6101 51.56 21.5401 51.74 22.7201 51.74C23.8801 51.74 24.8001 51.56 25.4801 51.2C26.1601 50.84 26.6501 50.23 26.9501 49.37C27.2501 48.49 27.4001 47.28 27.4001 45.74C27.4001 44.22 27.2501 43.02 26.9501 42.14C26.6501 41.26 26.1601 40.64 25.4801 40.28C24.8001 39.92 23.8801 39.74 22.7201 39.74ZM38.6044 38.45V40.01H33.6844V49.37C33.6844 50.11 33.8544 50.65 34.1944 50.99C34.5544 51.33 35.0944 51.5 35.8144 51.5H38.1844L38.4244 52.91C37.9644 53.03 37.4244 53.11 36.8044 53.15C36.1844 53.21 35.7144 53.24 35.3944 53.24C34.1944 53.24 33.2944 52.93 32.6944 52.31C32.0944 51.67 31.7944 50.77 31.7944 49.61V40.01H29.1544V38.6L31.7944 38.48V34.07H33.6844V38.45H38.6044Z" fill="black"/>
+	<path d="M46.376 8.32V29.344H71.432V8.32H76.112V58H71.432V33.448H46.376V58H41.696V8.32H46.376Z" fill="black"/>
+</svg>
+<!-- <svg  width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32 15.78C4.32 15.78 4.82 16.28 4.82 17.28V20.7C4.82 21.7 4.32 22.2 3.32 22.2H2C1 22.2 0.5 21.7 0.5 20.7V17.28C0.5 16.28 1 15.78 2 15.78H3.32ZM3.32 35.58C4.32 35.58 4.82 36.08 4.82 37.08V40.5C4.82 41.5 4.32 42 3.32 42H2C1 42 0.5 41.5 0.5 40.5V37.08C0.5 36.08 1 35.58 2 35.58H3.32ZM31.3766 12.18C36.6166 12.18 39.2366 14.84 39.2366 20.16V42H35.3966V21.18C35.3966 19.1 34.9966 17.64 34.1966 16.8C33.3966 15.92 32.1366 15.48 30.4166 15.48C28.4966 15.48 26.6166 15.92 24.7766 16.8C22.9366 17.64 20.7766 18.88 18.2966 20.52V42H14.5166V-2.86102e-06H18.2966L18.3566 12.06C18.3566 13.14 18.3366 14.16 18.2966 15.12C18.2566 16.08 18.1566 16.96 17.9966 17.76C20.3166 16.04 22.5766 14.68 24.7766 13.68C26.9766 12.68 29.1766 12.18 31.3766 12.18Z" fill="black"/>
+</svg> -->
+ 
+            </a>
+        </div>
+
+        <div class="fixed pr-5 right-0 top-0 w-1/2 h-screen bg-white shadow-lg overflow-hidden
+            bg-white flex flex-col pt-24 z-10 content-right transition hidden
+            sm:bg-transparent sm:shadow-none sm:flex sm:relative sm:h-auto sm:w-auto sm:flex-row
+            sm:h-auto sm:bg-transparent sm:pt-8 sm:px-5 sm:flex-grow sm:justify-start sm:items-center
+            sm:content-center sm:space-y-0
+            md:mt-0
+            "
+        	:class="{'hidden': open === false}">
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-viet.html" title="Bài viết">Bài viết</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/danh-gia.html" title="Đánh giá">Đánh giá</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/bai-dich.html" title="Bài Dịch">Bài Dịch</a>
+ 
+                             <a class="text-xl my-3 sm:text-base uppercase md:mr-7 sm:tracking-widest sm:mr-12 hover:underline text-right sm:text-center" href="/cong-cu.html" title="Công cụ">Công cụ</a>
+ 
+                        <div @click="open = false" class="absolute top-0 right-0 mr-5 mt-7 sm:hidden">
+            	<svg x-show="open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        	</div>
+        </div>
+
+        <div class="mobile-menu sm:hidden absolute right-0 top-0 mt-7 mr-5" @click="open = true">
+        	<svg x-show="!open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </div>
+	</div>
+
+	<hr class="border sm:mt-0">
+</div>
+ 
+
+            <!-- main content -->
+            <div class="pt-5 sm:pt-12">
+                <div class="post-content relative max-w-screen-md">
+        <h1 class="postTitle text-left  ">
+            Phân loại và đánh giá cà phê.
+        </h1>
+
+        <div class="postInfo text-left  ">
+            <!-- <span> <a class="uppercase" href="/san-xuat.html" title="Sản xuất">Sản xuất</a>
+ ;&nbsp;</span> -->
+                            <span>Thuộc:&nbsp; <a class="" href="/scaa-arabica-green-coffee-defect-handbook.html" title="SCAA - ARABICA GREEN COFFEE DEFECT HANDBOOK">SCAA - ARABICA GREEN COFFEE DEFECT HANDBOOK</a>
+ ;</span>
+
+                        <span>Viết vào:&nbsp;<time datetime="2021-04-25">2021-04-25</time></span>
+        </div>
+
+        <div>
+            <div class="postCont">
+                <p>Khi tìm hiểu sâu hơn về cà phê, chắc hẳn ít nhiều các bạn có thể bắt gặp các tiêu chuẩn đánh giá cà phê. Riêng &quot;specialty&quot; cũng có thể coi là một cấp đánh giá cà phê. Vậy cà phê được đánh giá như thế nào?</p>
+<p>Cà phê nhân xanh (green coffee beans) được đánh giá theo nhiều tiêu chuẩn khác nhau, mà các tiêu chuẩn này có thể khác nhau giữa các bên. Hiệp hội SCA (Specialty Coffee Association) hay Cafe Imports sẽ có các tiêu chuẩn riêng của mình để phân loại và đánh giá cà phê của mình, ngoài ra còn có thể có các tiêu chuẩn đánh giá theo từng loại cà phê cũng như cách sơ chế.</p>
+<p>Để có thể đánh giá chất lượng hạt xanh, chúng ta cần phải biết các lỗi (defects), nguyên nhân và ảnh hưởng của các lỗi đó, ngoài ra  Dưới đây là các đánh giá chất lượng hạt theo như tiêu chuẩn của SCA</p>
+<h2 id="classification" name="classification">Hình thức đánh giá</h2>
+<p>Theo như tiêu chuẩn của SCA, các mẫu đánh giá sẽ bao gồm <strong>350gr hạt xanh</strong> và <strong>100gr hạt rang</strong>.</p>
+<p>Ngoài ra hạt cần phải đáp ứng các tiêu chí cần thiết như:</p>
+<ul>
+<li>Độ ẩm hạt từ 10 - 12%.</li>
+<li>Cỡ hạt khác cỡ không quá 5% so với số số liệu đề ra.</li>
+<li>Riêng với Specialty grade không có lỗi quakers (trong 100gr hạt rang).</li>
+<li>
+<p>Hương vị cà phê sẽ được đánh giá với hình thức cupping.</p>
+<p>Các lỗi sẽ được chia ra làm hai loại: <strong>Lỗi chính (Category 1 defects -Lỗi loại 1)</strong> và <strong><em>Lỗi phụ (Category 1 defects - Lỗi loại 2)</em></strong>.</p>
+</li>
+</ul>
+<p>Giống như tên gọi, hầu hết mỗi một lỗi chính sẽ là sẽ tính một điểm full defect, ngoại trừ &quot;Severe Insect Damage&quot;. Lỗi phụ thì cần nhiều hạt hơn mới tính vào một lỗi full defect. Ngoài ra, khi có 2 lỗi đồng thời xuất hiện trên môt hạt, lỗi nào có ảnh hưởng đến chất lượng nhất sẽ được chọn.</p>
+<p>Theo SCA, để đạt hàng Specialty grade: Không có lỗi chính (defect loại 1), không nhiều hơn 5 lỗi phụ (defect loại 2), không có hạt quaker.</p>
+<h3 id="table" name="table">Bảng lỗi và điểm quy đổi tương ứng</h3>
+<p>Bảng là danh sách các lỗi theo tiêu chuẩn của SCA và điểm quy đổi tương ứng của các lỗi (số lượng hạt) để tính thành một điểm full defect.</p>
+<table>
+  <tr>
+   <th>Defect loại 1 (Lỗi chính)
+   </th>
+   <th>Full defect quy đổi
+   </th>
+   <th>Defect loại 2 (Lỗi phụ)
+   </th>
+   <th>Full defect quy đổi
+   </th>
+  </tr>
+  <tr>
+   <td>Full Black
+   </td>
+   <td>1
+   </td>
+   <td>Partial Black
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>Full Sour
+   </td>
+   <td>1
+   </td>
+   <td>Partical Sour
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>Dried Cherry/Pod
+   </td>
+   <td>1
+   </td>
+   <td>Parchment/Pergamino
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>Fungus Damaged
+   </td>
+   <td>1
+   </td>
+   <td>Floater
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>Foreign Matter
+   </td>
+   <td>1
+   </td>
+   <td>Immature/Unripe
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>Severe Insect Damage
+   </td>
+   <td>5
+   </td>
+   <td>Withered
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>Shell
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>Broken/Chipped/Cut
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>Hull/Husk
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>Slight Insect Damage
+   </td>
+   <td>10
+   </td>
+  </tr>
+</table>
+<p>Dưới đây là giải thích các lỗi trên theo hình thức, nguyên nhân, ảnh hưởng và cách giải quyết. Để đọc đầy đủ hơn có thể click tại <a href="https://www.coffeestrategies.com/wp-content/uploads/2020/08/Green-Coffee-Defect-Handbook.pdf">ĐÂY</a> (bản gốc tiếng anh) hay <a href="https://docs.google.com/document/d/1Kb6-bqaPPuiQR0LWE3Yf5i3fdh6Qbm6h2LfH4IA1HU/edit?usp=sharing">ĐÂY</a> (bản dịch tiếng việt của mình)</p>
+<h2 id="cat1" name="cat1">Các lỗi chính</h2>
+<h3 id="black" name="black">Full black/Partial black</h3>
+<p>Các hạt lỗi có thể nhận biết ngoại quan khi hạt có màu đen hoàn toàn (full black) hoặc đen một phần (partial black), có thể ăn sâu vào trong hạt. Nguyên nhân chính là do việc lên men quá mức, cũng có thể do hạt quá chín, làm biến đổi sắc tố màu, liên quan đến các vi sinh vật.</p>
+<p>Đây là lỗi chính, có thể ảnh hưởng đến chất lượng đồ uống: mùi men hoặc hôi, mốc, gây vị chua hay phenolic, có gây hại đến sức khỏe người dùng. Để giảm thiểu các lỗi này trong trồng trọt bằng việc chỉ hái các trái chín trên cây, cũng như kiểm soát việc lên men. Trong sơ chế, một số hạt có thể loại bỏ bằng việc sàng theo cỡ hạt hay phân loại theo trọng lượng. Cách hiệu quả nhất để loại bỏ các hạt này là nhặt thủ công hay máy phân loại màu.</p>
+<h3 id="sour" name="sour">Full sour/partial sour</h3>
+<p>Hạt chua (full sour) hay chua một phần (partial sour) có thể nhận biết khi hạt cà phê có màu hơi vàng, hoặc từ vàng nâu tới đỏ nâu. Phần embryo (phôi) trong hạt có màu tối hoặc đen. Nếu như hạt cắt hoặc cạo nhẹ bên ngoài, mùi chua hay mùi dấm bay ra. Có thể xảy ra trong cả sơ chế và trồng trọt, do hạt lên men do bị nhiễm khuẩn, có thể xuất hiện trong suốt quá trình. Ví dụ như: Hái trái quá chín, nhặt trái rơi đất, nguồn nước nhiễm bẩn, hạt cà phê bị lên men ngay trong trái khi độ ẩm xung cao.</p>
+<p>Sau khi pha, một hạt chua có thể phá hỏng hoàn toàn hương vị của cốc cà phê do vị men của nó, thậm chí có cả mùi hôi. Hạt lỗi cũng có thể gây ảnh hưởng đến sức khỏe người dùng. Có thể giảm thiểu bằng việc chỉ hái chín trên cây trong trồng trọt cũng như đảm bảo quá trình lên men trong sơ chế có kiểm soát, cũng như không có gián đoạn giữa các quá trình. Ngoài ra nguồn nước sử dụng cũng đảm bảo vệ sinh, tránh việc tái sử dụng.</p>
+<p>Hạt chua toàn phần có thể phát hiện khi lớp vỏ trấu bị loại bỏ, sử dụng máy phân loại màu hay nhặt thủ công để loại.</p>
+<h3 id="fungus" name="fungus">Fungus Damaged</h3>
+<p>Là các hạt bị nhiễm nấm, gây ra bởi các chủng nấm như Aspergillus, Penecillium, và Fusarium. Các hạt nhiễm nấm thường có các vết vàng hay đỏ nâu, xen lẫn các đốm trắng là các bào tử nấm, sau đó có thể lan rộng ra cho tới khi bao phủ hoàn toàn hạt nếu nặng. Các hạt nhiễm nấm cũng sẽ phát các bào tử nấm, có thể lan sang các hạt cà phê khác. Các loại nấm trên có thể phát triển dưới các điều kiện trên nếu như trong không khí có các bào tử nấm.</p>
+<p>Có thể xuất hiện trong trồng trọt lẫn sơ chế. Nấm có thể xuất hiện khi trong không khí có các bào tử nấm, việc đầu tiên cần phải tìm và loại bỏ các nguồn phát sinh bào tử nấm, đảm bảo khu vực trồng trọt, sơ chế hay lưu trữ không xuất hiện các nguồn gây nấm. Các hạt nhiễm nấm có thể phát hiện khi lớp vỏ trấu bị loại bỏ. Có thể loại bỏ bằng máy phân loại màu, phân loại UV với trường hợp nấm nặng, thủ công với các trường hợp hạt bị nhiễm nấm nhẹ. Các hạt lỗi có mùi men, mốc, mùi đất và vị phenolic, và gây độc tố cho người sử dụng.</p>
+<h3 id="matter" name="matter">Foreign Matter</h3>
+<p>Ngoại chất/tạp chất là các vật/chất không phải cà phê. Có thể là que, cành, sỏi đá, đinh, … gây ảnh hưởng đến bề ngoài của mẫu hạt, là dấu hiệu của việc sơ chế hay phân loại kém. </p>
+<p>Tuy không có hoặc ít có ảnh hưởng đáng kể đến hương vị sản phẩm, thế nhưng có thể gây hư hại nghiêm trọng đến các thiết bị, đặc biệt là máy xay. Cũng có thể gây các vấn đề sức khỏe cho người dùng.</p>
+<p>Có thể giải quyết hoàn toàn bằng cách cẩn thận trong thu hoạch, sơ chế. Xử lý bằng máy sàng hay nam châm, các trường hợp tạp chất nhỏ có thể nhặt thủ công.</p>
+<h3 id="pod" name="pod">Dried Cherry/Pod</h3>
+<p>Có thể gọi là hạt khô hay hạt pod cho đơn giản. Các hạt lỗi thường là lớp thịt quả khô bao phủ một phần hay toàn bộ lớp vỏ lụa, thỉnh thoảng xuất hiện các điểm trắng và vết bột - là dấu hiệu của mốc hình thành.</p>
+<p>Trong quá trình sơ chế ướt, hạt bị lỗi có thể là kết quả của quá trình tách vỏ kém hay không loại bỏ các trái nổi trong quá trình vớt trái ban đầu, có thể do máy móc không được bảo trì hay thiết lập kém. Trong sơ chế khô, các hạt lỗi là hậu quả của việc xát vỏ và phân loại sai. Lỗi xuất hiện cũng có thể do ảnh hưởng từ môi trường, hạn hán và dịch bệnh làm cho trái bị khô ngay khi trên cây, rồi làm trái rơi xuống.</p>
+<p>Hạt lỗi có thể gây ra mùi men, mốc hay vị phenolic. Có thể hạn chế bằng việc tránh nhặt trái rơi xuống đất, hiệu chỉnh máy móc cẩn thận. Các hạt lỗi có thể loại bỏ bằng máy phân loại theo trọng lượng. Khi số lượng trái lỗi quá nhiều có thể làm máy ngưng hoạt động, có thể loại bỏ bằng cách loại bỏ các hạt nổi trong nước.</p>
+<p>Ngoài ra các hạt bị bỏ qua bởi máy tách vỏ có thể loại bỏ bằng máy phân loại theo trọng lượng hay thủ công.</p>
+<h3 id="insect" name="insect">Severe Insect Damage/Slight Insect Damage</h3>
+<p>Lỗi do sâu mọt gây nên. Tùy thuộc mức độ nguy hại có các thang điểm khác nhau. Hạt bị sâu được phân biệt bằng các lỗ đen nhỏ (đường kính khoảng 0.3 - 1.5mm), thường nằm đối diện nhau. Đường lỗ có thể theo bất kỳ hướng nào, kể cả dọc. Một vài hạt có thể có 3 lỗ đục hoặc nhiều hơn. Vấn đề do côn trùng, đặc biệt có thể do berry borer beetle (bọ đục trái) gây nên. Bọ có xu hướng giảm dần khi độ cao tăng lên.</p>
+<p>Lỗi do sâu mọt ảnh hưởng đến bề ngoài của cà phê, kể cả nhân xanh và cà phê sau khi rang. Ngoài ra có thể gây các mùi hôi, mùi mốc cũng như có ảnh hưởng đến sức khỏe người uống. Cách tốt nhất để tránh sâu, bọ gây hại cho cà phê là theo dõi cũng như loại bỏ các điều kiện thuận lợi cho bọ phát triển. Vì bọ sinh sản trong trái, thế nên việc nhặt bỏ các trái cà phê bị rơi đất cần thiết để giảm bớt điều kiện tăng sinh của chúng. Ngoài ra, vỏ trái cũng có thể mang theo sâu bọ vì thế nên cũng cần phải để xa cây cho tới khi được xử lý. Việc phân loại hạt lỗi chỉ có thể được phát hiện nếu như quan sát cẩn thận. Ở giai đoạn sơ chế, việc phân loại theo trọng lượng có thể loại bỏ phần lớn số hạt lỗi. Trong trường hợp nặng, cà phê cần được phân loại thủ công.</p>
+<p>Các hạt nhiễm sâu nặng có thể khiến phần lớn cà phê không thể xuất khẩu, ảnh hưởng nặng nề đến nông dân. Bọ đục trái là một trong những vấn đề nghiêm trọng nhất trong ngành công nghiệp cà phê.</p>
+<h2 id="cat2" name="cat2">Các lỗi phụ</h2>
+<blockquote>
+<p>Các lỗi <em>partial black</em>, <em>partial sour</em> hay <em>slight insect</em> damage được gộp cùng với các lỗi chính tương ứng ở trên</p>
+</blockquote>
+<h3 id="parch" name="parch">Parchment/Pergamino</h3>
+<p>Là các hạt vẫn còn bọc trọc lớp vỏ lụa (parchment), lớp vỏ lụa có màu trắng hoặc màu giấy rám. Khi giờ thấy nhám nhẹ. Tuy không ảnh hưởng đến hương vị, nhưng có thể ảnh hưởng đến tổng thể bên ngoài mẫu hạt, là dấu hiệu cho việc phân loại kém. Có thể khắc phục bằng cách hiệu chỉnh bằng máy sát vỏ.</p>
+<h3 id="float" name="float">Floater</h3>
+<p>Hạt nổi có bên ngoài trắng và nhạt màu, làm cho mẫu nhân xanh có màu đốm trắng do các hạt này tạo nên. Hạt nổi rỗng, nhẹ hơn; nếu nghi ngờ có thể để hạt vào trong nước - hạt lỗi sẽ nổi lên. Lỗi này xảy ra khi lưu trữ hay sấy hạt sai cách. Hạt nguyên vỏ lụa còn sót ở trong máy sấy hay sàng phơi làm hạt bạc màu cũng như nhẹ đi. Hạt được lưu trữ ở khu vực độ ẩm cao cũng có thể gây ra lỗi này.</p>
+<p>Các hạt lỗi xuất hiện ở trong quá trình sơ chế. Hạt cần được sấy khô đều và chậm cho đến khi đạt độ ẩm thích hợp. Một số hạt nổi có thể loại bỏ bằng máy phân loại theo trọng lượng nhưng các hạt nặng hơn cần phải phân loại bằng máy phân loại màu cũng như nhặt thủ công.</p>
+<h3 id="unripe" name="unripe">Immature/Unripe</h3>
+<p>Các hạt chưa phát triển/chưa chín được phân biệt bởi màu nhạt, vàng xanh của lớp vỏ ba. Lớp vỏ trấu(silver skin)bị dính chặt vào hạt cà phê ở trong. Chúng thường nhỏ hơn so với các hạt thông thường, là do những hạt cà phê không được phát triển đầy đủ vì nhiều lý do, chủ yếu đến từ việc hái trái xanh, trái chưa chín. Vì thế trong quá trình rang nếu như có cả các hạt này, là lỗi gây nên các hạt quaker sau khi rang. </p>
+<p>Trong khi thu hái cần chú ý chỉ hái những trái cà phê đã chín hay có thể áp dụng trồng các giống cây chín sớm cho tới trung bình, ở độ cao từ trung bình đến cao.  Các hạt chưa chín có thể bị loại bỏ trong cả sơ chế ướt và khô, bằng cách sử dụng sàng hay máy phân loại theo trọng lượng.</p>
+<p>Các hạt lỗi sau khi rang có thể gây nên các hương vị chát, đắng hay chua. Do chưa được phát triển đầy đủ.</p>
+<h3 id="withered" name="withered">Withered</h3>
+<p>Là các hạt bị teo nhỏ, ngoài ra hạt có thể bị nhăn lại giống như nho khô tùy mức độ. Nguyên nhân chủ yếu do thiếu nước (hạn hán) trong quá trình phát triển hạt ở trong trái. Ảnh hưởng tùy vào mức độ cũng như thời gian giai đoạn mất nước. Tỷ lệ hạt bị ảnh hưởng tăng nếu như cây có sức khỏe yếu.</p>
+<p>Cách giải quyết trong trồng trọt là đảm bảo cây cà phê được bón phân và tưới tiêu hợp lý, cũng như có sức khỏe tốt để giảm mức độ của thiệt hại. Dù vậy việc rối loạn/biến đổi khí hậu vẫn có thể gây ảnh hưởng nghiêm trọng đến cây trồng. Việc trồng nhiều loại cây che bóng khác nhau hay trồng các loại cây không phù hợp cũng có thể giảm độ ẩm của đất trong giai đoạn khô hạn.</p>
+<p>Trong sơ chế có thể loại bỏ bằng cách vớt hạt nổi hoặc sàng theo trong lượng, các hạt lớn hơn cần nhặt thủ công. </p>
+<h3 id="shell" name="shell">Shell</h3>
+<p>Là lỗi có vỏ bị dị dạng, có thể có phần bên trong và ngoài riêng biệt hoặc có thể cùng nhau. Một trong hai có thể tìm thấy hoặc cả hai phần được thấy cùng nhau. Phần bên ngoài có hình vỏ sò, phần bên trong có thể là hình nón hoặc trụ. Lỗi là hiện tượng tự nhiên, xảy ra do di truyền của cây.</p>
+<p>Vì có thể vỡ thành hai mảnh khác kích cỡ, cần phải loại bỏ để không ảnh hưởng đến quá trình rang, làm thành phẩm rang không đồng đều. Lỗi có thể giảm thiểu bằng máy sàng mật độ, hay quan trọng hơn là sử dụng giống cây phù hợp ngay từ ban đầu.</p>
+<h3 id="broken" name="broken">Broken/Chipped/Cut</h3>
+<p>Các hạt bị nứt hay vỡ, có dấu hiệu cắt là kết quả xảy ra trong quá trình tách vỏ do lỗi máy móc do điều chỉnh sai, gây nên ma sát nhiều hay cà phê bị ép mạnh. Gây ảnh hưởng đến ngoại quan của mẫu hạt. Các hạt cà phê bị vỡ, nứt thường có màu đỏ thẫm do bị các vết cắt trong quá trình tách vỏ bị oxy hóa . Việc này có thể dẫn đến sự lên men, phát triển nấm mốc, sinh vật, .. gây ra các lỗi khác.</p>
+<p>Tuy chỉ xuất hiện sau giai đoạn sơ chế, thế nhưng nguyên nhân cũng có thể đến từ việc thu hái. Chỉ hái và sơ chế trái chín, vì trái xanh hay chỉ hơi chín không tách vỏ đúng cách. Trái cà phê xanh thậm chí không tách vỏ hoàn toàn. Trong sơ chế có thể hiệu chỉnh máy cho phù hợp, sau đó sàng hay nhặt thủ công để loại bỏ. Ngoài ra có thể do máy móc chưa được căn chỉnh, tạo ma sát cho hạt. Các hạt lỗi khi xuất hiện có thể gây mùi đất, mốc, vị chua hay men.</p>
+<h3 id="husk" name="husk">Hull/Husk</h3>
+<p>Là các mảnh bị vỡ của lớp vỏ bị khô, có màu đỏ sẫm. Gây ảnh hưởng đến tổng thể bên ngoài mẫu hạt, ngoài ra nếu đủ nhiều có thể gây mùi mốc, men, đất  và vị phenolic. Có thể xử lý bằng cách hiệu chỉnh máy cẩn thận cũng như sàng và phân loại đúng.</p>
+<h2 id="grading" name="grading">Xếp hạng và đánh giá cà phê</h2>
+<p>Nâng cao chất lượng cà phê xuất khẩu từ Việt Nam là mục tiêu chính để phát triển ngành cà phê quốc gia. </p>
+<h3 id="old-grading" name="old-grading">Vấn đề của các tiêu chuẩn cũ</h3>
+<p>Có khoảng 90% lượng cà phê được xuất khẩu, thế nhưng nhiều đánh giá cho rằng lượng cà phê Robusta của Việt Nam chất lượng khá kém. Dù chất lượng của cà phê Arabica tốt hơn, nhưng chỉ chiếm 3-4% tổng sản lượng xuất khẩu. Điều này thúc đẩy sử dụng các tiêu chuẩn mới để đáp ứng (phần lớn) với các tiêu chuẩn của thế giới.</p>
+<p>Nghị quyết số 407 của Hội đồng Cà phê Quốc tế (ICC -International Coffee Council) đặt ra các tiêu chuẩn tối thiểu cùng độ ẩm hạt tối đa của cà phê Việt Nam để xuất khẩu.</p>
+<h3 id="vn-grading" name="vn-grading">Phân loại cà phê Việt Nam</h3>
+<p>Từ tháng 11 năm 2001, bộ trưởng Bộ trưởng Bộ Khoa học, Công nghệ và Môi trường Việt Nam đã ban hành các tiêu chuẩn mới để thúc đẩy chất cà phê xuất khẩu của nước nhà. Một trong số đó là tiêu chuẩn TCVN 4193:2001, đã đưa ra thay đổi lớn về hệ thống đánh cà phê Việt Nam bằng cách áp dụng hệ thống đánh giá hạt lỗi của thế giới. Khác với tiêu chuẩn của ICO, tiêu chuẩn cà phê Việt Nam là độ ẩm dưới 13% chứ không phải 12.5%.</p>
+<p>Theo như tiêu chuẩn, cà phê được phân loại theo 6 cấp bậc từ specialty đến grade 5. Các tiêu chí đánh giá như:</p>
+<ul>
+<li><strong>Màu sắc</strong>: Màu tự nhiên của hạt xanh, tùy thuộc vào giống.</li>
+<li><strong>Hương vị</strong>: Mùi tự nhiên của hạt xanh, tùy thuộc vào giống. Không lẫn mùi lạ.</li>
+<li><strong>Độ ẩm</strong>: dưới 13%.</li>
+<li><strong>Tỷ lệ hạt lẫn cho phép (percentage of mixture)</strong>: Xem ở bảng dưới đây</li>
+</ul>
+<table>
+  <tr>
+   <th>
+    Loại
+   </th>
+   <th>Special grade, Grade 1
+   </th>
+   <th>Grade 2
+   </th>
+   <th>Grade 3,4,5
+   </th>
+  </tr>
+  <tr>
+   <td>Arabica 
+   </td>
+   <td>Không hạt Robusta và Cherry
+   </td>
+   <td>1% Robusta; 0.5% Cherry
+   </td>
+   <td>5% Robusta; 1% Cherry
+   </td>
+  </tr>
+  <tr>
+   <td>Robusta
+   </td>
+   <td>0.5% Cherry; 3% Arabica
+   </td>
+   <td>5% Arabica; 1% Cherry
+   </td>
+   <td>5% Arabica; 5% Cherry
+   </td>
+  </tr>
+</table>
+<ul>
+<li><strong>Danh sách các lỗi:</strong> có thể xem các loại lỗi cũng như điểm quy đổi tại <a href="https://apps.fas.usda.gov/gainfiles/200307/145985648.pdf">ĐÂY</a></li>
+<li><strong>Số lượng hạt lỗi và tỷ lệ trọng lượng tối thiếu các sàng nhỏ hơn </strong>(Xem ở bảng dưới)</li>
+</ul>
+<table>
+  <tr>
+   <th rowspan="3">
+Xếp hạng chất lượng
+   </th>
+   <th colspan="2">Tổng số lỗi có trong 300gr hạt mẫu
+   </th>
+   <th colspan="3">Tỷ lệ trọng lượng tối thiểu trên sàng có lỗ xung quanh
+   </th>
+  </tr>
+  <tr>
+   <th rowspan="2">Arabica
+   </th>
+   <th rowspan="2">Robusta
+   </th>
+   <th colspan="2">Cỡ sàng
+   </th>
+   <th rowspan="2">Tỉ lệ (%)
+   </th>
+  </tr>
+  <tr>
+   <th>Arabica
+   </th>
+   <th>Robusta
+   </th>
+  </tr>
+  <tr>
+   <td>Special grade
+   </td>
+   <td>15
+   </td>
+   <td>30
+   </td>
+   <td>Số 18/16
+   </td>
+   <td>Số 18/16
+   </td>
+   <td>90/10
+   </td>
+  </tr>
+  <tr>
+   <td>Grade 1
+   </td>
+   <td>30
+   </td>
+   <td>60
+   </td>
+   <td>Số 16/14
+   </td>
+   <td>Số 16/14
+   </td>
+   <td>90/10
+   </td>
+  </tr>
+  <tr>
+   <td>Grade 2
+   </td>
+   <td>60
+   </td>
+   <td>90
+   </td>
+   <td>Số12 ½/12
+   </td>
+   <td>Số12 ½/12
+   </td>
+   <td>90/10
+   </td>
+  </tr>
+  <tr>
+   <td>Grade 3
+   </td>
+   <td>120
+   </td>
+   <td>150
+   </td>
+   <td>Số 12/10
+   </td>
+   <td>Số 12/10
+   </td>
+   <td>90/10
+   </td>
+  </tr>
+  <tr>
+   <td>Grade 4
+   </td>
+   <td>150
+   </td>
+   <td>250
+   </td>
+   <td>-
+   </td>
+   <td>-
+   </td>
+   <td>Không rõ
+   </td>
+  </tr>
+  <tr>
+   <td>Grade 5
+   </td>
+   <td>Không rõ
+   </td>
+   <td>Không rõ
+   </td>
+   <td>-
+   </td>
+   <td>-
+   </td>
+   <td>Không rõ
+   </td>
+  </tr>
+</table>
+<p>Các tiêu chuẩn đánh giá và lấy mẫu tham khảo thêm tại : <a href="https://apps.fas.usda.gov/gainfiles/200307/145985648.pdf">ĐÂY!</a></p>
+<p>Xem qua bảng trên, có thể thấy tiêu chí đánh giá cà phê của Việt Nam “bớt” khắt khe so với cà phê thế giới. Thế nhưng để có thể xuất khẩu, người sản xuất giờ đây cũng phải chú ý đến các tiêu chuẩn canh tác, thu hái và lưu trữ để có thể đảm bảo và duy trì các tiêu chuẩn đề ra. Nếu như đọc qua các tiêu chuẩn hay các lỗi nói ở trên trên, có thể thấy đa phần các lỗi dù chính hay phụ, đều có thể giảm đa phần chỉ bằng việc canh tác đất đai tốt cũng như thu hái có chọn lọc. Chỉ cần hai điều tối thiểu đó được thực hiện và duy trì liên tục, thì chất lượng cà phê sẽ đồng đều hơn rất nhiều. Các lỗi lại có thể do cơ sở vật chất tạo nên, việc này có thể khắc phục sau thời gian hoặc có thể từ các nguồn đầu tư cần thiết.</p>
+<p>Không khó hiểu rằng với mỗi tiêu chuẩn khác nhau sẽ có giá thu mua khác nhau. Việc cây giống hay cải tạo đất đai có thể mất vài năm để thay đổi, thế nhưng việc nâng cao chất lượng canh tác và thu hái có thể thay đổi trong thời gian ngắn hơn nhiều. Vì vậy, lựa chọn của các nhà sản xuất cà phê sẽ “đơn giản” là lựa chọn giữa nâng cao chất lượng cà phê, đồng nghĩa với lợi nhuận tốt hơn về lâu dài, hoặc có thể tiếp tục việc xuất khẩu theo số lượng của mình. Tương tự về phía người dùng có thể tiếp tục “ủng hộ” cà phê chất lượng không tốt hoặc có thể chỉ sử dụng cà phê chất lượng tốt ít nhiều có thể “ép” các nhà sản xuất chú tâm vào chất lượng sản xuất của mình hơn. Vì vậy việc thay đổi chất lượng dài lâu cũng chịu ảnh hưởng từ cả người sản xuất lẫn người mua.</p>
+<hr />
+<h3 id="Ngu%E1%BB%93n+tham+kh%E1%BA%A3o" name="Ngu%E1%BB%93n+tham+kh%E1%BA%A3o">Nguồn tham khảo</h3>
+<ul>
+<li>SCAA - ARABICA GREEN COFFEE DEFECT HANDBOOK</li>
+<li>
+</li>
+</ul>
+            </div>
+            <div class="absolute top-0 right-0 h-full z-0">
+                 <div class="fixed hidden lg:block fixed" x-data="makeData()">
+    <div class="table-of-contents w-80 sticky top-0 right-0 ml-5 pl-5">
+        <ol class="list-decimal list-inside"  style="list-style-type:none;">
+            <template x-for="item in items" :key="item.id">
+                <li class="transition text-gray-300 hover:text-gray-500">
+                    <a x-bind:href="`#${item.id}`" x-text="item.label" class=" text-gray-300 hover:text-gray-500"></a>
+                    <template x-if="item.children.length">
+                        <ul class="list-decimal list-inside text-sm" style="list-style-type: none;">
+                            <template x-for="subItem in item.children" :key="subItem.id">
+                                <li class="transition text-gray-300 hover:text-gray-500">
+                                    <a x-bind:href="`#${subItem.id}`" x-text="subItem.label" class=" text-gray-300 hover:text-gray-500"></a>
+                                </li>
+                            </template>
+                        </ul>
+                    </template>
+                </li>
+            </template>
+        </ol>
+    </div>
+</div>
+
+
+ 
+            </div>
+        </div>
+
+    <!-- comment box -->
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5713444275748864-proj')</script>
+    <!--  -->
+
+    </div>
+            </div>
+
+            <!-- footer -->
+             <footer class="flex justify-between flex-col sm:flex-row items-center border-t mt-20 py-5">
+    <div class="flex">
+        <div class="flex flex-shrink">
+            <div class="flex space-x-3 items-end">
+                <a href="#" title="facebook">
+                     <svg class="h-6 w-6" viewBox="0 0 31 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M29.375 0.375H0.625C-0.0664062 0.375 -0.625 0.933594 -0.625 1.625V30.375C-0.625 31.0664 -0.0664062 31.625 0.625 31.625H29.375C30.0664 31.625 30.625 31.0664 30.625 30.375V1.625C30.625 0.933594 30.0664 0.375 29.375 0.375ZM25.7656 9.49609H23.2695C21.3125 9.49609 20.9336 10.4258 20.9336 11.793V14.8047H25.6055L24.9961 19.5195H20.9336V31.625H16.0625V19.5234H11.9883V14.8047H16.0625V11.3281C16.0625 7.29297 18.5273 5.09375 22.1289 5.09375C23.8555 5.09375 25.3359 5.22266 25.7695 5.28125V9.49609H25.7656Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="#" title="youtube">
+                     <svg class="h-6" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M39.7365 6.62422C39.7365 3.10859 37.1506 0.280468 33.9553 0.280468C29.6271 0.0781247 25.2131 0 20.7021 0H19.2959C14.7959 0 10.374 0.0781249 6.04588 0.28125C2.85839 0.28125 0.272448 3.125 0.272448 6.64062C0.0771352 9.42109 -0.00567726 12.2023 -0.000989759 14.9836C-0.00880226 17.7648 0.0797394 20.5487 0.264635 23.3352C0.264635 26.8508 2.85057 29.7023 6.03807 29.7023C10.5849 29.9133 15.249 30.007 19.9912 29.9992C24.7412 30.0148 29.3922 29.9159 33.9443 29.7023C37.1396 29.7023 39.7256 26.8508 39.7256 23.3352C39.9131 20.5461 39.999 17.7648 39.9912 14.9758C40.0089 12.1945 39.924 9.41068 39.7365 6.62422ZM16.1709 22.6477V7.29609L27.499 14.968L16.1709 22.6477Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <a href="https://www.instagram.com/dot.dot.h/" title="instagram">
+                     <svg class="h-6 w-6" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M25 0H5C2.16667 0 0 2.16667 0 5V25C0 27.8333 2.16667 30 5 30H25C27.8333 30 30 27.8333 30 25V5C30 2.16667 27.8333 0 25 0ZM15 10C17.8333 10 20 12.1667 20 15C20 17.8333 17.8333 20 15 20C12.1667 20 10 17.8333 10 15C10 12.1667 12.1667 10 15 10ZM21.3333 6.66667C21.3333 5.5 22.3333 4.66667 23.3333 4.66667C24.3333 4.66667 25.3333 5.66667 25.3333 6.66667C25.3333 7.66667 24.5 8.66667 23.3333 8.66667C22.1667 8.66667 21.3333 7.83333 21.3333 6.66667ZM25 26.6667H5C4 26.6667 3.33333 26 3.33333 25V15H6.66667C6.66667 19.6667 10.3333 23.3333 15 23.3333C19.6667 23.3333 23.3333 19.6667 23.3333 15H26.6667V25C26.6667 26 26 26.6667 25 26.6667Z"
+        fill="black" />
+</svg>
+ 
+                </a>
+                <!-- <a href="mailto:nvlh1995@gmail.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a> -->
+            </div>
+        </div>
+    </div>
+    <div class="text-sm text-right flex-shrink flex-grow">
+        <p>Crafted by <a class="text-indigo-500 hover:text-indigo-700" href="http://github.com/bangnokia/pekyll" target="_blank">pekyll<a/> with ❤️</p>
+    </div>
+</footer> 
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
+    <script>
+        function makeData() {
+            const items = [...document.querySelectorAll('h2, h3')].map(function (ele) {
+                return {
+                    id: ele.getAttribute('id'),
+                    label: ele.textContent,
+                    level: parseLevel(ele.nodeName),
+                    children: []
+                };
+            });
+
+            let tree = [];
+            for (let i = 0; i < items.length; i++) {
+                let item = items[i];
+
+                if (item.level === 2) {
+                    if (item.id === null ){ //skip khi không thấy id
+                        continue;
+                    }
+                    tree.push(item);
+                }
+
+                if (item.level === 3) {
+                    if (item.id === null ){ //skip khi không thấy id
+                        continue;
+                    }
+                    tree[tree.length - 1].children.push(item);
+                }
+            }
+
+            return {items: tree};
+        }
+
+        function parseLevel(heading) {
+            return parseInt(heading.substr(1,1));
+        }
+    </script>
+
+</body>
+
+</html>
+ 
