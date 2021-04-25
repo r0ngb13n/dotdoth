@@ -31361,7 +31361,7 @@ a:hover {
   padding-left: 1.5rem;
 }
 
-.post-content li::marker,  {
+.post-content li::marker {
   --tw-text-opacity: 1;
   color: rgba(185, 28, 28, var(--tw-text-opacity));
 }
@@ -31389,7 +31389,7 @@ a:hover {
 
 .post-content table tr:hover{
   --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -31500,6 +31500,14 @@ a:hover {
 
 .kasuyaTool select{
   width: 100%;
+}
+
+/*  */
+
+/* comment box  */
+
+.commentbox{
+  margin-top: 2.5rem;
 }
 
 /*  */
