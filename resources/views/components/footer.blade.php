@@ -8,10 +8,10 @@
                 <a href="#" title="youtube">
                     <x-icons.youtube />
                 </a>
-                <a href="#" title="instagram">
+                <a href="https://www.instagram.com/dot.dot.h/" title="instagram">
                     <x-icons.instagram />
                 </a>
-                <a href="mailto:hai@dotdoth.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a>
+                <!-- <a href="mailto:nvlh1995@gmail.com" class="text-sm text-indigo-500 hover:text-indigo-700">hai@dotdoth.com</a> -->
             </div>
         </div>
     </div>

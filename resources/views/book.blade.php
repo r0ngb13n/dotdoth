@@ -7,8 +7,7 @@
         <div class="postInfo text-left  ">
             <!-- <span><x-category-href :name="$post->category" class="uppercase" />;&nbsp;</span> -->
             @if($post->origin)
-                <!-- <span>Thuộc:&nbsp;<x-origin-href :origin="$post->origin"/>;&nbsp;</span> -->
-                <span>Thuộc:&nbsp;<x-category-href :name="$post->origin"/>;&nbsp;</span>
+                <span>Thuộc:&nbsp;<x-category-href :name="$post->origin"/>;</span>
 
             @endif
             <span>Viết vào:&nbsp;<time datetime="{{ $post->created_at }}">{{ $post->created_at }}</time></span>
