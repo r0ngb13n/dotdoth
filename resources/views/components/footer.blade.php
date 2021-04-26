@@ -2,12 +2,12 @@
     <div class="flex">
         <div class="flex flex-shrink">
             <div class="flex space-x-3 items-end">
-                <a href="#" title="facebook">
+                <!-- <a href="#" title="facebook">
                     <x-icons.facebook />
                 </a>
                 <a href="#" title="youtube">
                     <x-icons.youtube />
-                </a>
+                </a> -->
                 <a href="https://www.instagram.com/dot.dot.h/" title="instagram">
                     <x-icons.instagram />
                 </a>

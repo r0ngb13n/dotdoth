@@ -11,7 +11,7 @@
         <div class="flex-1">
             <div class="block">
 
-                <p class="text-sm text-gray-500" >
+                <p class="text-sm text-gray-500 " >
                     <x-category-href :name="$post->origin" class="text-gray-500" />
                 </p>
                 

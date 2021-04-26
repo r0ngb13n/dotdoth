@@ -15,6 +15,6 @@
         <div class="mt-1 leading-5 font-light text-gray-500 sm:mt-1.5">
             {{ $post->description }}
         </div>
-        <div class="mt-5 text-gray-500">Trang thai : {{ $post->status ?? 'In Progress' }}</div>
+        <!-- <div class="mt-5 text-gray-500">Trang thai : {{ $post->status ?? 'In Progress' }}</div> -->
     </div>
 </div>
