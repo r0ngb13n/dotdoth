@@ -31261,6 +31261,8 @@ a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(185, 28, 28, var(--tw-border-opacity));
   border-left-width: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
   padding-left: 0.5rem;
 }
 
@@ -31274,6 +31276,8 @@ a:hover {
 }
 
 .post-content img {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -31288,6 +31292,7 @@ a:hover {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -31301,7 +31306,8 @@ a:hover {
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  margin-bottom: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width: 768px) {
@@ -31314,15 +31320,21 @@ a:hover {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-top: 0.75rem;
-  margin-bottom: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
+.post-content h2::before{
+  content: "# ";
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
 .post-content p {
   font-weight: 400;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
@@ -31359,6 +31371,7 @@ a:hover {
 
 .post-content ul, ol {
   list-style-type: disc;
+  margin-bottom: 0.75rem;
   padding-left: 1.5rem;
 }
 
